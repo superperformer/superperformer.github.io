@@ -84,6 +84,8 @@
     const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
     var idxName = 0;
     var names = {};
+    //load from localstorage
+    $("#txtNames").val(localStorage.getItem('watchlist1'));
     $('#btnTest').click(function(e){
         names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
         console.log(names);
@@ -121,10 +123,15 @@
       $("#spnCnt").text(idxName + " / " + names.length);
     });
     $('#txtNames').change(function(e){
-      //reset count
-      idxName = 0;
-      //reload list
-      names = $("#txtNames").val().split(",");
+      if ($("#txtNames").val().length >= 4)
+      {
+        //reset count
+        idxName = 0;
+        //reload list
+        names = $("#txtNames").val().split(",");
+        //save to localstorage
+        localStorage.setItem('watchlist1', $("#txtNames").val());
+      }
     });
     //samples to load iframe
     function loadIframe(iframeName, url) {

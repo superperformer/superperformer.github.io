@@ -85,9 +85,12 @@
     var idxName = 0;
     var names = {};
     //load from localstorage
-    const storedNames = localStorage.getItem('watchlist1');
-    if (storedNames.length > 0)
-      $("#txtNames").val(storedNames);
+    // const storedNames = localStorage.getItem('watchlist1');
+    // console.log(storedNames);
+    // if (storedNames.length > 0)
+    // {
+    //   $("#txtNames").val(storedNames);
+    // }
     $('#btnTest').click(function(e){
         names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
         console.log(names);
@@ -132,7 +135,7 @@
         //reload list
         names = $("#txtNames").val().split(",");
         //save to localstorage
-        localStorage.setItem('watchlist1', $("#txtNames").val());
+        // localStorage.setItem('watchlist1', $("#txtNames").val());
       }
     });
     //samples to load iframe

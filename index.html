@@ -85,7 +85,9 @@
     var idxName = 0;
     var names = {};
     //load from localstorage
-    $("#txtNames").val(localStorage.getItem('watchlist1'));
+    const storedNames = localStorage.getItem('watchlist1');
+    if (storedNames.length > 0)
+      $("#txtNames").val(storedNames);
     $('#btnTest').click(function(e){
         names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
         console.log(names);

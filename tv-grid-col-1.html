@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>TV Grids</title>
+    <style>
+        .post {
+            height: 500px;
+            border: 3px solid black;
+        }
+        html{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="tv-list">
+        </ul>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    (function () {
+        //parameter from query string
+        const qprm = new Proxy(new URLSearchParams(window.location.search), {
+                        get: (searchParams, prop) => searchParams.get(prop),
+                    });
+        // Get the value of "some_key" in eg "https://example.com/?sym=1111,2222"
+        const tvContainer = document.querySelector('.container')
+        const tvList = document.querySelector('.tv-list')
+        var idxName = 0;
+        var names = {};
+        // 選到目標元素
+        // 每次載入的圖片數量
+        const TV_PER_PAGE = 3
+        names = qprm.sym.replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
+        const loadChart = () => {
+            const newDiv = document.createElement('article');
+            newDiv.className = "post";
+            newDiv.id = `tvChart${idxName}`
+            tvList.appendChild(newDiv);
+            new TradingView.widget({
+                "autosize": true,
+                "symbol": `${names[idxName]}`,
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "Dark",
+                "style": "1",
+                "locale": "zh_TW",
+                "toolbar_bg": "rgba(0, 0, 0, 1)",
+                "hide_top_toolbar": true,
+                "left_toolbar": true,
+                "hide_side_toolbar": false,
+                "allow_symbol_change": true,
+                "hideideas": true,
+                "show_popup_button": true,
+                "popup_width": "1000",
+                "popup_height": "650",
+                "studies": [
+                    { id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
+                    { id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
+
+                ],
+                "container_id": `tvChart${idxName}`
+            });
+            idxName++;
+        }
+        //bind scroll event
+        window.addEventListener('scroll', () => {
+            const {
+                scrollTop,
+                scrollHeight,
+                clientHeight
+            } = document.documentElement;
+            //scroll to bottom && has more data-to-come
+            if (scrollTop + clientHeight >= scrollHeight - 5 && idxName < names.length) {
+                loadChart();
+            }
+        }, {
+            passive: true
+        });
+        //load first one
+        loadChart();
+        loadChart();
+        loadChart();
+    })();
+
+</script>

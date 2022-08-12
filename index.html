@@ -79,27 +79,36 @@
     //   );
     // }, 5000);
 
-    // const params = new Proxy(new URLSearchParams(window.location.search), {
-    //                 get: (searchParams, prop) => searchParams.get(prop),
-    //             });
-    //             // Get the value of "some_key" in eg "https://example.com/?sym=1111,2222"
-    //             let value = params.sym; // "some_value"
-
     //"https://tw.tradingview.com/chart/xxxxxx/?symbol=TWSE:2607"
     // const chartUri="https://tw.tradingview.com/chart/xxxxx/?symbol=";
     const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
     var idxName = 0;
     var names = {};
-    //load from localstorage
-    const storedNames = localStorage.getItem('watchlist1');
-    // console.log(storedNames);
-    if (storedNames && storedNames.length > 0)
+    //load from query string if any
+    const qprm = new Proxy(new URLSearchParams(window.location.search), {
+                    get: (searchParams, prop) => searchParams.get(prop),
+                });
+                // Get the value of "some_key" in eg "https://example.com/?sym=1111,2222"
+                let value = qprm.sym; // "some_value"
+    if (qprm.sym && qprm.sym.length > 0)
     {
-       $("#txtNames").val(storedNames);
+      $("#txtNames").val(qprm.sym);
+      console.log(`Loaded from querystring ${qprm.sym}`);
+    }
+    else //load from localstorage
+    {
+      const storedNames = localStorage.getItem('watchlist1');
+      // console.log(storedNames);
+      if (storedNames && storedNames.length > 0)
+      {
+        $("#txtNames").val(storedNames);
+      }
     }
     $('#btnTest').click(function(e){
+      if ($.isEmptyObject(names)) {
         names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
         console.log(names);
+      }
     });
     $('#btnNext').click(function(e){
       //get symbols
@@ -116,10 +125,10 @@
         {
           console.log('end of list');
           $(this).attr("src", ""); //clear src
-          return false;//exit loop
         }
       });
       $("#spnCnt").text(idxName + " / " + names.length);
+      $('html, body').scrollTop(0);
     });
     $('#btnPrev').click(function(e){
       if (idxName >= 6)

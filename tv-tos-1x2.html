@@ -77,7 +77,7 @@
 		  idxName = idxName - $('.tv-chart').length;
 		  $('.tv-chart').each(function(i, obj) {
 		  if (idxName < names.length)
-			$(this).attr("src", chartUri + names[idxName++]);
+            loadChart(names[idxName++], $(this)[0].id);
 		  });
 		}
 		else console.log("No previous ones");

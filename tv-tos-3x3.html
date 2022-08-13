@@ -81,7 +81,7 @@
 		//$('html, body').scrollTop(0);
 	  });
 	  $('#btnPrev').click(function(e){
-		if (idxName >= 6)
+		if (idxName >= $('.tv-chart').length)
 		{
 		  idxName = idxName - $('.tv-chart').length;
 		  $('.tv-chart').each(function(i, obj) {
@@ -127,13 +127,6 @@
 			{ id: "MASimple@tv-basicstudies", inputs: { length: 50 , color: "#FF9800"} },
 			{ id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
 		  ],
-		//   "studies_overrides": {
-		// 		"volume.volume.transparency": 95,
-		// 		"volume.volume ma.color": "#FF9800",
-		// 		"volume.volume ma.transparency": 30,
-		// 		"volume.volume ma.linewidth": 2,
-		// 		"volume.show ma": true,
-		// 	},
 		});
 	  }
 	//AUTO LOAD

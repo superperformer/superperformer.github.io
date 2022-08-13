@@ -148,7 +148,7 @@
         //reset count
         idxName = 0;
         //reload list
-        names = $("#txtNames").val().split(",");
+        names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
         //save to localstorage
         localStorage.setItem('watchlist1', $("#txtNames").val());
       }

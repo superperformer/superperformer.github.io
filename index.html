@@ -113,7 +113,8 @@
     $('#btnNext').click(function(e){
       //get symbols
       if ($.isEmptyObject(names)) {
-        names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
+        //names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
+        names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
         console.log(names);
       }
       //load first
@@ -148,7 +149,8 @@
         //reset count
         idxName = 0;
         //reload list
-        names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
+        //names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
+        names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
         //save to localstorage
         localStorage.setItem('watchlist1', $("#txtNames").val());
       }

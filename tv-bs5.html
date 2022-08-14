@@ -110,19 +110,21 @@
             names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
             console.log(names);
           }
-          //load first
-          $('iframe').each(function(i, obj) {
-            if (idxName < names.length)
-              //$(this).text(names[idxName++]);
-              $(this).attr("src", chartUri + names[idxName++]);
-            else//end of list
-            {
-              console.log('end of list');
-              $(this).attr("src", ""); //clear src
-            }
-          });
-          $("#spnCnt").text(idxName + " / " + names.length);
-          $('html, body').scrollTop(0);
+          if (names && names.length > 0) {
+            //load first
+            $('iframe').each(function (i, obj) {
+              if (idxName < names.length)
+                //$(this).text(names[idxName++]);
+                $(this).attr("src", chartUri + names[idxName++]);
+              else//end of list
+              {
+                console.log('end of list');
+                $(this).attr("src", ""); //clear src
+              }
+            });
+            $("#spnCnt").text(idxName + " / " + names.length);
+            $('html, body').scrollTop(0);
+          }
         });
         $('#btnPrev').click(function(e){
           if (idxName >= 6)
@@ -147,6 +149,8 @@
             localStorage.setItem('watchlist1', $("#txtNames").val());
           }
         });
+        //AUTO LOAD
+        $('#btnNext').click();
       })();
     </script>
 </body>

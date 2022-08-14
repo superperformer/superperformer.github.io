@@ -61,7 +61,7 @@
 			try {
 				//get symbols
 				if ($.isEmptyObject(names)) {
-					names = $("#txtNames").val().replaceAll("TWSE:", '').replaceAll("TPEX:", '').split(",");
+					names = $("#txtNames").val().split(",");
 				}
 				//load first
 				$('.tv-chart').each(function (i, obj) {

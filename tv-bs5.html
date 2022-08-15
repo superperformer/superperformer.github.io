@@ -113,7 +113,7 @@
         $('#btnNext').click(function(e){
           //get symbols
           if ($.isEmptyObject(names)) {
-            names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
+            names = $("#txtNames").val().toUpperCase().replace(/(TWSE:|TPEX:|TPE:|\s)/g,'').split(",");
             console.log(names);
           }
           if (names && names.length > 0) {
@@ -150,7 +150,8 @@
             //reset count
             idxName = 0;
             //reload list
-            names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
+            //names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
+            names = $("#txtNames").val().toUpperCase().replace(/(TWSE:|TPEX:|TPE:|\s)/g,'').split(",");
             //save to localstorage
             localStorage.setItem('watchlist1', $("#txtNames").val());
           }

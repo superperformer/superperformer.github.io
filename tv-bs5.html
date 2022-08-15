@@ -7,7 +7,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>TV Grid bs5</title>
     <style>
-      .row>*{
+      .row>* {
         padding: 0;
       }
     </style>
@@ -70,6 +70,7 @@
             <input type="text" class="form-control col-me-8" id="txtNames"
               value="1712,1795,2313,2317,2412,2482,2538,2736,2812,3011,3062,3252,3390,3665,3703,4114,4958,5426,6113,6414,6472,6605,8071,8421,9933" />
             <input type="button" class="btn btn-outline-secondary" id="btnPrev" value="Prev" accesskey="2" />
+            <input type="button" class="btn btn-primary" id="btnPaste" value="Paste"/>
             <input type="button" class="btn btn-outline-primary btn-lg" id="btnNext" value="Next" accesskey="1" />
             <!-- <input type="button" class="btn btn-outline-primary" id="btnTest" value="Test" accesskey="3"/> -->
             <span class="navbar-text" id="spnCnt"></span>
@@ -153,6 +154,14 @@
             //save to localstorage
             localStorage.setItem('watchlist1', $("#txtNames").val());
           }
+        });
+        async function pasteFromClip(input) {
+          const text = await navigator.clipboard.readText();
+          if (text && text.length)
+            input.val(text);
+        }
+        $('#btnPaste').click(function (e) {
+          pasteFromClip($("#txtNames"));
         });
         //AUTO LOAD
         $('#btnNext').click();

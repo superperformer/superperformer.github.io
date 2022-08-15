@@ -144,14 +144,16 @@
           }
         });
         $('#btnTest').click(function(e){
+          getData('https://fubon-ebrokerdj.fbs.com.tw/z/zk/zkf/zkResult.asp?D=1&A=x@30,a@10;x@40,a@21;x@50,a@125;x@41,a@10;x@130,a@3,b@5;x@340,a@75;x@5100,a@2,b@0;x@5120,a@2,b@25;x@1410,a@50,b@200;x@5940,a@2,b@10&site=');
+        });
+        async function getData(url) {
           //http get //
-          axios.get('https://fubon-ebrokerdj.fbs.com.tw/z/zk/zkf/zkResult.asp?D=1&A=x@30,a@10;x@40,a@21;x@50,a@125;x@41,a@10;x@130,a@3,b@5;x@340,a@75;x@5100,a@2,b@0;x@5120,a@2,b@25;x@1410,a@50,b@200;x@5940,a@2,b@10&site=')
+          await axios.get(url)
             .then((res) => { console.log(res.data) })
             .catch((error) => { console.error(error) })
             .finally(() => { /* 不論失敗成功皆會執行 */ })
           //parse table and get symbols
-
-        });
+        }
       })();
       //#SysJustIFRAMEDIV > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td > form > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td.zkt2L > a
       //#SysJustIFRAMEDIV > div > table > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td > form > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(3) > td.zkt2L_rev > a

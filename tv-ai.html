@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
-            <iframe src=""></iframe>
+            <embed type="text/html" src="">
           </div>
         </div>
         <div class="col-lg-12 col-xl-6 col-xxl-4">
@@ -80,7 +80,7 @@
     </nav>
     <script>
       (function() {
-        const chartUri="https://chart.stock-ai.com";
+        const chartUri="https://chart.stock-ai.com/index?symbolName=";
         //const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
         var idxName = 0;
         var names = {};
@@ -118,7 +118,7 @@
           }
           if (names && names.length > 0) {
             //load first
-            $('iframe').each(function (i, obj) {
+            $('embed').each(function (i, obj) {
               if (idxName < names.length)
                 //$(this).text(names[idxName++]);
                 $(this).attr("src", chartUri + names[idxName++]);

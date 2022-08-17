@@ -38,7 +38,7 @@
 					  get: (searchParams, prop) => searchParams.get(prop),
 				  });
 	  if (qprm.sym && qprm.sym.length > 0)
-	  {
+	  { //get symbol
 		$("#txtNames").val(qprm.sym);
 		//console.log(`Loaded from querystring ${qprm.sym}`);
 	  }
@@ -50,6 +50,10 @@
 		{
 		  $("#txtNames").val(storedNames);
 		}
+	  }
+	  //prm row number
+	  if (qprm.row && qprm.row == 3){
+		$('.container.grid').removeClass('grid-1-2').addClass('grid-1-3');
 	  }
 	  $('#btnNext').click(function(e){
 		//get symbols

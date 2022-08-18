@@ -132,7 +132,7 @@
 		let isAutoPlay;
 		const enableAutoplay = (delay, isCycle) => {
 			if (!isAutoPlay)
-				setInterval(function () {
+				isAutoPlay = setInterval(function () {
 					if (idxName < names.length)
 						$('#btnNext').click();
 					else if(isCycle){ //cycle mode
@@ -148,7 +148,7 @@
 		};
 		$('#cbxAutoplay').change(function () {
 			if (this.checked) {
-				enableAutoplay(8000, false);
+				enableAutoplay(10000, false);
 			}
 			else disableAutoplay();
 		});

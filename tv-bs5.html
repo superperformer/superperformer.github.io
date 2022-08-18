@@ -137,7 +137,7 @@
           if (idxName >= 6)
           {
             idxName = idxName - 6;
-            $('.embed-responsive-item').each(function(i, obj) {
+            $('iframe').each(function(i, obj) {
             if (idxName < names.length)
               setTimeout(() => { //delay seconds to reduce cpu load
                   $(this).attr("src", chartUri + names[idxName++]);
@@ -153,7 +153,6 @@
             //reset count
             idxName = 0;
             //reload list
-            //names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
             names = $("#txtNames").val().toUpperCase().replace(/(TWSE:|TPEX:|TPE:|\s)/g,'').split(",");
             //save to localstorage
             localStorage.setItem('watchlist1', $("#txtNames").val());

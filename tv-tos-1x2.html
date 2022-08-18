@@ -33,26 +33,31 @@
 <script>
 	(function() {
 	  var idxName = 0;
-	  var names = {};
-	  //load from query string if any
-	  const qprm = new Proxy(new URLSearchParams(window.location.search), {
-					  get: (searchParams, prop) => searchParams.get(prop),
-				  });
-	  if (qprm.sym && qprm.sym.length > 0)
-	  {
-		$("#txtNames").val(qprm.sym);
-		//console.log(`Loaded from querystring ${qprm.sym}`);
-	  }
-	  else //load from localstorage
-	  {
-		const storedNames = localStorage.getItem('watchlistTOS');
-		// console.log(storedNames);
-		if (storedNames && storedNames.length > 0)
-		{
-		  $("#txtNames").val(storedNames);
+		var names = {};
+		//load from query string if any
+		const qprm = new Proxy(new URLSearchParams(window.location.search), {
+			get: (searchParams, prop) => searchParams.get(prop),
+		});
+		if (qprm.sym && qprm.sym.length > 0) {
+			$("#txtNames").val(qprm.sym);
+			//console.log(`Loaded from querystring ${qprm.sym}`);
 		}
-	  }
-	  $('#btnNext').click(function(e){
+		else {
+			//load from localstorage
+			const storedNames = localStorage.getItem('watchlistTOS');
+			// console.log(storedNames);
+			if (storedNames && storedNames.length > 0) {
+				$("#txtNames").val(storedNames);
+			}
+		}
+		//prm row number
+		if (qprm.row) {
+			if (qprm.row == 1)
+				$('.container>.grid').removeClass('grid-1-2').addClass('grid-1-1');
+			else if (qprm.row == 3)
+				$('.container>.grid').removeClass('grid-1-2').addClass('grid-1-3');
+		}
+		$('#btnNext').click(function(e){
 		//get symbols
 		if ($.isEmptyObject(names)) {
 		  names = $("#txtNames").val().split(",");
@@ -112,9 +117,8 @@
 				"container_id": container_id,
 				"studies": [
 					{ id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
-					{ id: "MASimple@tv-basicstudies", inputs: { length: 150 } },
-					{ id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
 					{ id: "MASimple@tv-basicstudies", inputs: { length: 21 } },
+					{ id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
 					//{ id: "MAExp@tv-basicstudies", inputs: { length: 21 } },
 				],
 			});

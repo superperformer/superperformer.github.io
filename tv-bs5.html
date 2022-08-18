@@ -120,8 +120,9 @@
             //load first
             $('iframe').each(function (i, obj) {
               if (idxName < names.length)
-                //$(this).text(names[idxName++]);
-                $(this).attr("src", chartUri + names[idxName++]);
+                setTimeout(() => { //delay seconds to reduce cpu load
+                  $(this).attr("src", chartUri + names[idxName++]);
+                }, 1000 * i);
               else//end of list
               {
                 console.log('end of list');
@@ -138,7 +139,9 @@
             idxName = idxName - 6;
             $('.embed-responsive-item').each(function(i, obj) {
             if (idxName < names.length)
-              $(this).attr("src", chartUri + names[idxName++]);
+              setTimeout(() => { //delay seconds to reduce cpu load
+                  $(this).attr("src", chartUri + names[idxName++]);
+                }, 1000 * i);
             });
           }
           else console.log("No previous ones");

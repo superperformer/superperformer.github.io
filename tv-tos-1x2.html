@@ -29,7 +29,7 @@
 		</div>
 	</div>
 	<div>
-		<button id="btnPrev" accesskey="2">Prev</button>
+		<button id="btnPrev2" accesskey="2">Prev</button>
 		<button id="btnNext2">&nbsp;&nbsp;&nbsp; Next &nbsp;&nbsp;&nbsp;</button>
 		<span id="spnCnt"></span>
 	</div>
@@ -101,7 +101,10 @@
 		  localStorage.setItem('watchlistTOS', $("#txtNames").val());
 		}
 	  });
-	  $('#btnNext2').click(function (e) { $('#btnNext').click(); })
+		$('#btnNext2').click(function (e) {
+			$('#btnNext').click();
+			$('html, body').scrollTop(0);
+		});
 	  const loadChart = (symbol, container_id) => {
 			new TradingView.widget({
 				"autosize": true,

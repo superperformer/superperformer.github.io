@@ -85,7 +85,7 @@
 			  if (idxName < names.length) {
 				  setTimeout(() => { //delay seconds to reduce cpu load
 					  loadChart(names[idxName++], $(this)[0].id);
-				  }, 1000 * i);
+				  }, 1500 * i); //still too heavy loading for desktop 4x4
 			  }
 		  else//end of list
 		  {

@@ -13,7 +13,7 @@
 	<div>
 		<button id="btnPrev" accesskey="2">Prev</button>
 		<input type="text" id="txtNames"/>
-		<button id="btnNext" accesskey="1">Next</button>
+		<button id="btnNext" accesskey="1">&nbsp;&nbsp;&nbsp; Next &nbsp;&nbsp;&nbsp;</button>
 		<span id="spnCnt"></span>
 	</div>
 	<div class="container">
@@ -27,6 +27,11 @@
 			<article class="box tv-chart" id="tv-chart4">
 			</article>
 		</div>
+	</div>
+	<div>
+		<button id="btnPrev" accesskey="2">Prev</button>
+		<button id="btnNext2">&nbsp;&nbsp;&nbsp; Next &nbsp;&nbsp;&nbsp;</button>
+		<span id="spnCnt"></span>
 	</div>
 </body>
 </html>
@@ -96,6 +101,7 @@
 		  localStorage.setItem('watchlistTOS', $("#txtNames").val());
 		}
 	  });
+	  $('#btnNext2').click(function (e) { $('#btnNext').click(); })
 	  const loadChart = (symbol, container_id) => {
 			new TradingView.widget({
 				"autosize": true,

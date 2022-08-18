@@ -61,14 +61,11 @@
 		if ($.isEmptyObject(names)) {
 		  names = $("#txtNames").val().split(",");
 		}
-		//gc
-        charts.forEach(function (item) {
-              item = null;
-          });
 		//load
 		$('.tv-chart').each(function(i, obj) {
 		  if (idxName < names.length)
 		  {
+            charts[i] = null; //gc
 			charts[i] = loadChart(names[idxName++], $(this)[0].id);
 		  }
 		  else//end of list

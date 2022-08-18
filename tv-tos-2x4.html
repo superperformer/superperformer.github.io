@@ -66,8 +66,9 @@
 				//load first
 				$('.tv-chart').each(function (i, obj) {
 					if (idxName < names.length)
-						//$(this).attr("src", chartUri + names[idxName++]);
-						loadChart(names[idxName++], $(this)[0].id);
+						setTimeout(() => { //delay seconds to reduce cpu load
+							loadChart(names[idxName++], $(this)[0].id);
+						}, 1000 * i);
 					else//end of list
 					{
 						console.log('end of list');
@@ -87,7 +88,9 @@
 				idxName = idxName - $('.tv-chart').length * 2;
 				$('.tv-chart').each(function (i, obj) {
 					if (idxName < names.length)
-						loadChart(names[idxName++], $(this)[0].id);
+						setTimeout(() => { //delay seconds to reduce cpu load
+							loadChart(names[idxName++], $(this)[0].id);
+						}, 1000 * i);
 				});
 			}
 			else console.log("No previous ones");

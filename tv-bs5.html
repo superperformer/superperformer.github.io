@@ -136,9 +136,9 @@
           }
         });
         $('#btnPrev').click(function(e){
-          if (idxName >= 6)
+          if (idxName >= $("iframe").length * 2)
           {
-            idxName = idxName - 6;
+            idxName = idxName - $("iframe").length * 2;
             $('iframe').each(function(i, obj) {
               if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load

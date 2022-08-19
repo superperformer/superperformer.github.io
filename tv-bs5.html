@@ -119,10 +119,12 @@
           if (names && names.length > 0) {
             //load first
             $('iframe').each(function (i, obj) {
-              if (idxName < names.length)
+              if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
-                  $(this).attr("src", chartUri + names[idxName++]);
+                  $(this).attr("src", chartUri + names[idxName]);
                 }, 1000 * i);
+                idxName++
+              }
               else//end of list
               {
                 console.log('end of list');
@@ -138,10 +140,12 @@
           {
             idxName = idxName - 6;
             $('iframe').each(function(i, obj) {
-            if (idxName < names.length)
-              setTimeout(() => { //delay seconds to reduce cpu load
-                  $(this).attr("src", chartUri + names[idxName++]);
+              if (idxName < names.length){
+                setTimeout(() => { //delay seconds to reduce cpu load
+                  $(this).attr("src", chartUri + names[idxName]);
                 }, 1000 * i);
+                idxName++
+              }
             });
           }
           else console.log("No previous ones");

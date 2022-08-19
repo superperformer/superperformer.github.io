@@ -53,6 +53,8 @@
   (function () {
     let idxName = 0;
     let names = {};
+    let row = 1;
+    let col = 1;
     //load from query string if any
     const qprm = new Proxy(new URLSearchParams(window.location.search), {
       get: (searchParams, prop) => searchParams.get(prop),
@@ -63,43 +65,20 @@
     } else {
       //load from localstorage
       const storedNames = localStorage.getItem("watchlistTOS");
-      // console.log(storedNames);
       if (storedNames && storedNames.length > 0) {
         $("#txtNames").val(storedNames);
       }
     }
-    //set row number from prm
-    if (qprm.row) {
-      if (qprm.row == 1) {
-        $(".container>.grid").addClass("grid-1-1");
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart1"></embed>`
-        );
-      } else if (qprm.row == 2) {
-        $(".container>.grid").addClass("grid-1-2");
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart1"></embed>`
-        );
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart2"></embed>`
-        );
-      } else if (qprm.row == 3) {
-        $(".container>.grid").addClass("grid-1-3");
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart1"></embed>`
-        );
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart2"></embed>`
-        );
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart3"></embed>`
-        );
-      } else {
-        $(".container>.grid").addClass("grid-1-1");
-        $(".grid").append(
-          `<embed class="box tv-chart" id="tv-chart1"></embed>`
-        );
-      }
+    //set row/col number from prm
+    if (Number.isInteger(qprm.row) && qprm.row < 6) row = qprm.row;
+    if (Number.isInteger(qprm.col) && qprm.col < 6) col = qprm.col;
+    //create grid
+    $(".container>.grid").addClass(`grid-${col}-${row}`);
+    //create box
+    for (let idx = 0; idx < col * row; idx++) {
+      $(".grid").append(
+        `<embed class="box tv-chart" id="tv-chart${idx}"></embed>`
+      );
     }
     $("#btnNext").click(function (e) {
       //get symbols
@@ -177,7 +156,7 @@
       } else disableAutoplay();
     });
     const loadChart = (symbol, containerId) => {
-      $('#'+ containerId).attr("src", `tv-tos-loader.html?sym=${symbol}`);
+      $("#" + containerId).attr("src", `tv-tos-loader.html?sym=${symbol}`);
     };
     //AUTO LOAD
     $("#btnNext").click();

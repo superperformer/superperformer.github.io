@@ -69,9 +69,9 @@
         $("#txtNames").val(storedNames);
       }
     }
-    //set row/col number from prm
-    if (qprm.row && Number.isInteger(qprm.row) && qprm.row < 6) row = qprm.row;
-    if (qprm.col && Number.isInteger(qprm.col) && qprm.col < 6) col = qprm.col;
+    //set row/col number from prm;+use plus to force convert to int
+    if (qprm.row && Number.isInteger(+qprm.row) && qprm.row < 6) row = qprm.row;
+    if (qprm.col && Number.isInteger(+qprm.col) && qprm.col < 6) col = qprm.col;
     //create grid
     $(".container>.grid").addClass(`grid-${col}-${row}`);
     //create box

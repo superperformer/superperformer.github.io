@@ -4,7 +4,7 @@ body, html {
   font-family: 'fontawesome', Calibri, Arial, sans-serif;
   color: #666;
   background: #111;
-  min-height: 800px;
+  min-height: 100vh; /*800px;*/
 }
 
 /* Reset */

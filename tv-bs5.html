@@ -122,8 +122,9 @@
               if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
                   $(this).attr("src", chartUri + names[idxName++]);
+                  $("#spnCnt").text(idxName + " / " + names.length);
                 }, 1000 * i);
-                $("#spnCnt").text(idxName + " / " + names.length);
+
               }
               else//end of list
               {
@@ -142,8 +143,8 @@
               if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
                   $(this).attr("src", chartUri + names[idxName++]);
+                  $("#spnCnt").text(idxName + " / " + names.length);
                 }, 1000 * i);
-                $("#spnCnt").text(idxName + " / " + names.length);
               }
             });
           }

@@ -121,7 +121,7 @@
             $('iframe').each(function (i, obj) {
               if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
-const currentName= names[idxName];
+let currentName= names[idxName];
                   $(this).attr("src", chartUri + currentName);
                 }, 1000 * i);
                 idxName++

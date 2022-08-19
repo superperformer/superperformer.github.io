@@ -70,8 +70,8 @@
       }
     }
     //set row/col number from prm
-    if (Number.isInteger(qprm.row) && qprm.row < 6) row = qprm.row;
-    if (Number.isInteger(qprm.col) && qprm.col < 6) col = qprm.col;
+    if (qprm.row && Number.isInteger(qprm.row) && qprm.row < 6) row = qprm.row;
+    if (qprm.col && Number.isInteger(qprm.col) && qprm.col < 6) col = qprm.col;
     //create grid
     $(".container>.grid").addClass(`grid-${col}-${row}`);
     //create box
@@ -158,7 +158,7 @@
     const loadChart = (symbol, containerId) => {
       $("#" + containerId).attr("src", `tv-tos-loader.html?sym=${symbol}`);
     };
-    //AUTO LOAD
+    //LOAD for first time
     $("#btnNext").click();
   })();
 </script>

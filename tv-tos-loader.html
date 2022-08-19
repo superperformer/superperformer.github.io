@@ -63,7 +63,11 @@
         ],
       });
     };
-    //load
-    loadChart(symbol, "tvContainer");
+    try {
+      //load
+      loadChart(symbol, "tvContainer");
+    } catch (e) {
+      alert(e.message);
+    }
   })();
 </script>

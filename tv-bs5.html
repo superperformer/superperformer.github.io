@@ -121,10 +121,9 @@
             $('iframe').each(function (i, obj) {
               if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
-let currentName= names[idxName];
-                  $(this).attr("src", chartUri + currentName);
+                  $(this).attr("src", chartUri + names[idxName++]);
                 }, 1000 * i);
-                idxName++
+                $("#spnCnt").text(idxName + " / " + names.length);
               }
               else//end of list
               {
@@ -132,7 +131,6 @@ let currentName= names[idxName];
                 $(this).attr("src", ""); //clear src
               }
             });
-            $("#spnCnt").text(idxName + " / " + names.length);
             $('html, body').scrollTop(0);
           }
         });

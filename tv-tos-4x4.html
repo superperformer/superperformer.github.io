@@ -21,7 +21,7 @@
     <div>
       <button id="btnPrev" accesskey="2">Prev</button>
       <input type="text" id="txtNames" />
-      <button id="btnNext" accesskey="1">Next</button>
+      <button id="btnNext" accesskey="1">&nbsp;&nbsp;&nbsp;&nbsp; Next &nbsp;&nbsp;&nbsp;&nbsp;</button>
       <span id="spnCnt"></span>
     </div>
     <div class="container">
@@ -83,14 +83,14 @@
           idxNameKeep++;
         } //end of list
         else {
+          $(this).empty(); //clear
           console.log("end of list");
-          //$(this).attr("src", ""); //clear src
         }
       });
       //$('html, body').scrollTop(0);
     });
     $("#btnPrev").click(function (e) {
-      if (idxName >= $(".tv-chart").length * 2) {
+      if (idxName > $(".tv-chart").length * 2 ) {
         idxName = idxName - $(".tv-chart").length * 2;
         $(".tv-chart").each(function (i, obj) {
           if (idxName < names.length) {

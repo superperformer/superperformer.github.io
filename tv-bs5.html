@@ -117,14 +117,15 @@
             console.log(names);
           }
           if (names && names.length > 0) {
-            //load first
+            //keep idxName for max limit
+            let idxNameKeep = idxName;
             $('iframe').each(function (i, obj) {
-              if (idxName < names.length){
+              if (idxNameKeep < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
                   $(this).attr("src", chartUri + names[idxName++]);
                   $("#spnCnt").text(idxName + " / " + names.length);
                 }, 1000 * i);
-
+                idxNameKeep++;
               }
               else//end of list
               {

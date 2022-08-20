@@ -21,7 +21,7 @@
       if ($.isEmptyObject(names)) {
         names = $("#txtNames").val().split(",");
       }
-      //kkep idxName for max limit
+      //keep idxName for max limit
       let idxNameKeep = idxName;
       //load first
       $(".tv-chart").each(function (i, obj) {

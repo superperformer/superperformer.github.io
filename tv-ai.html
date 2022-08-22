@@ -57,7 +57,8 @@
     <script>
       (function() {
         // test cross origin iframe
-        const chartUri="https://chart.stock-ai.com/index?symbolName=";
+        //const chartUri="https://chart.stock-ai.com/index?symbolName=";
+        const chartUri="https://ai.finlab.tw/stock/?stock_id=";
         //const chartUri="https://invest.cnyes.com/twstock/TWS/4114/history#fixed"; //error: X-Frame-Options' to 'sameorigin'.
         //const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
         var idxName = 0;
@@ -95,11 +96,15 @@
             console.log(names);
           }
           if (names && names.length > 0) {
-            //load first
+            let idxNameKeep = idxName;
             $('iframe').each(function (i, obj) {
-              if (idxName < names.length)
-                //$(this).text(names[idxName++]);
-                $(this).attr("src", chartUri + names[idxName++]);
+              if (idxNameKeep < names.length){
+                setTimeout(() => { //delay seconds to reduce cpu load
+                  $(this).attr("src", chartUri + names[idxName++]);
+                  $("#spnCnt").text(idxName + " / " + names.length);
+                }, 1000 * i);
+                idxNameKeep++;
+              }
               else//end of list
               {
                 console.log('end of list');

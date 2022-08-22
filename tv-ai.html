@@ -163,6 +163,10 @@
             localStorage.setItem('watchlist1', $("#txtNames").val());
           }
         });
+        //hide navbar after load; still not working
+        $("iframe").bind("load",function(){
+          $(this).contents().find("#navbar").hide();
+        });
         async function pasteFromClip(input) {
           const text = await navigator.clipboard.readText();
           if (text && text.length)

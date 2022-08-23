@@ -157,16 +157,15 @@
             //reset count
             idxName = 0;
             //reload list
-            //names = $("#txtNames").val().replace(/TWSE:/g,'').replace(/TPEX:/g,'').split(",");
             names = $("#txtNames").val().toUpperCase().replace(/(TWSE:|TPEX:|TPE:|\s)/g,'').split(",");
             //save to localstorage
             localStorage.setItem('watchlist1', $("#txtNames").val());
           }
         });
         //hide navbar after load; still not working
-        $("iframe").bind("load",function(){
-          $(this).contents().find("#navbar").hide();
-        });
+        // $('iframe').on('load', function() {
+        //   $(this).contents().find("nav").hide(); //find("#navbar")
+        // });
         async function pasteFromClip(input) {
           const text = await navigator.clipboard.readText();
           if (text && text.length)

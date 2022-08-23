@@ -133,13 +133,7 @@
               {
                 $(this).attr("src", ""); //clear src
                 //console.log('end of list');
-                $.toast({
-                    heading: 'Information',
-                    text: 'end of list',
-                    showHideTransition: 'slide',
-                    icon: 'info',
-                    hideAfter: 6000,
-                });
+                showMsg('info','End of list');
               }
             });
             $('html, body').scrollTop(0);
@@ -158,7 +152,10 @@
               }
             });
           }
-          else console.log("No previous ones");
+          else {
+            showMsg('info','No previous one');
+          }
+          ;
 
         });
         $('#txtNames').change(function(e){
@@ -180,6 +177,29 @@
         $('#btnPaste').click(function (e) {
           pasteFromClip($("#txtNames"));
         });
+        //type: info|warning|success|error
+        const showMsg = (type, msg) => {
+          let optHeading = 'Information';
+          let optIcon = 'info';
+          if (type == 'warning'){
+            optHeading ='Warning';
+            optIcon = 'warning';
+          }
+          else if (type == 'error'){
+            optHeading ='Error';
+            optIcon = 'error';
+          }else if (type == 'success'){
+            optHeading ='Success';
+            optIcon = 'success';
+          }
+          $.toast({
+                    heading: optHeading,
+                    text: msg,
+                    showHideTransition: 'slide',
+                    icon: optIcon,
+                    hideAfter: 6000
+                });
+        };
         //AUTO LOAD
         $('#btnNext').click();
       })();

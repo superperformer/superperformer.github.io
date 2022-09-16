@@ -239,9 +239,9 @@ class StockUtil {
 		// 判斷空頭排列
 		const isShortOrder =
 			priceMA[DAYS.indexOf(50)] < priceMA[DAYS.indexOf(200)] &&
-			endPrice < priceMA[DAYS.indexOf(50)] * 0.98 &&
-			endPrice < priceMA[DAYS.indexOf(21)] * 0.99 && //20ma with 1% tolerance
-			endPrice < priceMA[DAYS.indexOf(10)] * 0.98; //10ma with 1.5% tolerance
+			endPrice < priceMA[DAYS.indexOf(50)] * 1.02 &&
+			endPrice < priceMA[DAYS.indexOf(21)] * 1.01 && //20ma with 1% tolerance
+			endPrice < priceMA[DAYS.indexOf(10)] * 1.02; //10ma with 1.5% tolerance
 		// 判斷六線全上或下
 		const checkPriceMA = priceMA.filter((price, index) => index > 0);
 		const isAllLongOrder = checkPriceMA.every((val, index) => (index === 0 ? true : val < checkPriceMA[index - 1]));

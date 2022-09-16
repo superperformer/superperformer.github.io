@@ -176,24 +176,36 @@ class StockUtil {
 		const is3DaysTight = Math.max(...endPriceList.slice(-3)) / Math.min(...endPriceList.slice(-3)) < 1.016;
 		const is3DaysHighTight = Math.max(...maxPriceList.slice(-3)) / Math.min(...maxPriceList.slice(-3)) < 1.016;
 		//todo: add extreme 1 day price tight/doji
-		const volList = stockList.map((stock) => stock.vol);
+		//const volList = stockList.map((stock) => stock.vol);
 		//const lowestVol = Math.min(...volList.slice(-10)); //get lowest vol from last 10 days
-		//const isVolDry = Math.min(...volList.slice(-3)) === lowestVol; // lowest vol in last 3 days
-		const isVolDry = volList.slice(-1)[0] === Math.min(...volList.slice(-10))
-			|| volList.slice(-2,-1)[0] === Math.min(...volList.slice(-11,-1))
-			|| volList.slice(-3,-2)[0]=== Math.min(...volList.slice(-12,-2)); // lowest vol in last 3 days
-		//base length
+		// const isVolDry = volList.slice(-1)[0] === Math.min(...volList.slice(-10))
+		// 	|| volList.slice(-2,-1)[0] === Math.min(...volList.slice(-11,-1))
+		// 	|| volList.slice(-3,-2)[0]=== Math.min(...volList.slice(-12,-2)); // lowest vol in last 3 days
 		// console.log(Math.max(...maxPriceList));
 		// console.log(maxPriceList.indexOf(Math.max(...maxPriceList)));
 		// console.log(maxPriceList.length);
-		const yearHigh = Math.max(...maxPriceList);
+		const yearHigh = Math.max(...maxPriceList.slice(0, maxPriceList.length-1)); // exclude day0: the last one
+		//base length
 		const baseLength = maxPriceList.length - maxPriceList.indexOf(yearHigh) -1; //starts from 0
 		const closes = endPriceList.reverse();
 		const lows = minPriceList.reverse();
 		const highs = maxPriceList.reverse();
+		const vols = stockList.map((stock) => stock.vol).reverse();
+		//get downVolume
+		const downVols = vols.slice(1,11).map((vol, idx)=>{ //取前10天
+			if ((closes[idx+1] > closes[idx]) && ((highs[idx] + lows[idx]) / 2 > closes[idx])) //down
+				return vol;
+			else return 0;
+		});
+		//get highestDownVolume in prior 10 days
+		const highestDownVolume = Math.max(...downVols);
+		//up && over highestdownvolume
+		const isPocketPivot = baseLength > 2 && ((closes >= closes[1]) && (closes >= (highs + lows) / 2)) && vols[0]> highestDownVolume;
+		const isVolDry = vols[0] === Math.min(...vols.slice(10))
+			|| vols[1] === Math.min(...vols.slice(1,11)) || vols[2]=== Math.min(...vols.slice(2,12)); // lowest vol in last 3 days
 		//close inside prev 2 lows && prev 2 highs+ 0.5% tlr (*1.005)  //closes[0]>= lows[1] || close[0]>= lows[2]
 		const isInside = (closes[0] >= Math.min(lows[1],lows[2])) && (closes[0] <= Math.max(highs[1],highs[2])*1.005);
-		
+
 		//RS
 		const rs = numRound(closes[0] / closes[50] * 2 + closes[0]/closes[100] + closes[0]/closes[150]+ closes[0]/closes[200], 1);
 		//tightest price in 10 days and range < 4% && bl>3 && bl < 21
@@ -287,6 +299,7 @@ class StockUtil {
 			is3DaysTight,
 			is3DaysHighTight,
 			isVolDry,
+			isPocketPivot,
 			baseLength,
 			isTightRange,
 			isUpsideReversal,

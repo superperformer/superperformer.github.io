@@ -1,0 +1,10 @@
+market model -read market conditions, breakout success rate
+screener model - get stocks that ready to breakout, showing  strong up on volume, under instutions ccumulation
+    - step 1. filter by moneydj to get stock in uptrend
+    - step 2. fetch 250 days data to classify
+charting model (DONE)- display multiples chart in one page
+
+fetch data via axios
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+extract data via cheerio
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cheerio/0.22.0/lib/cheerio.min.js" integrity="sha512-iWWrdQQeMXeWtjLaoSdizkES1j2FCTZa3P5tkunkgVgIMh1UWmMA6HrxaW9Rvu0VmFVqfcY7kAU6hhPJlTjssQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

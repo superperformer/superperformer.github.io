@@ -200,8 +200,8 @@ class StockUtil {
 		//get highestDownVolume in prior 10 days
 		const highestDownVolume = Math.max(...downVols);
 		//up && over highestdownvolume
-		const isPocketPivot = baseLength > 2 && ((closes >= closes[1]) && (closes >= (highs + lows) / 2)) && vols[0]> highestDownVolume;
-		const isVolDry = vols[0] === Math.min(...vols.slice(10))
+		const isPocketPivot = baseLength > 2 && ((closes[0] >= closes[1]) && (closes[0] >= (highs[0] + lows[0]) / 2)) && vols[0]> highestDownVolume;
+		const isVolDry = vols[0] === Math.min(...vols.slice(0, 10))
 			|| vols[1] === Math.min(...vols.slice(1,11)) || vols[2]=== Math.min(...vols.slice(2,12)); // lowest vol in last 3 days
 		//close inside prev 2 lows && prev 2 highs+ 0.5% tlr (*1.005)  //closes[0]>= lows[1] || close[0]>= lows[2]
 		const isInside = (closes[0] >= Math.min(lows[1],lows[2])) && (closes[0] <= Math.max(highs[1],highs[2])*1.005);

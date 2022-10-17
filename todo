@@ -3,7 +3,7 @@ market model -read market conditions, breakout success rate
 screener model - get stocks that ready to breakout, showing strong up on volume, under institutional accumulation
     - step 1. filter by moneydj to get stock in uptrend
     - step 2. fetch 250 days data to classify, set attributes, labels
-    - step 3. filter data by google sheet query
+    - step 3. filter data by script
 charting model (DONE)- display multiples chart in one page
 
 fetch data via GAS urlFetch

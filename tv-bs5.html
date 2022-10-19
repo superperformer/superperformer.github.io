@@ -19,31 +19,37 @@
       <div class="row">
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
+            <h5></h5>
             <iframe src=""></iframe>
           </div>
         </div>
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
+            <h5></h5>
             <iframe src=""></iframe>
           </div>
         </div>
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
+            <h5></h5>
             <iframe src=""></iframe>
           </div>
         </div>
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
+            <h5></h5>
             <iframe src=""></iframe>
           </div>
         </div>
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
+            <h5></h5>
             <iframe src=""></iframe>
           </div>
         </div>
         <div class="col-lg-12 col-xl-6 col-xxl-4">
           <div class="ratio ratio-4x3">
+            <h5></h5>
             <iframe src=""></iframe>
           </div>
         </div>
@@ -85,6 +91,12 @@
         const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
         var idxName = 0;
         var names = {};
+        let twIndustry;
+        fetch('./tw-industry.json')
+        .then((response) => response.json())
+        .then((json) => {//console.log(json)
+          twIndustry = json;
+        });
         //load from query string if any
         const qprm = new Proxy(new URLSearchParams(window.location.search), {
                         get: (searchParams, prop) => searchParams.get(prop),
@@ -123,6 +135,7 @@
             $('iframe').each(function (i, obj) {
               if (idxNameKeep < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
+                  $(this).prev().text(names[idxName] + ' ' +twIndustry[names[idxName]].industry);
                   $(this).attr("src", chartUri + names[idxName++]);
                   $("#spnCnt").text(idxName + " / " + names.length);
                 }, 1000 * i);

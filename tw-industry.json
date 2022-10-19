@@ -1,0 +1,8862 @@
+{
+    "1101": {
+      "name": "台泥",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1102": {
+      "name": "亞泥",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1103": {
+      "name": "嘉泥",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1104": {
+      "name": "環泥",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1108": {
+      "name": "幸福",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1109": {
+      "name": "信大",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1110": {
+      "name": "東泥",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "1201": {
+      "name": "味全",
+      "market": "TSE",
+      "industry": "M12C 飲料乳品"
+    },
+    "1203": {
+      "name": "味王",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "1210": {
+      "name": "大成",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1213": {
+      "name": "大飲",
+      "market": "TSE",
+      "industry": "M12C 飲料乳品"
+    },
+    "1215": {
+      "name": "卜蜂",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1216": {
+      "name": "統一",
+      "market": "TSE",
+      "industry": "M12C 飲料乳品"
+    },
+    "1217": {
+      "name": "愛之味",
+      "market": "TSE",
+      "industry": "M12A 罐頭加工"
+    },
+    "1218": {
+      "name": "泰山",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1219": {
+      "name": "福壽",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1220": {
+      "name": "台榮",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1225": {
+      "name": "福懋油",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1227": {
+      "name": "佳格",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "1229": {
+      "name": "聯華",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1231": {
+      "name": "聯華食",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "1232": {
+      "name": "大統益",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1233": {
+      "name": "天仁",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "1234": {
+      "name": "黑松",
+      "market": "TSE",
+      "industry": "M12C 飲料乳品"
+    },
+    "1235": {
+      "name": "興泰",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1236": {
+      "name": "宏亞",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "1240": {
+      "name": "茂生農經",
+      "market": "OTC",
+      "industry": "M12B 油脂飼料"
+    },
+    "1256": {
+      "name": "鮮活果汁-KY",
+      "market": "TSE",
+      "industry": "M12C 飲料乳品"
+    },
+    "1258": {
+      "name": "其祥-KY",
+      "market": "OTC",
+      "industry": "M12Z 其他食品"
+    },
+    "1259": {
+      "name": "安心",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "1264": {
+      "name": "德麥",
+      "market": "OTC",
+      "industry": "M12Z 其他食品"
+    },
+    "1268": {
+      "name": "漢來美食",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "1301": {
+      "name": "台塑",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1303": {
+      "name": "南亞",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1304": {
+      "name": "台聚",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1305": {
+      "name": "華夏",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1307": {
+      "name": "三芳",
+      "market": "TSE",
+      "industry": "M13A6 合成皮"
+    },
+    "1308": {
+      "name": "亞聚",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1309": {
+      "name": "台達化",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1310": {
+      "name": "台苯",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1312": {
+      "name": "國喬",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1313": {
+      "name": "聯成",
+      "market": "TSE",
+      "industry": "M13A7 可塑劑"
+    },
+    "1314": {
+      "name": "中石化",
+      "market": "TSE",
+      "industry": "M13A5 化纖"
+    },
+    "1315": {
+      "name": "達新",
+      "market": "TSE",
+      "industry": "M13A8 塑膠加工"
+    },
+    "1316": {
+      "name": "上曜",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1319": {
+      "name": "東陽",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1321": {
+      "name": "大洋",
+      "market": "TSE",
+      "industry": "M13A8 塑膠加工"
+    },
+    "1323": {
+      "name": "永裕",
+      "market": "TSE",
+      "industry": "M13A8 塑膠加工"
+    },
+    "1324": {
+      "name": "地球",
+      "market": "TSE",
+      "industry": "M13A9 膠帶"
+    },
+    "1325": {
+      "name": "恒大",
+      "market": "TSE",
+      "industry": "M14F 不織布"
+    },
+    "1326": {
+      "name": "台化",
+      "market": "TSE",
+      "industry": "M13A1 泛用塑膠"
+    },
+    "1336": {
+      "name": "台翰",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "1337": {
+      "name": "再生-KY",
+      "market": "TSE",
+      "industry": "M13B 塑膠製品"
+    },
+    "1338": {
+      "name": "廣華-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1339": {
+      "name": "昭輝",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1340": {
+      "name": "勝悅-KY",
+      "market": "TSE",
+      "industry": "M13B 塑膠製品"
+    },
+    "1341": {
+      "name": "富林-KY",
+      "market": "TSE",
+      "industry": "M13A6 合成皮"
+    },
+    "1342": {
+      "name": "八貫",
+      "market": "TSE",
+      "industry": "M13B 塑膠製品"
+    },
+    "1402": {
+      "name": "遠東新",
+      "market": "TSE",
+      "industry": "M14A1 聚酯絲棉"
+    },
+    "1409": {
+      "name": "新纖",
+      "market": "TSE",
+      "industry": "M14A1 聚酯絲棉"
+    },
+    "1410": {
+      "name": "南染",
+      "market": "TSE",
+      "industry": "M14E 染整"
+    },
+    "1413": {
+      "name": "宏洲",
+      "market": "TSE",
+      "industry": "M14A2 加工絲"
+    },
+    "1414": {
+      "name": "東和",
+      "market": "TSE",
+      "industry": "M14B1 聚酯紗棉紗"
+    },
+    "1416": {
+      "name": "廣豐",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "1417": {
+      "name": "嘉裕",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "1418": {
+      "name": "東華",
+      "market": "TSE",
+      "industry": "M14B2 亞克力纖維"
+    },
+    "1419": {
+      "name": "新紡",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1423": {
+      "name": "利華",
+      "market": "TSE",
+      "industry": "M14D2 毛紡"
+    },
+    "1432": {
+      "name": "大魯閣",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "1434": {
+      "name": "福懋",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1435": {
+      "name": "中福",
+      "market": "TSE",
+      "industry": "M23KX 其他網通"
+    },
+    "1436": {
+      "name": "華友聯",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1437": {
+      "name": "勤益控",
+      "market": "TSE",
+      "industry": "M25F 物業管理"
+    },
+    "1438": {
+      "name": "三地開發",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1439": {
+      "name": "中和",
+      "market": "TSE",
+      "industry": "M14D2 毛紡"
+    },
+    "1440": {
+      "name": "南紡",
+      "market": "TSE",
+      "industry": "M14A1 聚酯絲棉"
+    },
+    "1441": {
+      "name": "大東",
+      "market": "TSE",
+      "industry": "M14B1 聚酯紗棉紗"
+    },
+    "1442": {
+      "name": "名軒",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1443": {
+      "name": "立益",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "1444": {
+      "name": "力麗",
+      "market": "TSE",
+      "industry": "M14A2 加工絲"
+    },
+    "1445": {
+      "name": "大宇",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1446": {
+      "name": "宏和",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1447": {
+      "name": "力鵬",
+      "market": "TSE",
+      "industry": "M14A7 尼龍絲"
+    },
+    "1449": {
+      "name": "佳和",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1451": {
+      "name": "年興",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "1452": {
+      "name": "宏益",
+      "market": "TSE",
+      "industry": "M14A2 加工絲"
+    },
+    "1453": {
+      "name": "大將",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1454": {
+      "name": "台富",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1455": {
+      "name": "集盛",
+      "market": "TSE",
+      "industry": "M14A7 尼龍絲"
+    },
+    "1456": {
+      "name": "怡華",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1457": {
+      "name": "宜進",
+      "market": "TSE",
+      "industry": "M14A2 加工絲"
+    },
+    "1459": {
+      "name": "聯發",
+      "market": "TSE",
+      "industry": "M14A2 加工絲"
+    },
+    "1460": {
+      "name": "宏遠",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1463": {
+      "name": "強盛",
+      "market": "TSE",
+      "industry": "M14E 染整"
+    },
+    "1464": {
+      "name": "得力",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1465": {
+      "name": "偉全",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1466": {
+      "name": "聚隆",
+      "market": "TSE",
+      "industry": "M14A7 尼龍絲"
+    },
+    "1467": {
+      "name": "南緯",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "1468": {
+      "name": "昶和",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1470": {
+      "name": "大統新創",
+      "market": "TSE",
+      "industry": "M14E 染整"
+    },
+    "1471": {
+      "name": "首利",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "1472": {
+      "name": "三洋實業",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "1473": {
+      "name": "台南",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "1474": {
+      "name": "弘裕",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1475": {
+      "name": "業旺",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "1476": {
+      "name": "儒鴻",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "1477": {
+      "name": "聚陽",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "1503": {
+      "name": "士電",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "1504": {
+      "name": "東元",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "1506": {
+      "name": "正道",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1512": {
+      "name": "瑞利",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1513": {
+      "name": "中興電",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "1514": {
+      "name": "亞力",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "1515": {
+      "name": "力山",
+      "market": "TSE",
+      "industry": "M15Z 其他電製品"
+    },
+    "1516": {
+      "name": "川飛",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "1517": {
+      "name": "利奇",
+      "market": "TSE",
+      "industry": "M15E 自行車組件"
+    },
+    "1519": {
+      "name": "華城",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "1521": {
+      "name": "大億",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1522": {
+      "name": "堤維西",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1524": {
+      "name": "耿鼎",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1525": {
+      "name": "江申",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1526": {
+      "name": "日馳",
+      "market": "TSE",
+      "industry": "M15E 自行車組件"
+    },
+    "1527": {
+      "name": "鑽全",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1528": {
+      "name": "恩德",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1529": {
+      "name": "樂士",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "1530": {
+      "name": "亞崴",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1531": {
+      "name": "高林股",
+      "market": "TSE",
+      "industry": "M15A3 紡織工具機"
+    },
+    "1532": {
+      "name": "勤美",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "1533": {
+      "name": "車王電",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1535": {
+      "name": "中宇",
+      "market": "TSE",
+      "industry": "M15B2 機電工程"
+    },
+    "1536": {
+      "name": "和大",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1537": {
+      "name": "廣隆",
+      "market": "TSE",
+      "industry": "M23D7 二次電池"
+    },
+    "1538": {
+      "name": "正峰",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1539": {
+      "name": "巨庭",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1540": {
+      "name": "喬福",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1541": {
+      "name": "錩泰",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1558": {
+      "name": "伸興",
+      "market": "TSE",
+      "industry": "M15A3 紡織工具機"
+    },
+    "1560": {
+      "name": "中砂",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "1565": {
+      "name": "精華",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "1568": {
+      "name": "倉佑",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1569": {
+      "name": "濱川",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "1570": {
+      "name": "力肯",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "1580": {
+      "name": "新麥",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "1582": {
+      "name": "信錦",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "1583": {
+      "name": "程泰",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "1584": {
+      "name": "精剛",
+      "market": "OTC",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "1586": {
+      "name": "和勤",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "1587": {
+      "name": "吉茂",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "1589": {
+      "name": "永冠-KY",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "1590": {
+      "name": "亞德客-KY",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "1591": {
+      "name": "駿吉-KY",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "1593": {
+      "name": "祺驊",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "1595": {
+      "name": "川寶",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "1597": {
+      "name": "直得",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "1598": {
+      "name": "岱宇",
+      "market": "TSE",
+      "industry": "M15Z 其他電製品"
+    },
+    "1599": {
+      "name": "宏佳騰",
+      "market": "OTC",
+      "industry": "M22A 汽車製造"
+    },
+    "1603": {
+      "name": "華電",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1604": {
+      "name": "聲寶",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "1605": {
+      "name": "華新",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1608": {
+      "name": "華榮",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1609": {
+      "name": "大亞",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1611": {
+      "name": "中電",
+      "market": "TSE",
+      "industry": "M15C4 照明"
+    },
+    "1612": {
+      "name": "宏泰",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1614": {
+      "name": "三洋電",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "1615": {
+      "name": "大山",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1616": {
+      "name": "億泰",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1617": {
+      "name": "榮星",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1618": {
+      "name": "合機",
+      "market": "TSE",
+      "industry": "M16 電線"
+    },
+    "1626": {
+      "name": "艾美特-KY",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "1701": {
+      "name": "中化",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1702": {
+      "name": "南僑",
+      "market": "TSE",
+      "industry": "M12B 油脂飼料"
+    },
+    "1707": {
+      "name": "葡萄王",
+      "market": "TSE",
+      "industry": "M17C2 機能性食品"
+    },
+    "1708": {
+      "name": "東鹼",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "1709": {
+      "name": "和益",
+      "market": "TSE",
+      "industry": "M17E1 清潔劑原料"
+    },
+    "1710": {
+      "name": "東聯",
+      "market": "TSE",
+      "industry": "M13A5 化纖"
+    },
+    "1711": {
+      "name": "永光",
+      "market": "TSE",
+      "industry": "M17B 染料及顏料"
+    },
+    "1712": {
+      "name": "興農",
+      "market": "TSE",
+      "industry": "M17C3 農藥肥料"
+    },
+    "1713": {
+      "name": "國化",
+      "market": "TSE",
+      "industry": "M17B 染料及顏料"
+    },
+    "1714": {
+      "name": "和桐",
+      "market": "TSE",
+      "industry": "M17E1 清潔劑原料"
+    },
+    "1717": {
+      "name": "長興",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "1718": {
+      "name": "中纖",
+      "market": "TSE",
+      "industry": "M13A5 化纖"
+    },
+    "1720": {
+      "name": "生達",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1721": {
+      "name": "三晃",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "1722": {
+      "name": "台肥",
+      "market": "TSE",
+      "industry": "M17C3 農藥肥料"
+    },
+    "1723": {
+      "name": "中碳",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "1725": {
+      "name": "元禎",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "1726": {
+      "name": "永記",
+      "market": "TSE",
+      "industry": "M17B 染料及顏料"
+    },
+    "1727": {
+      "name": "中華化",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "1730": {
+      "name": "花仙子",
+      "market": "TSE",
+      "industry": "M17E2 清潔用品"
+    },
+    "1731": {
+      "name": "美吾華",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1732": {
+      "name": "毛寶",
+      "market": "TSE",
+      "industry": "M17E2 清潔用品"
+    },
+    "1733": {
+      "name": "五鼎",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "1734": {
+      "name": "杏輝",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1735": {
+      "name": "日勝化",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "1736": {
+      "name": "喬山",
+      "market": "TSE",
+      "industry": "M15Z 其他電製品"
+    },
+    "1737": {
+      "name": "臺鹽",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "1742": {
+      "name": "台蠟",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "1752": {
+      "name": "南光",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1760": {
+      "name": "寶齡富錦",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1762": {
+      "name": "中化生",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1773": {
+      "name": "勝一",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "1776": {
+      "name": "展宇",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "1777": {
+      "name": "生泰",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "1781": {
+      "name": "合世",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "1783": {
+      "name": "和康生",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "1784": {
+      "name": "訊聯",
+      "market": "OTC",
+      "industry": "M17H 生物科技"
+    },
+    "1785": {
+      "name": "光洋科",
+      "market": "OTC",
+      "industry": "M99L1 貴金屬回收"
+    },
+    "1786": {
+      "name": "科妍",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "1788": {
+      "name": "杏昌",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "1789": {
+      "name": "神隆",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1795": {
+      "name": "美時",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "1796": {
+      "name": "金穎生技",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "1799": {
+      "name": "易威",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "1802": {
+      "name": "台玻",
+      "market": "TSE",
+      "industry": "M18 玻璃陶瓷"
+    },
+    "1805": {
+      "name": "寶徠",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1806": {
+      "name": "冠軍",
+      "market": "TSE",
+      "industry": "M18 玻璃陶瓷"
+    },
+    "1808": {
+      "name": "潤隆",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "1809": {
+      "name": "中釉",
+      "market": "TSE",
+      "industry": "M18 玻璃陶瓷"
+    },
+    "1810": {
+      "name": "和成",
+      "market": "TSE",
+      "industry": "M18 玻璃陶瓷"
+    },
+    "1813": {
+      "name": "寶利徠",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "1815": {
+      "name": "富喬",
+      "market": "OTC",
+      "industry": "M23B3B 玻纖紗布"
+    },
+    "1817": {
+      "name": "凱撒衛",
+      "market": "TSE",
+      "industry": "M18 玻璃陶瓷"
+    },
+    "1903": {
+      "name": "士紙",
+      "market": "TSE",
+      "industry": "M19A 造紙"
+    },
+    "1904": {
+      "name": "正隆",
+      "market": "TSE",
+      "industry": "M19A 造紙"
+    },
+    "1905": {
+      "name": "華紙",
+      "market": "TSE",
+      "industry": "M19B 紙漿"
+    },
+    "1906": {
+      "name": "寶隆",
+      "market": "TSE",
+      "industry": "M19A 造紙"
+    },
+    "1907": {
+      "name": "永豐餘",
+      "market": "TSE",
+      "industry": "M19A 造紙"
+    },
+    "1909": {
+      "name": "榮成",
+      "market": "TSE",
+      "industry": "M19A 造紙"
+    },
+    "2002": {
+      "name": "中鋼",
+      "market": "TSE",
+      "industry": "M20A3 鋼板"
+    },
+    "2006": {
+      "name": "東和鋼鐵",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "2007": {
+      "name": "燁興",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "2008": {
+      "name": "高興昌",
+      "market": "TSE",
+      "industry": "M20A7 鋼管"
+    },
+    "2009": {
+      "name": "第一銅",
+      "market": "TSE",
+      "industry": "M20A4 銅"
+    },
+    "2010": {
+      "name": "春源",
+      "market": "TSE",
+      "industry": "M20A3 鋼板"
+    },
+    "2012": {
+      "name": "春雨",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "2013": {
+      "name": "中鋼構",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "2014": {
+      "name": "中鴻",
+      "market": "TSE",
+      "industry": "M20A3 鋼板"
+    },
+    "2015": {
+      "name": "豐興",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "2017": {
+      "name": "官田鋼",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "2020": {
+      "name": "美亞",
+      "market": "TSE",
+      "industry": "M20A7 鋼管"
+    },
+    "2022": {
+      "name": "聚亨",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "2023": {
+      "name": "燁輝",
+      "market": "TSE",
+      "industry": "M20A3 鋼板"
+    },
+    "2024": {
+      "name": "志聯",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "2025": {
+      "name": "千興",
+      "market": "TSE",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "2027": {
+      "name": "大成鋼",
+      "market": "TSE",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "2028": {
+      "name": "威致",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "2029": {
+      "name": "盛餘",
+      "market": "TSE",
+      "industry": "M20A3 鋼板"
+    },
+    "2030": {
+      "name": "彰源",
+      "market": "TSE",
+      "industry": "M20A7 鋼管"
+    },
+    "2031": {
+      "name": "新光鋼",
+      "market": "TSE",
+      "industry": "M20A3 鋼板"
+    },
+    "2032": {
+      "name": "新鋼",
+      "market": "TSE",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "2033": {
+      "name": "佳大",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "2034": {
+      "name": "允強",
+      "market": "TSE",
+      "industry": "M20A7 鋼管"
+    },
+    "2035": {
+      "name": "唐榮",
+      "market": "OTC",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "2038": {
+      "name": "海光",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "2049": {
+      "name": "上銀",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "2059": {
+      "name": "川湖",
+      "market": "TSE",
+      "industry": "M20B 金屬製品"
+    },
+    "2061": {
+      "name": "風青",
+      "market": "OTC",
+      "industry": "M20A4 銅"
+    },
+    "2062": {
+      "name": "橋椿",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "2063": {
+      "name": "世鎧",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "2064": {
+      "name": "晉椿",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "2065": {
+      "name": "世豐",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "2066": {
+      "name": "世德",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "2067": {
+      "name": "嘉鋼",
+      "market": "OTC",
+      "industry": "M15A2 模具零件"
+    },
+    "2069": {
+      "name": "運錩",
+      "market": "TSE",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "2070": {
+      "name": "精湛",
+      "market": "OTC",
+      "industry": "M15H 儀器設備"
+    },
+    "2101": {
+      "name": "南港",
+      "market": "TSE",
+      "industry": "M21A 輪胎"
+    },
+    "2102": {
+      "name": "泰豐",
+      "market": "TSE",
+      "industry": "M21A 輪胎"
+    },
+    "2103": {
+      "name": "台橡",
+      "market": "TSE",
+      "industry": "M21C 橡膠原料"
+    },
+    "2104": {
+      "name": "國際中橡",
+      "market": "TSE",
+      "industry": "M21C 橡膠原料"
+    },
+    "2105": {
+      "name": "正新",
+      "market": "TSE",
+      "industry": "M21A 輪胎"
+    },
+    "2106": {
+      "name": "建大",
+      "market": "TSE",
+      "industry": "M21A 輪胎"
+    },
+    "2107": {
+      "name": "厚生",
+      "market": "TSE",
+      "industry": "M21B2 其他橡膠"
+    },
+    "2108": {
+      "name": "南帝",
+      "market": "TSE",
+      "industry": "M21C 橡膠原料"
+    },
+    "2109": {
+      "name": "華豐",
+      "market": "TSE",
+      "industry": "M21A 輪胎"
+    },
+    "2114": {
+      "name": "鑫永銓",
+      "market": "TSE",
+      "industry": "M21B1 工業橡膠"
+    },
+    "2115": {
+      "name": "六暉-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2201": {
+      "name": "裕隆",
+      "market": "TSE",
+      "industry": "M22A 汽車製造"
+    },
+    "2204": {
+      "name": "中華",
+      "market": "TSE",
+      "industry": "M22A 汽車製造"
+    },
+    "2206": {
+      "name": "三陽工業",
+      "market": "TSE",
+      "industry": "M22A 汽車製造"
+    },
+    "2207": {
+      "name": "和泰車",
+      "market": "TSE",
+      "industry": "M22X 汽車買賣"
+    },
+    "2208": {
+      "name": "台船",
+      "market": "TSE",
+      "industry": "M22B1 船舶製造"
+    },
+    "2211": {
+      "name": "長榮鋼",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "2221": {
+      "name": "大甲",
+      "market": "OTC",
+      "industry": "M20A7 鋼管"
+    },
+    "2227": {
+      "name": "裕日車",
+      "market": "TSE",
+      "industry": "M22X 汽車買賣"
+    },
+    "2228": {
+      "name": "劍麟",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2230": {
+      "name": "泰茂",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "2231": {
+      "name": "為升",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2233": {
+      "name": "宇隆",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2235": {
+      "name": "謚源",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "2236": {
+      "name": "百達-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2239": {
+      "name": "英利-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2241": {
+      "name": "艾姆勒",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2243": {
+      "name": "宏旭-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2247": {
+      "name": "汎德永業",
+      "market": "TSE",
+      "industry": "M22X 汽車買賣"
+    },
+    "2250": {
+      "name": "IKKA-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2301": {
+      "name": "光寶科",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "2302": {
+      "name": "麗正",
+      "market": "TSE",
+      "industry": "M23D1 分離式元件"
+    },
+    "2303": {
+      "name": "聯電",
+      "market": "TSE",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "2305": {
+      "name": "全友",
+      "market": "TSE",
+      "industry": "M23C2 影像掃描"
+    },
+    "2308": {
+      "name": "台達電",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "2312": {
+      "name": "金寶",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "2313": {
+      "name": "華通",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "2314": {
+      "name": "台揚",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "2316": {
+      "name": "楠梓電",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "2317": {
+      "name": "鴻海",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "2321": {
+      "name": "東訊",
+      "market": "TSE",
+      "industry": "M23KX 其他網通"
+    },
+    "2323": {
+      "name": "中環",
+      "market": "TSE",
+      "industry": "M23C4A 光碟"
+    },
+    "2324": {
+      "name": "仁寶",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "2327": {
+      "name": "國巨",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "2328": {
+      "name": "廣宇",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "2329": {
+      "name": "華泰",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "2330": {
+      "name": "台積電",
+      "market": "TSE",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "2331": {
+      "name": "精英",
+      "market": "TSE",
+      "industry": "M23B1 主機板"
+    },
+    "2332": {
+      "name": "友訊",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "2337": {
+      "name": "旺宏",
+      "market": "TSE",
+      "industry": "M23G1B 記憶體製造"
+    },
+    "2338": {
+      "name": "光罩",
+      "market": "TSE",
+      "industry": "M23G6 其他半導體"
+    },
+    "2340": {
+      "name": "台亞",
+      "market": "TSE",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "2342": {
+      "name": "茂矽",
+      "market": "TSE",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "2344": {
+      "name": "華邦電",
+      "market": "TSE",
+      "industry": "M23G1B 記憶體製造"
+    },
+    "2345": {
+      "name": "智邦",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "2347": {
+      "name": "聯強",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "2348": {
+      "name": "海悅",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2349": {
+      "name": "錸德",
+      "market": "TSE",
+      "industry": "M23C4A 光碟"
+    },
+    "2351": {
+      "name": "順德",
+      "market": "TSE",
+      "industry": "M23G4 IC導線架"
+    },
+    "2352": {
+      "name": "佳世達",
+      "market": "TSE",
+      "industry": "M23C1 顯示器"
+    },
+    "2353": {
+      "name": "宏碁",
+      "market": "TSE",
+      "industry": "M23A3 PC品牌"
+    },
+    "2354": {
+      "name": "鴻準",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "2355": {
+      "name": "敬鵬",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "2356": {
+      "name": "英業達",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "2357": {
+      "name": "華碩",
+      "market": "TSE",
+      "industry": "M23A3 PC品牌"
+    },
+    "2358": {
+      "name": "廷鑫",
+      "market": "TSE",
+      "industry": "M20A5 鋁鋅"
+    },
+    "2359": {
+      "name": "所羅門",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "2360": {
+      "name": "致茂",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "2362": {
+      "name": "藍天",
+      "market": "TSE",
+      "industry": "M23A2 泛用電腦"
+    },
+    "2363": {
+      "name": "矽統",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2364": {
+      "name": "倫飛",
+      "market": "TSE",
+      "industry": "M23A2 泛用電腦"
+    },
+    "2365": {
+      "name": "昆盈",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "2367": {
+      "name": "燿華",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "2368": {
+      "name": "金像電",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "2369": {
+      "name": "菱生",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "2371": {
+      "name": "大同",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "2373": {
+      "name": "震旦行",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "2374": {
+      "name": "佳能",
+      "market": "TSE",
+      "industry": "M23UZ 消費性電子"
+    },
+    "2375": {
+      "name": "凱美",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "2376": {
+      "name": "技嘉",
+      "market": "TSE",
+      "industry": "M23B1 主機板"
+    },
+    "2377": {
+      "name": "微星",
+      "market": "TSE",
+      "industry": "M23B1 主機板"
+    },
+    "2379": {
+      "name": "瑞昱",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2380": {
+      "name": "虹光",
+      "market": "TSE",
+      "industry": "M23C2 影像掃描"
+    },
+    "2382": {
+      "name": "廣達",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "2383": {
+      "name": "台光電",
+      "market": "TSE",
+      "industry": "M23B3A 銅箔基板"
+    },
+    "2385": {
+      "name": "群光",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "2387": {
+      "name": "精元",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "2388": {
+      "name": "威盛",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2390": {
+      "name": "云辰",
+      "market": "TSE",
+      "industry": "M23C9 安全監控"
+    },
+    "2392": {
+      "name": "正崴",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "2393": {
+      "name": "億光",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "2395": {
+      "name": "研華",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "2397": {
+      "name": "友通",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "2399": {
+      "name": "映泰",
+      "market": "TSE",
+      "industry": "M23B1 主機板"
+    },
+    "2401": {
+      "name": "凌陽",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2402": {
+      "name": "毅嘉",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "2404": {
+      "name": "漢唐",
+      "market": "TSE",
+      "industry": "M23H1 廠辦機電"
+    },
+    "2405": {
+      "name": "浩鑫",
+      "market": "TSE",
+      "industry": "M23A2 泛用電腦"
+    },
+    "2406": {
+      "name": "國碩",
+      "market": "TSE",
+      "industry": "M23C7B 太陽能晶圓"
+    },
+    "2408": {
+      "name": "南亞科",
+      "market": "TSE",
+      "industry": "M23G1B 記憶體製造"
+    },
+    "2409": {
+      "name": "友達",
+      "market": "TSE",
+      "industry": "M23C8A LCD 面板"
+    },
+    "2412": {
+      "name": "中華電",
+      "market": "TSE",
+      "industry": "M23K3 電信及IDC"
+    },
+    "2413": {
+      "name": "環科",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "2414": {
+      "name": "精技",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "2415": {
+      "name": "錩新",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "2417": {
+      "name": "圓剛",
+      "market": "TSE",
+      "industry": "M23B4B 電視卡"
+    },
+    "2419": {
+      "name": "仲琦",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "2420": {
+      "name": "新巨",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "2421": {
+      "name": "建準",
+      "market": "TSE",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "2423": {
+      "name": "固緯",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "2424": {
+      "name": "隴華",
+      "market": "TSE",
+      "industry": "M23KX 其他網通"
+    },
+    "2425": {
+      "name": "承啟",
+      "market": "TSE",
+      "industry": "M23B4A 繪圖卡"
+    },
+    "2426": {
+      "name": "鼎元",
+      "market": "TSE",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "2427": {
+      "name": "三商電",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "2428": {
+      "name": "興勤",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "2429": {
+      "name": "銘旺科",
+      "market": "TSE",
+      "industry": "M23CZ2 其他顯示"
+    },
+    "2430": {
+      "name": "燦坤",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "2431": {
+      "name": "聯昌",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "2433": {
+      "name": "互盛電",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "2434": {
+      "name": "統懋",
+      "market": "TSE",
+      "industry": "M23D1 分離式元件"
+    },
+    "2436": {
+      "name": "偉詮電",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2438": {
+      "name": "翔耀",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "2439": {
+      "name": "美律",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "2440": {
+      "name": "太空梭",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "2441": {
+      "name": "超豐",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "2442": {
+      "name": "新美齊",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2443": {
+      "name": "昶虹",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "2444": {
+      "name": "兆勁",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "2449": {
+      "name": "京元電子",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "2450": {
+      "name": "神腦",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "2451": {
+      "name": "創見",
+      "market": "TSE",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "2453": {
+      "name": "凌群",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "2454": {
+      "name": "聯發科",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2455": {
+      "name": "全新",
+      "market": "TSE",
+      "industry": "M23G3A 化合物SEMI"
+    },
+    "2457": {
+      "name": "飛宏",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "2458": {
+      "name": "義隆",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "2459": {
+      "name": "敦吉",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "2460": {
+      "name": "建通",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "2461": {
+      "name": "光群雷",
+      "market": "TSE",
+      "industry": "M13A8 塑膠加工"
+    },
+    "2462": {
+      "name": "良得電",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "2464": {
+      "name": "盟立",
+      "market": "TSE",
+      "industry": "M23H1 廠辦機電"
+    },
+    "2465": {
+      "name": "麗臺",
+      "market": "TSE",
+      "industry": "M23B4A 繪圖卡"
+    },
+    "2466": {
+      "name": "冠西電",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "2467": {
+      "name": "志聖",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "2468": {
+      "name": "華經",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "2471": {
+      "name": "資通",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "2472": {
+      "name": "立隆電",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "2474": {
+      "name": "可成",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "2476": {
+      "name": "鉅祥",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "2477": {
+      "name": "美隆電",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "2478": {
+      "name": "大毅",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "2480": {
+      "name": "敦陽科",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "2481": {
+      "name": "強茂",
+      "market": "TSE",
+      "industry": "M23D1 分離式元件"
+    },
+    "2482": {
+      "name": "連宇",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "2483": {
+      "name": "百容",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "2484": {
+      "name": "希華",
+      "market": "TSE",
+      "industry": "M23D6 石英元件"
+    },
+    "2485": {
+      "name": "兆赫",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "2486": {
+      "name": "一詮",
+      "market": "TSE",
+      "industry": "M23D9C 光電導線架"
+    },
+    "2488": {
+      "name": "漢平",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "2489": {
+      "name": "瑞軒",
+      "market": "TSE",
+      "industry": "M23C1 顯示器"
+    },
+    "2491": {
+      "name": "吉祥全",
+      "market": "TSE",
+      "industry": "M15C4 照明"
+    },
+    "2492": {
+      "name": "華新科",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "2493": {
+      "name": "揚博",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "2495": {
+      "name": "普安",
+      "market": "TSE",
+      "industry": "M23C4B 硬碟磁碟"
+    },
+    "2496": {
+      "name": "卓越",
+      "market": "TSE",
+      "industry": "M99ZX 其他服務業"
+    },
+    "2497": {
+      "name": "怡利電",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "2498": {
+      "name": "宏達電",
+      "market": "TSE",
+      "industry": "M23KX 其他網通"
+    },
+    "2501": {
+      "name": "國建",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2504": {
+      "name": "國產",
+      "market": "TSE",
+      "industry": "M11B 預拌混凝土"
+    },
+    "2505": {
+      "name": "國揚",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2506": {
+      "name": "太設",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2509": {
+      "name": "全坤建",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2511": {
+      "name": "太子",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2514": {
+      "name": "龍邦",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2515": {
+      "name": "中工",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2516": {
+      "name": "新建",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2520": {
+      "name": "冠德",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2524": {
+      "name": "京城",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2527": {
+      "name": "宏璟",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2528": {
+      "name": "皇普",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2530": {
+      "name": "華建",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2534": {
+      "name": "宏盛",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2535": {
+      "name": "達欣工",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2536": {
+      "name": "宏普",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2537": {
+      "name": "聯上發",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2538": {
+      "name": "基泰",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2539": {
+      "name": "櫻花建",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2540": {
+      "name": "愛山林",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2542": {
+      "name": "興富發",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2543": {
+      "name": "皇昌",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2545": {
+      "name": "皇翔",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2546": {
+      "name": "根基",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2547": {
+      "name": "日勝生",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2548": {
+      "name": "華固",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2596": {
+      "name": "綠意",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "2597": {
+      "name": "潤弘",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2601": {
+      "name": "益航",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "2603": {
+      "name": "長榮",
+      "market": "TSE",
+      "industry": "M26A2 貨櫃輪"
+    },
+    "2605": {
+      "name": "新興",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "2606": {
+      "name": "裕民",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "2607": {
+      "name": "榮運",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2608": {
+      "name": "嘉里大榮",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2609": {
+      "name": "陽明",
+      "market": "TSE",
+      "industry": "M26A2 貨櫃輪"
+    },
+    "2610": {
+      "name": "華航",
+      "market": "TSE",
+      "industry": "M26D 空運業"
+    },
+    "2611": {
+      "name": "志信",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2612": {
+      "name": "中航",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "2613": {
+      "name": "中櫃",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2614": {
+      "name": "東森",
+      "market": "TSE",
+      "industry": "M26E 其他運儲業"
+    },
+    "2615": {
+      "name": "萬海",
+      "market": "TSE",
+      "industry": "M26A2 貨櫃輪"
+    },
+    "2616": {
+      "name": "山隆",
+      "market": "TSE",
+      "industry": "M99D1 加油站"
+    },
+    "2617": {
+      "name": "台航",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "2618": {
+      "name": "長榮航",
+      "market": "TSE",
+      "industry": "M26D 空運業"
+    },
+    "2630": {
+      "name": "亞航",
+      "market": "TSE",
+      "industry": "M22B3 航空器製造"
+    },
+    "2633": {
+      "name": "台灣高鐵",
+      "market": "TSE",
+      "industry": "M26B2 鐵路運輸"
+    },
+    "2634": {
+      "name": "漢翔",
+      "market": "TSE",
+      "industry": "M22B3 航空器製造"
+    },
+    "2636": {
+      "name": "台驊投控",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2637": {
+      "name": "慧洋-KY",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "2640": {
+      "name": "大車隊",
+      "market": "OTC",
+      "industry": "M26B1 汽車陸運"
+    },
+    "2641": {
+      "name": "正德",
+      "market": "OTC",
+      "industry": "M26A1 散裝輪"
+    },
+    "2642": {
+      "name": "宅配通",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2643": {
+      "name": "捷迅",
+      "market": "OTC",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2701": {
+      "name": "萬企",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2702": {
+      "name": "華園",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2704": {
+      "name": "國賓",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2705": {
+      "name": "六福",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2706": {
+      "name": "第一店",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2707": {
+      "name": "晶華",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2712": {
+      "name": "遠雄來",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2718": {
+      "name": "晶悅",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "2719": {
+      "name": "燦星旅",
+      "market": "OTC",
+      "industry": "M27C 旅行社"
+    },
+    "2722": {
+      "name": "夏都",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2723": {
+      "name": "美食-KY",
+      "market": "TSE",
+      "industry": "M27A2 餐飲業"
+    },
+    "2724": {
+      "name": "富驛-KY",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "2726": {
+      "name": "雅茗-KY",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2727": {
+      "name": "王品",
+      "market": "TSE",
+      "industry": "M27A2 餐飲業"
+    },
+    "2729": {
+      "name": "瓦城",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2731": {
+      "name": "雄獅",
+      "market": "TSE",
+      "industry": "M27C 旅行社"
+    },
+    "2732": {
+      "name": "六角",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2734": {
+      "name": "易飛網",
+      "market": "OTC",
+      "industry": "M27C 旅行社"
+    },
+    "2736": {
+      "name": "富野",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "2739": {
+      "name": "寒舍",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2740": {
+      "name": "天蔥",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2743": {
+      "name": "山富",
+      "market": "OTC",
+      "industry": "M27C 旅行社"
+    },
+    "2745": {
+      "name": "五福",
+      "market": "OTC",
+      "industry": "M27C 旅行社"
+    },
+    "2748": {
+      "name": "雲品",
+      "market": "TSE",
+      "industry": "M27A1 飯店業"
+    },
+    "2752": {
+      "name": "豆府",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2753": {
+      "name": "八方雲集",
+      "market": "TSE",
+      "industry": "M27A2 餐飲業"
+    },
+    "2754": {
+      "name": "亞洲藏壽司",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2755": {
+      "name": "揚秦",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2756": {
+      "name": "聯發國際",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "2801": {
+      "name": "彰銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2809": {
+      "name": "京城銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2812": {
+      "name": "台中銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2816": {
+      "name": "旺旺保",
+      "market": "TSE",
+      "industry": "M28J 產險業"
+    },
+    "2820": {
+      "name": "華票",
+      "market": "TSE",
+      "industry": "M28F 票券公司"
+    },
+    "2832": {
+      "name": "台產",
+      "market": "TSE",
+      "industry": "M28J 產險業"
+    },
+    "2834": {
+      "name": "臺企銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2836": {
+      "name": "高雄銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2838": {
+      "name": "聯邦銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2841": {
+      "name": "台開",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "2845": {
+      "name": "遠東銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2849": {
+      "name": "安泰銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2850": {
+      "name": "新產",
+      "market": "TSE",
+      "industry": "M28J 產險業"
+    },
+    "2851": {
+      "name": "中再保",
+      "market": "TSE",
+      "industry": "M28J 產險業"
+    },
+    "2852": {
+      "name": "第一保",
+      "market": "TSE",
+      "industry": "M28J 產險業"
+    },
+    "2855": {
+      "name": "統一證",
+      "market": "TSE",
+      "industry": "M30A 證券"
+    },
+    "2867": {
+      "name": "三商壽",
+      "market": "TSE",
+      "industry": "M28I 壽險業"
+    },
+    "2880": {
+      "name": "華南金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2881": {
+      "name": "富邦金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2882": {
+      "name": "國泰金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2883": {
+      "name": "開發金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2884": {
+      "name": "玉山金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2885": {
+      "name": "元大金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2886": {
+      "name": "兆豐金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2887": {
+      "name": "台新金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2888": {
+      "name": "新光金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2889": {
+      "name": "國票金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2890": {
+      "name": "永豐金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2891": {
+      "name": "中信金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2892": {
+      "name": "第一金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "2897": {
+      "name": "王道銀行",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "2901": {
+      "name": "欣欣",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "2903": {
+      "name": "遠百",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "2904": {
+      "name": "匯僑",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "2905": {
+      "name": "三商",
+      "market": "TSE",
+      "industry": "M29A9 其他零售"
+    },
+    "2906": {
+      "name": "高林",
+      "market": "TSE",
+      "industry": "M29B 貿易業"
+    },
+    "2908": {
+      "name": "特力",
+      "market": "TSE",
+      "industry": "M29B 貿易業"
+    },
+    "2910": {
+      "name": "統領",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "2911": {
+      "name": "麗嬰房",
+      "market": "TSE",
+      "industry": "M29A9 其他零售"
+    },
+    "2912": {
+      "name": "統一超",
+      "market": "TSE",
+      "industry": "M29A4 便利商店"
+    },
+    "2913": {
+      "name": "農林",
+      "market": "TSE",
+      "industry": "M29B 貿易業"
+    },
+    "2915": {
+      "name": "潤泰全",
+      "market": "TSE",
+      "industry": "M29A2 量販"
+    },
+    "2916": {
+      "name": "滿心",
+      "market": "OTC",
+      "industry": "M29A9 其他零售"
+    },
+    "2923": {
+      "name": "鼎固-KY",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "2924": {
+      "name": "東凌-KY",
+      "market": "OTC",
+      "industry": "M29A9 其他零售"
+    },
+    "2926": {
+      "name": "誠品生活",
+      "market": "OTC",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "2929": {
+      "name": "淘帝-KY",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "2936": {
+      "name": "客思達-KY",
+      "market": "TSE",
+      "industry": "M29B 貿易業"
+    },
+    "2937": {
+      "name": "集雅社",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "2939": {
+      "name": "凱羿-KY",
+      "market": "TSE",
+      "industry": "M29B 貿易業"
+    },
+    "2945": {
+      "name": "三商家購",
+      "market": "TSE",
+      "industry": "M29A3 超市"
+    },
+    "2947": {
+      "name": "振宇五金",
+      "market": "OTC",
+      "industry": "M29A7 批發"
+    },
+    "3002": {
+      "name": "歐格",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3003": {
+      "name": "健和興",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3004": {
+      "name": "豐達科",
+      "market": "TSE",
+      "industry": "M22B3 航空器製造"
+    },
+    "3005": {
+      "name": "神基",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "3006": {
+      "name": "晶豪科",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3008": {
+      "name": "大立光",
+      "market": "TSE",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "3010": {
+      "name": "華立",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3011": {
+      "name": "今皓",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3013": {
+      "name": "晟銘電",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "3014": {
+      "name": "聯陽",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3015": {
+      "name": "全漢",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3016": {
+      "name": "嘉晶",
+      "market": "TSE",
+      "industry": "M23G3C 晶圓材料"
+    },
+    "3017": {
+      "name": "奇鋐",
+      "market": "TSE",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "3018": {
+      "name": "同開",
+      "market": "TSE",
+      "industry": "M23H1 廠辦機電"
+    },
+    "3019": {
+      "name": "亞光",
+      "market": "TSE",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "3021": {
+      "name": "鴻名",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3022": {
+      "name": "威強電",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3023": {
+      "name": "信邦",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3024": {
+      "name": "憶聲",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "3025": {
+      "name": "星通",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "3026": {
+      "name": "禾伸堂",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "3027": {
+      "name": "盛達",
+      "market": "TSE",
+      "industry": "M23KX 其他網通"
+    },
+    "3028": {
+      "name": "增你強",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3029": {
+      "name": "零壹",
+      "market": "TSE",
+      "industry": "M23X9 應用軟體"
+    },
+    "3030": {
+      "name": "德律",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3031": {
+      "name": "佰鴻",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "3032": {
+      "name": "偉訓",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "3033": {
+      "name": "威健",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3034": {
+      "name": "聯詠",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3035": {
+      "name": "智原",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3036": {
+      "name": "文曄",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3037": {
+      "name": "欣興",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "3038": {
+      "name": "全台",
+      "market": "TSE",
+      "industry": "M23C8D LCD-其他"
+    },
+    "3040": {
+      "name": "遠見",
+      "market": "TSE",
+      "industry": "M25F 物業管理"
+    },
+    "3041": {
+      "name": "揚智",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3042": {
+      "name": "晶技",
+      "market": "TSE",
+      "industry": "M23D6 石英元件"
+    },
+    "3043": {
+      "name": "科風",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3044": {
+      "name": "健鼎",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "3045": {
+      "name": "台灣大",
+      "market": "TSE",
+      "industry": "M23K3 電信及IDC"
+    },
+    "3046": {
+      "name": "建碁",
+      "market": "TSE",
+      "industry": "M23B1 主機板"
+    },
+    "3047": {
+      "name": "訊舟",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "3048": {
+      "name": "益登",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3049": {
+      "name": "和鑫",
+      "market": "TSE",
+      "industry": "M23C8E 觸控面板"
+    },
+    "3050": {
+      "name": "鈺德",
+      "market": "TSE",
+      "industry": "M23C4A 光碟"
+    },
+    "3051": {
+      "name": "力特",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "3052": {
+      "name": "夆典",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "3054": {
+      "name": "立萬利",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "3055": {
+      "name": "蔚華科",
+      "market": "TSE",
+      "industry": "M23H3 設備通路"
+    },
+    "3056": {
+      "name": "總太",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "3057": {
+      "name": "喬鼎",
+      "market": "TSE",
+      "industry": "M23C4B 硬碟磁碟"
+    },
+    "3058": {
+      "name": "立德",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3059": {
+      "name": "華晶科",
+      "market": "TSE",
+      "industry": "M23UZ 消費性電子"
+    },
+    "3060": {
+      "name": "銘異",
+      "market": "TSE",
+      "industry": "M23C4B 硬碟磁碟"
+    },
+    "3062": {
+      "name": "建漢",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "3064": {
+      "name": "泰偉",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3066": {
+      "name": "李洲",
+      "market": "OTC",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "3067": {
+      "name": "全域",
+      "market": "OTC",
+      "industry": "M23U2 聲學產品"
+    },
+    "3071": {
+      "name": "協禧",
+      "market": "OTC",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "3073": {
+      "name": "天方能源",
+      "market": "OTC",
+      "industry": "M23C7E 太陽能系統"
+    },
+    "3078": {
+      "name": "僑威",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "3081": {
+      "name": "聯亞",
+      "market": "OTC",
+      "industry": "M23G3A 化合物SEMI"
+    },
+    "3083": {
+      "name": "網龍",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "3085": {
+      "name": "新零售",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "3086": {
+      "name": "華義",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "3088": {
+      "name": "艾訊",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3089": {
+      "name": "億杰",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "3090": {
+      "name": "日電貿",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3092": {
+      "name": "鴻碩",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3093": {
+      "name": "港建",
+      "market": "OTC",
+      "industry": "M23H3 設備通路"
+    },
+    "3094": {
+      "name": "聯傑",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3095": {
+      "name": "及成",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3105": {
+      "name": "穩懋",
+      "market": "OTC",
+      "industry": "M23G3A 化合物SEMI"
+    },
+    "3114": {
+      "name": "好德",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3115": {
+      "name": "寶島極",
+      "market": "OTC",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "3118": {
+      "name": "進階",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "3122": {
+      "name": "笙泉",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3128": {
+      "name": "昇銳",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "3130": {
+      "name": "一零四",
+      "market": "TSE",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "3131": {
+      "name": "弘塑",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3138": {
+      "name": "耀登",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "3141": {
+      "name": "晶宏",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3147": {
+      "name": "大綜",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "3149": {
+      "name": "正達",
+      "market": "TSE",
+      "industry": "M23C8E 觸控面板"
+    },
+    "3152": {
+      "name": "璟德",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "3162": {
+      "name": "精確",
+      "market": "OTC",
+      "industry": "M15E 自行車組件"
+    },
+    "3163": {
+      "name": "波若威",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "3164": {
+      "name": "景岳",
+      "market": "TSE",
+      "industry": "M17C2 機能性食品"
+    },
+    "3167": {
+      "name": "大量",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3169": {
+      "name": "亞信",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3171": {
+      "name": "新洲",
+      "market": "OTC",
+      "industry": "M13A9 膠帶"
+    },
+    "3176": {
+      "name": "基亞",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "3178": {
+      "name": "公準",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3188": {
+      "name": "鑫龍騰",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "3189": {
+      "name": "景碩",
+      "market": "TSE",
+      "industry": "M23B2A IC載板"
+    },
+    "3191": {
+      "name": "和進",
+      "market": "OTC",
+      "industry": "M23D9D 其他零組件"
+    },
+    "3202": {
+      "name": "樺晟",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3205": {
+      "name": "佰研",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "3206": {
+      "name": "志豐",
+      "market": "OTC",
+      "industry": "M23U2 聲學產品"
+    },
+    "3207": {
+      "name": "耀勝",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "3209": {
+      "name": "全科",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3211": {
+      "name": "順達",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "3213": {
+      "name": "茂訊",
+      "market": "OTC",
+      "industry": "M23A2 泛用電腦"
+    },
+    "3217": {
+      "name": "優群",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3218": {
+      "name": "大學光",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "3219": {
+      "name": "倚強科",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3221": {
+      "name": "台嘉碩",
+      "market": "OTC",
+      "industry": "M23D6 石英元件"
+    },
+    "3224": {
+      "name": "三顧",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3226": {
+      "name": "至寶電",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "3227": {
+      "name": "原相",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3228": {
+      "name": "金麗科",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3229": {
+      "name": "晟鈦",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "3230": {
+      "name": "錦明",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3231": {
+      "name": "緯創",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "3232": {
+      "name": "昱捷",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3234": {
+      "name": "光環",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "3236": {
+      "name": "千如",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "3252": {
+      "name": "海灣",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "3257": {
+      "name": "虹冠電",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3259": {
+      "name": "鑫創",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3260": {
+      "name": "威剛",
+      "market": "OTC",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "3264": {
+      "name": "欣銓",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "3265": {
+      "name": "台星科",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "3266": {
+      "name": "昇陽",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "3268": {
+      "name": "海德威",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3272": {
+      "name": "東碩",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "3276": {
+      "name": "宇環",
+      "market": "OTC",
+      "industry": "M23B2C 軟板"
+    },
+    "3284": {
+      "name": "太普高",
+      "market": "OTC",
+      "industry": "M99C 印刷"
+    },
+    "3285": {
+      "name": "微端",
+      "market": "OTC",
+      "industry": "M23U2 聲學產品"
+    },
+    "3287": {
+      "name": "廣寰科",
+      "market": "OTC",
+      "industry": "M23B4B 電視卡"
+    },
+    "3288": {
+      "name": "點晶",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3289": {
+      "name": "宜特",
+      "market": "OTC",
+      "industry": "M23Z 其他電子"
+    },
+    "3290": {
+      "name": "東浦",
+      "market": "OTC",
+      "industry": "M23D9D 其他零組件"
+    },
+    "3293": {
+      "name": "鈊象",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "3294": {
+      "name": "英濟",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3296": {
+      "name": "勝德",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3297": {
+      "name": "杭特",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "3303": {
+      "name": "岱稜",
+      "market": "OTC",
+      "industry": "M13A8 塑膠加工"
+    },
+    "3305": {
+      "name": "昇貿",
+      "market": "TSE",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "3306": {
+      "name": "鼎天",
+      "market": "OTC",
+      "industry": "M23K5 導航定位"
+    },
+    "3308": {
+      "name": "聯德",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3310": {
+      "name": "佳穎",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "3311": {
+      "name": "閎暉",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "3312": {
+      "name": "弘憶股",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3313": {
+      "name": "斐成",
+      "market": "OTC",
+      "industry": "M12B 油脂飼料"
+    },
+    "3317": {
+      "name": "尼克森",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3321": {
+      "name": "同泰",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "3322": {
+      "name": "建舜電",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3323": {
+      "name": "加百裕",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "3324": {
+      "name": "雙鴻",
+      "market": "OTC",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "3325": {
+      "name": "旭品",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3332": {
+      "name": "幸康",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "3338": {
+      "name": "泰碩",
+      "market": "TSE",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "3339": {
+      "name": "泰谷",
+      "market": "OTC",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "3346": {
+      "name": "麗清",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "3349": {
+      "name": "寶德",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "3354": {
+      "name": "律勝",
+      "market": "OTC",
+      "industry": "M23B3C FCCL"
+    },
+    "3356": {
+      "name": "奇偶",
+      "market": "TSE",
+      "industry": "M23C9 安全監控"
+    },
+    "3357": {
+      "name": "臺慶科",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "3360": {
+      "name": "尚立",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3362": {
+      "name": "先進光",
+      "market": "OTC",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "3363": {
+      "name": "上詮",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "3372": {
+      "name": "典範",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "3373": {
+      "name": "熱映",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "3374": {
+      "name": "精材",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "3376": {
+      "name": "新日興",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "3379": {
+      "name": "彬台",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "3380": {
+      "name": "明泰",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "3383": {
+      "name": "新世紀",
+      "market": "TSE",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "3388": {
+      "name": "崇越電",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3390": {
+      "name": "旭軟",
+      "market": "OTC",
+      "industry": "M23B2C 軟板"
+    },
+    "3402": {
+      "name": "漢科",
+      "market": "OTC",
+      "industry": "M23H1 廠辦機電"
+    },
+    "3406": {
+      "name": "玉晶光",
+      "market": "TSE",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "3413": {
+      "name": "京鼎",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3416": {
+      "name": "融程電",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3419": {
+      "name": "譁裕",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "3426": {
+      "name": "台興",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "3432": {
+      "name": "台端",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3434": {
+      "name": "哲固",
+      "market": "OTC",
+      "industry": "M23C1 顯示器"
+    },
+    "3437": {
+      "name": "榮創",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "3438": {
+      "name": "類比科",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3441": {
+      "name": "聯一光",
+      "market": "OTC",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "3443": {
+      "name": "創意",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3444": {
+      "name": "利機",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3450": {
+      "name": "聯鈞",
+      "market": "TSE",
+      "industry": "M23K6 光元件模組"
+    },
+    "3454": {
+      "name": "晶睿",
+      "market": "TSE",
+      "industry": "M23C9 安全監控"
+    },
+    "3455": {
+      "name": "由田",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3465": {
+      "name": "進泰電子",
+      "market": "OTC",
+      "industry": "M23U2 聲學產品"
+    },
+    "3466": {
+      "name": "致振",
+      "market": "OTC",
+      "industry": "M23K2 衛星微波"
+    },
+    "3479": {
+      "name": "安勤",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3481": {
+      "name": "群創",
+      "market": "TSE",
+      "industry": "M23C8A LCD 面板"
+    },
+    "3483": {
+      "name": "力致",
+      "market": "OTC",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "3484": {
+      "name": "崧騰",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3489": {
+      "name": "森寶",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "3490": {
+      "name": "單井",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3491": {
+      "name": "昇達科",
+      "market": "OTC",
+      "industry": "M23K2 衛星微波"
+    },
+    "3492": {
+      "name": "長盛",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3494": {
+      "name": "誠研",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "3498": {
+      "name": "陽程",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3499": {
+      "name": "環天科",
+      "market": "OTC",
+      "industry": "M23K5 導航定位"
+    },
+    "3501": {
+      "name": "維熹",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3504": {
+      "name": "揚明光",
+      "market": "TSE",
+      "industry": "M23CZ1 投影裝置"
+    },
+    "3508": {
+      "name": "位速",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3511": {
+      "name": "矽瑪",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3512": {
+      "name": "皇龍",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "3515": {
+      "name": "華擎",
+      "market": "TSE",
+      "industry": "M23B1 主機板"
+    },
+    "3516": {
+      "name": "亞帝歐",
+      "market": "OTC",
+      "industry": "M15C4 照明"
+    },
+    "3518": {
+      "name": "柏騰",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3520": {
+      "name": "華盈",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3521": {
+      "name": "鴻翊",
+      "market": "OTC",
+      "industry": "M23B5A POS"
+    },
+    "3522": {
+      "name": "御頂",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "3523": {
+      "name": "迎輝",
+      "market": "OTC",
+      "industry": "M23C8C LCD 原料"
+    },
+    "3526": {
+      "name": "凡甲",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3527": {
+      "name": "聚積",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3528": {
+      "name": "安馳",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3529": {
+      "name": "力旺",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3530": {
+      "name": "晶相光",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3531": {
+      "name": "先益",
+      "market": "OTC",
+      "industry": "M23C8B 背光模組"
+    },
+    "3532": {
+      "name": "台勝科",
+      "market": "TSE",
+      "industry": "M23G3C 晶圓材料"
+    },
+    "3533": {
+      "name": "嘉澤",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3535": {
+      "name": "晶彩科",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3536": {
+      "name": "誠創",
+      "market": "TSE",
+      "industry": "M23D1 分離式元件"
+    },
+    "3537": {
+      "name": "堡達",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "3540": {
+      "name": "曜越",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3541": {
+      "name": "西柏",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "3543": {
+      "name": "州巧",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "3545": {
+      "name": "敦泰",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3546": {
+      "name": "宇峻",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "3548": {
+      "name": "兆利",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "3550": {
+      "name": "聯穎",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3551": {
+      "name": "世禾",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3552": {
+      "name": "同致",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "3555": {
+      "name": "重鵬",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "3556": {
+      "name": "禾瑞亞",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "3557": {
+      "name": "嘉威",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "3558": {
+      "name": "神準",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "3563": {
+      "name": "牧德",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3564": {
+      "name": "其陽",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3567": {
+      "name": "逸昌",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "3570": {
+      "name": "大塚",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "3576": {
+      "name": "聯合再生",
+      "market": "TSE",
+      "industry": "M23C7C 太陽能電池"
+    },
+    "3577": {
+      "name": "泓格",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3580": {
+      "name": "友威科",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3581": {
+      "name": "博磊",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3583": {
+      "name": "辛耘",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "3587": {
+      "name": "閎康",
+      "market": "OTC",
+      "industry": "M23Z 其他電子"
+    },
+    "3588": {
+      "name": "通嘉",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3591": {
+      "name": "艾笛森",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "3592": {
+      "name": "瑞鼎",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3593": {
+      "name": "力銘",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "3594": {
+      "name": "磐儀",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "3596": {
+      "name": "智易",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "3597": {
+      "name": "映興",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3605": {
+      "name": "宏致",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3607": {
+      "name": "谷崧",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "3609": {
+      "name": "三一東林",
+      "market": "OTC",
+      "industry": "M15C4 照明"
+    },
+    "3611": {
+      "name": "鼎翰",
+      "market": "OTC",
+      "industry": "M23B5A POS"
+    },
+    "3615": {
+      "name": "安可",
+      "market": "OTC",
+      "industry": "M23C8E 觸控面板"
+    },
+    "3617": {
+      "name": "碩天",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "3622": {
+      "name": "洋華",
+      "market": "TSE",
+      "industry": "M23C8E 觸控面板"
+    },
+    "3623": {
+      "name": "富晶通",
+      "market": "OTC",
+      "industry": "M23C8E 觸控面板"
+    },
+    "3624": {
+      "name": "光頡",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "3625": {
+      "name": "西勝",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "3628": {
+      "name": "盈正",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "3629": {
+      "name": "地心引力",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "3630": {
+      "name": "新鉅科",
+      "market": "OTC",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "3631": {
+      "name": "晟楠",
+      "market": "OTC",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "3632": {
+      "name": "研勤",
+      "market": "OTC",
+      "industry": "M23K5 導航定位"
+    },
+    "3642": {
+      "name": "駿熠電",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "3645": {
+      "name": "達邁",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "3646": {
+      "name": "艾恩特",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3652": {
+      "name": "精聯",
+      "market": "OTC",
+      "industry": "M23B5A POS"
+    },
+    "3653": {
+      "name": "健策",
+      "market": "TSE",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "3661": {
+      "name": "世芯-KY",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "3663": {
+      "name": "鑫科",
+      "market": "OTC",
+      "industry": "M99L1 貴金屬回收"
+    },
+    "3664": {
+      "name": "安瑞-KY",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "3665": {
+      "name": "貿聯-KY",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "3666": {
+      "name": "光耀",
+      "market": "OTC",
+      "industry": "M23C8C LCD 原料"
+    },
+    "3669": {
+      "name": "圓展",
+      "market": "TSE",
+      "industry": "M23CZ2 其他顯示"
+    },
+    "3672": {
+      "name": "康聯訊",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "3673": {
+      "name": "TPK-KY",
+      "market": "TSE",
+      "industry": "M23C8E 觸控面板"
+    },
+    "3675": {
+      "name": "德微",
+      "market": "OTC",
+      "industry": "M23D1 分離式元件"
+    },
+    "3679": {
+      "name": "新至陞",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "3680": {
+      "name": "家登",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "3682": {
+      "name": "亞太電",
+      "market": "TSE",
+      "industry": "M23K3 電信及IDC"
+    },
+    "3684": {
+      "name": "榮昌",
+      "market": "OTC",
+      "industry": "M23K2 衛星微波"
+    },
+    "3685": {
+      "name": "元創精密",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "3686": {
+      "name": "達能",
+      "market": "TSE",
+      "industry": "M23C7B 太陽能晶圓"
+    },
+    "3687": {
+      "name": "歐買尬",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "3689": {
+      "name": "湧德",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3691": {
+      "name": "碩禾",
+      "market": "OTC",
+      "industry": "M23C7F 其他太陽能"
+    },
+    "3693": {
+      "name": "營邦",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "3694": {
+      "name": "海華",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "3701": {
+      "name": "大眾控",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "3702": {
+      "name": "大聯大",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "3703": {
+      "name": "欣陸",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "3704": {
+      "name": "合勤控",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "3705": {
+      "name": "永信",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "3706": {
+      "name": "神達",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "3707": {
+      "name": "漢磊",
+      "market": "OTC",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "3708": {
+      "name": "上緯投控",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "3709": {
+      "name": "鑫聯大投控",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "3710": {
+      "name": "連展投控",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "3711": {
+      "name": "日月光投控",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "3712": {
+      "name": "永崴投控",
+      "market": "TSE",
+      "industry": "M23C2 影像掃描"
+    },
+    "3713": {
+      "name": "新晶投控",
+      "market": "OTC",
+      "industry": "M23C7E 太陽能系統"
+    },
+    "3714": {
+      "name": "富采",
+      "market": "TSE",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "4102": {
+      "name": "永日",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4104": {
+      "name": "佳醫",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "4105": {
+      "name": "東洋",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4106": {
+      "name": "雃博",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "4107": {
+      "name": "邦特",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4108": {
+      "name": "懷特",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "4109": {
+      "name": "加捷生醫",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "4111": {
+      "name": "濟生",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4113": {
+      "name": "聯上",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "4114": {
+      "name": "健喬",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4116": {
+      "name": "明基醫",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4119": {
+      "name": "旭富",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "4120": {
+      "name": "友華",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4121": {
+      "name": "優盛",
+      "market": "OTC",
+      "industry": "M17X 醫藥通路"
+    },
+    "4123": {
+      "name": "晟德",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4126": {
+      "name": "太醫",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4127": {
+      "name": "天良",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "4128": {
+      "name": "中天",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4129": {
+      "name": "聯合",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4130": {
+      "name": "健亞",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4131": {
+      "name": "晶宇",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4133": {
+      "name": "亞諾法",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "4137": {
+      "name": "麗豐-KY",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "4138": {
+      "name": "曜亞",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4139": {
+      "name": "馬光-KY",
+      "market": "OTC",
+      "industry": "M17H 生物科技"
+    },
+    "4142": {
+      "name": "國光生",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "4147": {
+      "name": "中裕",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4148": {
+      "name": "全宇生技-KY",
+      "market": "TSE",
+      "industry": "M17C3 農藥肥料"
+    },
+    "4153": {
+      "name": "鈺緯",
+      "market": "OTC",
+      "industry": "M23C1 顯示器"
+    },
+    "4154": {
+      "name": "樂威科-KY",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "4155": {
+      "name": "訊映",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "4157": {
+      "name": "太景*-KY",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4160": {
+      "name": "創源",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4161": {
+      "name": "聿新科",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4162": {
+      "name": "智擎",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4163": {
+      "name": "鐿鈦",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4164": {
+      "name": "承業醫",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "4167": {
+      "name": "松瑞藥",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4168": {
+      "name": "醣聯",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4171": {
+      "name": "瑞基",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4173": {
+      "name": "久裕",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4174": {
+      "name": "浩鼎",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4175": {
+      "name": "杏一",
+      "market": "OTC",
+      "industry": "M17X 醫藥通路"
+    },
+    "4183": {
+      "name": "福永生技",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4188": {
+      "name": "安克",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4190": {
+      "name": "佐登-KY",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "4192": {
+      "name": "杏國",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4198": {
+      "name": "欣大健康",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4205": {
+      "name": "中華食",
+      "market": "OTC",
+      "industry": "M12Z 其他食品"
+    },
+    "4207": {
+      "name": "環泰",
+      "market": "OTC",
+      "industry": "M12Z 其他食品"
+    },
+    "4303": {
+      "name": "信立",
+      "market": "OTC",
+      "industry": "M13A6 合成皮"
+    },
+    "4304": {
+      "name": "勝昱",
+      "market": "OTC",
+      "industry": "M13A8 塑膠加工"
+    },
+    "4305": {
+      "name": "世坤",
+      "market": "OTC",
+      "industry": "M13A8 塑膠加工"
+    },
+    "4306": {
+      "name": "炎洲",
+      "market": "TSE",
+      "industry": "M13A9 膠帶"
+    },
+    "4401": {
+      "name": "東隆興",
+      "market": "OTC",
+      "industry": "M14A7 尼龍絲"
+    },
+    "4402": {
+      "name": "福大",
+      "market": "OTC",
+      "industry": "M14A7 尼龍絲"
+    },
+    "4406": {
+      "name": "新昕纖",
+      "market": "OTC",
+      "industry": "M14A2 加工絲"
+    },
+    "4413": {
+      "name": "飛寶企業",
+      "market": "OTC",
+      "industry": "M14C2 織布"
+    },
+    "4414": {
+      "name": "如興",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "4416": {
+      "name": "三圓",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "4417": {
+      "name": "金洲",
+      "market": "OTC",
+      "industry": "M14Z 其他紡織"
+    },
+    "4419": {
+      "name": "元勝",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "4420": {
+      "name": "光明",
+      "market": "OTC",
+      "industry": "M14C2 織布"
+    },
+    "4426": {
+      "name": "利勤",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "4430": {
+      "name": "耀億",
+      "market": "OTC",
+      "industry": "M14Z 其他紡織"
+    },
+    "4432": {
+      "name": "銘旺實",
+      "market": "OTC",
+      "industry": "M14C1 成衣製造"
+    },
+    "4433": {
+      "name": "興采",
+      "market": "OTC",
+      "industry": "M14C2 織布"
+    },
+    "4438": {
+      "name": "廣越",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "4439": {
+      "name": "冠星-KY",
+      "market": "TSE",
+      "industry": "M14C2 織布"
+    },
+    "4440": {
+      "name": "宜新實業",
+      "market": "TSE",
+      "industry": "M14A2 加工絲"
+    },
+    "4502": {
+      "name": "健信",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "4503": {
+      "name": "金雨",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "4506": {
+      "name": "崇友",
+      "market": "OTC",
+      "industry": "M15B1 電機"
+    },
+    "4510": {
+      "name": "高鋒",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "4513": {
+      "name": "福裕",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "4523": {
+      "name": "永彰",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "4526": {
+      "name": "東台",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "4527": {
+      "name": "方土霖",
+      "market": "OTC",
+      "industry": "M15C2 空調冷凍"
+    },
+    "4528": {
+      "name": "江興鍛",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "4529": {
+      "name": "淳紳",
+      "market": "OTC",
+      "industry": "M22A 汽車製造"
+    },
+    "4530": {
+      "name": "宏易",
+      "market": "OTC",
+      "industry": "M23KX 其他網通"
+    },
+    "4532": {
+      "name": "瑞智",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "4533": {
+      "name": "協易機",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "4534": {
+      "name": "慶騰",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "4535": {
+      "name": "至興",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "4536": {
+      "name": "拓凱",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "4538": {
+      "name": "大詠城",
+      "market": "OTC",
+      "industry": "M15A2 模具零件"
+    },
+    "4540": {
+      "name": "全球傳動",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "4541": {
+      "name": "晟田",
+      "market": "OTC",
+      "industry": "M22B3 航空器製造"
+    },
+    "4542": {
+      "name": "科嶠",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "4543": {
+      "name": "萬在",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "4545": {
+      "name": "銘鈺",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "4549": {
+      "name": "桓達",
+      "market": "OTC",
+      "industry": "M15H 儀器設備"
+    },
+    "4550": {
+      "name": "長佳",
+      "market": "OTC",
+      "industry": "M15B2 機電工程"
+    },
+    "4551": {
+      "name": "智伸科",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "4552": {
+      "name": "力達-KY",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "4554": {
+      "name": "橙的",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "4555": {
+      "name": "氣立",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "4556": {
+      "name": "旭然",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "4557": {
+      "name": "永新-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "4558": {
+      "name": "寶緯",
+      "market": "OTC",
+      "industry": "M20A5 鋁鋅"
+    },
+    "4560": {
+      "name": "強信-KY",
+      "market": "TSE",
+      "industry": "M15A3 紡織工具機"
+    },
+    "4561": {
+      "name": "健椿",
+      "market": "OTC",
+      "industry": "M15A2 模具零件"
+    },
+    "4562": {
+      "name": "穎漢",
+      "market": "TSE",
+      "industry": "M15A1 工具機"
+    },
+    "4563": {
+      "name": "百德",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "4564": {
+      "name": "元翎",
+      "market": "TSE",
+      "industry": "M20B 金屬製品"
+    },
+    "4566": {
+      "name": "時碩工業",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "4568": {
+      "name": "科際精密",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "4571": {
+      "name": "鈞興-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "4572": {
+      "name": "駐龍",
+      "market": "TSE",
+      "industry": "M22B3 航空器製造"
+    },
+    "4576": {
+      "name": "大銀微系統",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "4580": {
+      "name": "捷流閥業",
+      "market": "OTC",
+      "industry": "M15Z 其他電製品"
+    },
+    "4581": {
+      "name": "光隆精密-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "4583": {
+      "name": "台灣精銳",
+      "market": "TSE",
+      "industry": "M15B1 電機"
+    },
+    "4609": {
+      "name": "唐鋒",
+      "market": "OTC",
+      "industry": "M15C1 家電"
+    },
+    "4702": {
+      "name": "中美實",
+      "market": "OTC",
+      "industry": "M17B 染料及顏料"
+    },
+    "4706": {
+      "name": "大恭",
+      "market": "OTC",
+      "industry": "M17B 染料及顏料"
+    },
+    "4707": {
+      "name": "磐亞",
+      "market": "OTC",
+      "industry": "M17E1 清潔劑原料"
+    },
+    "4711": {
+      "name": "永純",
+      "market": "OTC",
+      "industry": "M17F 樹脂"
+    },
+    "4712": {
+      "name": "南璋",
+      "market": "OTC",
+      "industry": "M99ZA3 漁業"
+    },
+    "4714": {
+      "name": "永捷",
+      "market": "OTC",
+      "industry": "M17F 樹脂"
+    },
+    "4716": {
+      "name": "大立",
+      "market": "OTC",
+      "industry": "M17F 樹脂"
+    },
+    "4720": {
+      "name": "德淵",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "4721": {
+      "name": "美琪瑪",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "4722": {
+      "name": "國精化",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "4726": {
+      "name": "永昕",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4728": {
+      "name": "雙美",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4729": {
+      "name": "熒茂",
+      "market": "OTC",
+      "industry": "M23C8E 觸控面板"
+    },
+    "4735": {
+      "name": "豪展",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4736": {
+      "name": "泰博",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4737": {
+      "name": "華廣",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "4739": {
+      "name": "康普",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "4741": {
+      "name": "泓瀚",
+      "market": "OTC",
+      "industry": "M17B 染料及顏料"
+    },
+    "4743": {
+      "name": "合一",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4744": {
+      "name": "皇將",
+      "market": "OTC",
+      "industry": "M15H 儀器設備"
+    },
+    "4745": {
+      "name": "合富-KY",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "4746": {
+      "name": "台耀",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "4747": {
+      "name": "強生",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4754": {
+      "name": "國碳科",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "4755": {
+      "name": "三福化",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "4760": {
+      "name": "勤凱",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "4763": {
+      "name": "材料-KY",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "4764": {
+      "name": "雙鍵",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "4766": {
+      "name": "南寶",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "4767": {
+      "name": "誠泰科技",
+      "market": "OTC",
+      "industry": "M17F 樹脂"
+    },
+    "4768": {
+      "name": "晶呈科技",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "4770": {
+      "name": "上品",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "4804": {
+      "name": "大略-KY",
+      "market": "OTC",
+      "industry": "M27A2 餐飲業"
+    },
+    "4806": {
+      "name": "昇華",
+      "market": "OTC",
+      "industry": "M99H 電視廣播"
+    },
+    "4807": {
+      "name": "日成-KY",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "4903": {
+      "name": "聯光通",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "4904": {
+      "name": "遠傳",
+      "market": "TSE",
+      "industry": "M23K3 電信及IDC"
+    },
+    "4905": {
+      "name": "台聯電",
+      "market": "OTC",
+      "industry": "M23KX 其他網通"
+    },
+    "4906": {
+      "name": "正文",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "4907": {
+      "name": "富宇",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "4908": {
+      "name": "前鼎",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "4909": {
+      "name": "新復興",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "4911": {
+      "name": "德英",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "4912": {
+      "name": "聯德控股-KY",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "4915": {
+      "name": "致伸",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "4916": {
+      "name": "事欣科",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "4919": {
+      "name": "新唐",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "4923": {
+      "name": "力士",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "4924": {
+      "name": "欣厚-KY",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "4927": {
+      "name": "泰鼎-KY",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "4930": {
+      "name": "燦星網",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "4931": {
+      "name": "新盛力",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "4933": {
+      "name": "友輝",
+      "market": "OTC",
+      "industry": "M23C8C LCD 原料"
+    },
+    "4934": {
+      "name": "太極",
+      "market": "TSE",
+      "industry": "M23C7C 太陽能電池"
+    },
+    "4935": {
+      "name": "茂林-KY",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "4938": {
+      "name": "和碩",
+      "market": "TSE",
+      "industry": "M23A1 EMS"
+    },
+    "4939": {
+      "name": "亞電",
+      "market": "OTC",
+      "industry": "M23B3C FCCL"
+    },
+    "4942": {
+      "name": "嘉彰",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "4943": {
+      "name": "康控-KY",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "4944": {
+      "name": "兆遠",
+      "market": "OTC",
+      "industry": "M23C6A 藍寶石基板"
+    },
+    "4945": {
+      "name": "陞達科技",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "4946": {
+      "name": "辣椒",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "4950": {
+      "name": "牧東",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "4952": {
+      "name": "凌通",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "4953": {
+      "name": "緯軟",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "4956": {
+      "name": "光鋐",
+      "market": "TSE",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "4958": {
+      "name": "臻鼎-KY",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "4960": {
+      "name": "誠美材",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "4961": {
+      "name": "天鈺",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "4966": {
+      "name": "譜瑞-KY",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "4967": {
+      "name": "十銓",
+      "market": "TSE",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "4968": {
+      "name": "立積",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "4971": {
+      "name": "IET-KY",
+      "market": "OTC",
+      "industry": "M23G3A 化合物SEMI"
+    },
+    "4972": {
+      "name": "湯石照明",
+      "market": "OTC",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "4973": {
+      "name": "廣穎",
+      "market": "OTC",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "4974": {
+      "name": "亞泰",
+      "market": "OTC",
+      "industry": "M23C2 影像掃描"
+    },
+    "4976": {
+      "name": "佳凌",
+      "market": "TSE",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "4977": {
+      "name": "眾達-KY",
+      "market": "TSE",
+      "industry": "M23K6 光元件模組"
+    },
+    "4979": {
+      "name": "華星光",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "4987": {
+      "name": "科誠",
+      "market": "OTC",
+      "industry": "M23B5A POS"
+    },
+    "4989": {
+      "name": "榮科",
+      "market": "TSE",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "4991": {
+      "name": "環宇-KY",
+      "market": "OTC",
+      "industry": "M23G3A 化合物SEMI"
+    },
+    "4994": {
+      "name": "傳奇",
+      "market": "TSE",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "4995": {
+      "name": "晶達",
+      "market": "OTC",
+      "industry": "M23C1 顯示器"
+    },
+    "4999": {
+      "name": "鑫禾",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "5007": {
+      "name": "三星",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "5009": {
+      "name": "榮剛",
+      "market": "OTC",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "5011": {
+      "name": "久陽",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "5013": {
+      "name": "強新",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "5014": {
+      "name": "建錩",
+      "market": "OTC",
+      "industry": "M20A6 不鏽鋼"
+    },
+    "5015": {
+      "name": "華祺",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "5016": {
+      "name": "松和",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "5102": {
+      "name": "富強",
+      "market": "OTC",
+      "industry": "M21A 輪胎"
+    },
+    "5201": {
+      "name": "凱衛",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "5202": {
+      "name": "力新",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "5203": {
+      "name": "訊連",
+      "market": "TSE",
+      "industry": "M23X9 應用軟體"
+    },
+    "5205": {
+      "name": "中茂",
+      "market": "OTC",
+      "industry": "M15B2 機電工程"
+    },
+    "5206": {
+      "name": "坤悅",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5209": {
+      "name": "新鼎",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "5210": {
+      "name": "寶碩",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "5211": {
+      "name": "蒙恬",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "5212": {
+      "name": "凌網",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "5213": {
+      "name": "亞昕",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5215": {
+      "name": "科嘉-KY",
+      "market": "TSE",
+      "industry": "M23D9D 其他零組件"
+    },
+    "5220": {
+      "name": "萬達光電",
+      "market": "OTC",
+      "industry": "M23C8E 觸控面板"
+    },
+    "5222": {
+      "name": "全訊",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "5223": {
+      "name": "安力-KY",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "5225": {
+      "name": "東科-KY",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "5227": {
+      "name": "立凱-KY",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "5228": {
+      "name": "鈺鎧",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "5230": {
+      "name": "雷笛克光學",
+      "market": "OTC",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "5234": {
+      "name": "達興材料",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "5236": {
+      "name": "凌陽創新",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5243": {
+      "name": "乙盛-KY",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "5244": {
+      "name": "弘凱",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "5245": {
+      "name": "智晶",
+      "market": "OTC",
+      "industry": "M23C8A LCD 面板"
+    },
+    "5251": {
+      "name": "天鉞電",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "5258": {
+      "name": "虹堡",
+      "market": "TSE",
+      "industry": "M23B5A POS"
+    },
+    "5263": {
+      "name": "智崴",
+      "market": "OTC",
+      "industry": "M23Z 其他電子"
+    },
+    "5269": {
+      "name": "祥碩",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "5272": {
+      "name": "笙科",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5274": {
+      "name": "信驊",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5276": {
+      "name": "達輝-KY",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "5278": {
+      "name": "尚凡",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "5281": {
+      "name": "大峽谷-KY",
+      "market": "OTC",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "5283": {
+      "name": "禾聯碩",
+      "market": "TSE",
+      "industry": "M15C1 家電"
+    },
+    "5284": {
+      "name": "jpp-KY",
+      "market": "TSE",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "5285": {
+      "name": "界霖",
+      "market": "TSE",
+      "industry": "M23G4 IC導線架"
+    },
+    "5287": {
+      "name": "數字",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "5288": {
+      "name": "豐祥-KY",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "5289": {
+      "name": "宜鼎",
+      "market": "OTC",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "5291": {
+      "name": "邑昇",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "5299": {
+      "name": "杰力",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5301": {
+      "name": "寶得利",
+      "market": "OTC",
+      "industry": "M29B 貿易業"
+    },
+    "5302": {
+      "name": "太欣",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5306": {
+      "name": "桂盟",
+      "market": "TSE",
+      "industry": "M15E 自行車組件"
+    },
+    "5309": {
+      "name": "系統電",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "5310": {
+      "name": "天剛",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "5312": {
+      "name": "寶島科",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "5314": {
+      "name": "世紀",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5315": {
+      "name": "光聯",
+      "market": "OTC",
+      "industry": "M23C8D LCD-其他"
+    },
+    "5321": {
+      "name": "美而快",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "5324": {
+      "name": "士開",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5328": {
+      "name": "華容",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "5340": {
+      "name": "建榮",
+      "market": "OTC",
+      "industry": "M23B3B 玻纖紗布"
+    },
+    "5344": {
+      "name": "立衛",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "5345": {
+      "name": "天揚",
+      "market": "OTC",
+      "industry": "M23Z 其他電子"
+    },
+    "5347": {
+      "name": "世界",
+      "market": "OTC",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "5348": {
+      "name": "系通",
+      "market": "OTC",
+      "industry": "M23K5 導航定位"
+    },
+    "5351": {
+      "name": "鈺創",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5353": {
+      "name": "台林",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "5355": {
+      "name": "佳總",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "5356": {
+      "name": "協益",
+      "market": "OTC",
+      "industry": "M13B 塑膠製品"
+    },
+    "5364": {
+      "name": "力麗店",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "5371": {
+      "name": "中光電",
+      "market": "OTC",
+      "industry": "M23C8B 背光模組"
+    },
+    "5381": {
+      "name": "合正",
+      "market": "OTC",
+      "industry": "M23B3A 銅箔基板"
+    },
+    "5383": {
+      "name": "金利",
+      "market": "OTC",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "5386": {
+      "name": "青雲",
+      "market": "OTC",
+      "industry": "M23B4A 繪圖卡"
+    },
+    "5388": {
+      "name": "中磊",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "5392": {
+      "name": "能率",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "5398": {
+      "name": "慕康生醫",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "5403": {
+      "name": "中菲",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "5410": {
+      "name": "國眾",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "5425": {
+      "name": "台半",
+      "market": "OTC",
+      "industry": "M23D1 分離式元件"
+    },
+    "5426": {
+      "name": "振發",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "5432": {
+      "name": "新門",
+      "market": "OTC",
+      "industry": "M23C8D LCD-其他"
+    },
+    "5434": {
+      "name": "崇越",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "5438": {
+      "name": "東友",
+      "market": "OTC",
+      "industry": "M23C2 影像掃描"
+    },
+    "5439": {
+      "name": "高技",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "5443": {
+      "name": "均豪",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "5450": {
+      "name": "南良",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "5452": {
+      "name": "佶優",
+      "market": "OTC",
+      "industry": "M23TZ 其他3C代理"
+    },
+    "5455": {
+      "name": "昇益",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5457": {
+      "name": "宣德",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "5460": {
+      "name": "同協",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "5464": {
+      "name": "霖宏",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "5465": {
+      "name": "富驊",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "5468": {
+      "name": "凱鈺",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5469": {
+      "name": "瀚宇博",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "5471": {
+      "name": "松翰",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "5474": {
+      "name": "聰泰",
+      "market": "OTC",
+      "industry": "M23B4B 電視卡"
+    },
+    "5475": {
+      "name": "德宏",
+      "market": "OTC",
+      "industry": "M23B3B 玻纖紗布"
+    },
+    "5478": {
+      "name": "智冠",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "5481": {
+      "name": "新華",
+      "market": "OTC",
+      "industry": "M99ZX 其他服務業"
+    },
+    "5483": {
+      "name": "中美晶",
+      "market": "OTC",
+      "industry": "M23G3C 晶圓材料"
+    },
+    "5484": {
+      "name": "慧友",
+      "market": "TSE",
+      "industry": "M23C9 安全監控"
+    },
+    "5487": {
+      "name": "通泰",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "5488": {
+      "name": "松普",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "5489": {
+      "name": "彩富",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "5490": {
+      "name": "同亨",
+      "market": "OTC",
+      "industry": "M23B5A POS"
+    },
+    "5493": {
+      "name": "三聯",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "5498": {
+      "name": "凱崴",
+      "market": "OTC",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "5508": {
+      "name": "永信建",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5511": {
+      "name": "德昌",
+      "market": "OTC",
+      "industry": "M25B 營造"
+    },
+    "5512": {
+      "name": "力麒",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5514": {
+      "name": "三豐",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5515": {
+      "name": "建國",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "5516": {
+      "name": "雙喜",
+      "market": "OTC",
+      "industry": "M25B 營造"
+    },
+    "5519": {
+      "name": "隆大",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "5520": {
+      "name": "力泰",
+      "market": "OTC",
+      "industry": "M11B 預拌混凝土"
+    },
+    "5521": {
+      "name": "工信",
+      "market": "TSE",
+      "industry": "M25B 營造"
+    },
+    "5522": {
+      "name": "遠雄",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "5523": {
+      "name": "豐謙",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5525": {
+      "name": "順天",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "5529": {
+      "name": "鉅陞",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "5530": {
+      "name": "龍巖",
+      "market": "OTC",
+      "industry": "M25E 靈骨塔業"
+    },
+    "5531": {
+      "name": "鄉林",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "5533": {
+      "name": "皇鼎",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "5534": {
+      "name": "長虹",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "5536": {
+      "name": "聖暉",
+      "market": "OTC",
+      "industry": "M23H1 廠辦機電"
+    },
+    "5538": {
+      "name": "東明-KY",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "5543": {
+      "name": "桓鼎-KY",
+      "market": "OTC",
+      "industry": "M20B 金屬製品"
+    },
+    "5546": {
+      "name": "永固-KY",
+      "market": "TSE",
+      "industry": "M11B 預拌混凝土"
+    },
+    "5601": {
+      "name": "台聯櫃",
+      "market": "OTC",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "5603": {
+      "name": "陸海",
+      "market": "OTC",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "5604": {
+      "name": "中連",
+      "market": "OTC",
+      "industry": "M25F 物業管理"
+    },
+    "5607": {
+      "name": "遠雄港",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "5608": {
+      "name": "四維航",
+      "market": "TSE",
+      "industry": "M26A1 散裝輪"
+    },
+    "5609": {
+      "name": "中菲行",
+      "market": "OTC",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "5701": {
+      "name": "劍湖山",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "5703": {
+      "name": "亞都",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "5704": {
+      "name": "老爺知",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "5706": {
+      "name": "鳳凰",
+      "market": "TSE",
+      "industry": "M27C 旅行社"
+    },
+    "5820": {
+      "name": "日盛金",
+      "market": "OTC",
+      "industry": "M28L 金融控股"
+    },
+    "5864": {
+      "name": "致和證",
+      "market": "OTC",
+      "industry": "M30A 證券"
+    },
+    "5871": {
+      "name": "中租-KY",
+      "market": "TSE",
+      "industry": "M28K 租賃業"
+    },
+    "5876": {
+      "name": "上海商銀",
+      "market": "TSE",
+      "industry": "M28A 本國銀行"
+    },
+    "5878": {
+      "name": "台名",
+      "market": "OTC",
+      "industry": "M28N 保險經紀"
+    },
+    "5880": {
+      "name": "合庫金",
+      "market": "TSE",
+      "industry": "M28L 金融控股"
+    },
+    "5902": {
+      "name": "德記",
+      "market": "OTC",
+      "industry": "M29B 貿易業"
+    },
+    "5903": {
+      "name": "全家",
+      "market": "OTC",
+      "industry": "M29A4 便利商店"
+    },
+    "5904": {
+      "name": "寶雅",
+      "market": "OTC",
+      "industry": "M29A9 其他零售"
+    },
+    "5905": {
+      "name": "南仁湖",
+      "market": "OTC",
+      "industry": "M27B 觀光遊樂區"
+    },
+    "5906": {
+      "name": "台南-KY",
+      "market": "TSE",
+      "industry": "M14C1 成衣製造"
+    },
+    "5907": {
+      "name": "大洋-KY",
+      "market": "TSE",
+      "industry": "M29A1 百貨及Mall"
+    },
+    "6005": {
+      "name": "群益證",
+      "market": "TSE",
+      "industry": "M30A 證券"
+    },
+    "6015": {
+      "name": "宏遠證",
+      "market": "OTC",
+      "industry": "M30A 證券"
+    },
+    "6016": {
+      "name": "康和證",
+      "market": "OTC",
+      "industry": "M30A 證券"
+    },
+    "6020": {
+      "name": "大展證",
+      "market": "OTC",
+      "industry": "M30A 證券"
+    },
+    "6021": {
+      "name": "美好證",
+      "market": "OTC",
+      "industry": "M30A 證券"
+    },
+    "6023": {
+      "name": "元大期",
+      "market": "OTC",
+      "industry": "M30C 期貨"
+    },
+    "6024": {
+      "name": "群益期",
+      "market": "TSE",
+      "industry": "M30C 期貨"
+    },
+    "6026": {
+      "name": "福邦證",
+      "market": "OTC",
+      "industry": "M30A 證券"
+    },
+    "6101": {
+      "name": "寬魚國際",
+      "market": "OTC",
+      "industry": "M99H 電視廣播"
+    },
+    "6103": {
+      "name": "合邦",
+      "market": "OTC",
+      "industry": "M23TZ 其他3C代理"
+    },
+    "6104": {
+      "name": "創惟",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6108": {
+      "name": "競國",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6109": {
+      "name": "亞元",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "6111": {
+      "name": "大宇資",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "6112": {
+      "name": "聚碩",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "6113": {
+      "name": "亞矽",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "6114": {
+      "name": "久威",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6115": {
+      "name": "鎰勝",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "6116": {
+      "name": "彩晶",
+      "market": "TSE",
+      "industry": "M23C8A LCD 面板"
+    },
+    "6117": {
+      "name": "迎廣",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "6118": {
+      "name": "建達",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "6120": {
+      "name": "達運",
+      "market": "TSE",
+      "industry": "M23C8B 背光模組"
+    },
+    "6121": {
+      "name": "新普",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "6122": {
+      "name": "擎邦",
+      "market": "OTC",
+      "industry": "M25B 營造"
+    },
+    "6123": {
+      "name": "上奇",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "6124": {
+      "name": "業強",
+      "market": "OTC",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "6125": {
+      "name": "廣運",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6126": {
+      "name": "信音",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6127": {
+      "name": "九豪",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6128": {
+      "name": "上福",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "6129": {
+      "name": "普誠",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6130": {
+      "name": "星寶國際",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6133": {
+      "name": "金橋",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "6134": {
+      "name": "萬旭",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6136": {
+      "name": "富爾特",
+      "market": "TSE",
+      "industry": "M23TZ 其他3C代理"
+    },
+    "6138": {
+      "name": "茂達",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6139": {
+      "name": "亞翔",
+      "market": "TSE",
+      "industry": "M23H1 廠辦機電"
+    },
+    "6140": {
+      "name": "訊達",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6141": {
+      "name": "柏承",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6142": {
+      "name": "友勁",
+      "market": "TSE",
+      "industry": "M23E2 網路卡"
+    },
+    "6143": {
+      "name": "振曜",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "6144": {
+      "name": "得利影",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "6146": {
+      "name": "耕興",
+      "market": "OTC",
+      "industry": "M23Z 其他電子"
+    },
+    "6147": {
+      "name": "頎邦",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "6148": {
+      "name": "驊宏資",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6150": {
+      "name": "撼訊",
+      "market": "OTC",
+      "industry": "M23B4A 繪圖卡"
+    },
+    "6151": {
+      "name": "晉倫",
+      "market": "OTC",
+      "industry": "M13A8 塑膠加工"
+    },
+    "6152": {
+      "name": "百一",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "6153": {
+      "name": "嘉聯益",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "6154": {
+      "name": "順發",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "6155": {
+      "name": "鈞寶",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "6156": {
+      "name": "松上",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6158": {
+      "name": "禾昌",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6160": {
+      "name": "欣技",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6161": {
+      "name": "捷波",
+      "market": "OTC",
+      "industry": "M23B4A 繪圖卡"
+    },
+    "6163": {
+      "name": "華電網",
+      "market": "OTC",
+      "industry": "M23K1 網通工程"
+    },
+    "6164": {
+      "name": "華興",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "6165": {
+      "name": "浪凡",
+      "market": "TSE",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "6166": {
+      "name": "凌華",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6167": {
+      "name": "久正",
+      "market": "OTC",
+      "industry": "M23C8D LCD-其他"
+    },
+    "6168": {
+      "name": "宏齊",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "6169": {
+      "name": "昱泉",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "6170": {
+      "name": "統振",
+      "market": "OTC",
+      "industry": "M23TZ 其他3C代理"
+    },
+    "6171": {
+      "name": "大城地產",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "6172": {
+      "name": "互億",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "6173": {
+      "name": "信昌電",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6174": {
+      "name": "安碁",
+      "market": "OTC",
+      "industry": "M23D6 石英元件"
+    },
+    "6175": {
+      "name": "立敦",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6176": {
+      "name": "瑞儀",
+      "market": "TSE",
+      "industry": "M23C8B 背光模組"
+    },
+    "6177": {
+      "name": "達麗",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "6179": {
+      "name": "亞通",
+      "market": "OTC",
+      "industry": "M25C 工程承攬"
+    },
+    "6180": {
+      "name": "橘子",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "6182": {
+      "name": "合晶",
+      "market": "OTC",
+      "industry": "M23G3C 晶圓材料"
+    },
+    "6183": {
+      "name": "關貿",
+      "market": "TSE",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "6184": {
+      "name": "大豐電",
+      "market": "TSE",
+      "industry": "M99G 有線電視"
+    },
+    "6185": {
+      "name": "幃翔",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6186": {
+      "name": "新潤",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "6187": {
+      "name": "萬潤",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6188": {
+      "name": "廣明",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "6189": {
+      "name": "豐藝",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "6190": {
+      "name": "萬泰科",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6191": {
+      "name": "精成科",
+      "market": "TSE",
+      "industry": "M23B2B PCB 組裝"
+    },
+    "6192": {
+      "name": "巨路",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "6194": {
+      "name": "育富",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6195": {
+      "name": "詩肯",
+      "market": "OTC",
+      "industry": "M29A9 其他零售"
+    },
+    "6196": {
+      "name": "帆宣",
+      "market": "TSE",
+      "industry": "M23H1 廠辦機電"
+    },
+    "6197": {
+      "name": "佳必琪",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "6198": {
+      "name": "凌泰",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6199": {
+      "name": "天品",
+      "market": "OTC",
+      "industry": "M25E 靈骨塔業"
+    },
+    "6201": {
+      "name": "亞弘電",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "6202": {
+      "name": "盛群",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6203": {
+      "name": "海韻電",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "6204": {
+      "name": "艾華",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6205": {
+      "name": "詮欣",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "6206": {
+      "name": "飛捷",
+      "market": "TSE",
+      "industry": "M23B5A POS"
+    },
+    "6207": {
+      "name": "雷科",
+      "market": "OTC",
+      "industry": "M23D9D 其他零組件"
+    },
+    "6208": {
+      "name": "日揚",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6209": {
+      "name": "今國光",
+      "market": "TSE",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "6210": {
+      "name": "慶生",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6212": {
+      "name": "理銘",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "6213": {
+      "name": "聯茂",
+      "market": "TSE",
+      "industry": "M23B3A 銅箔基板"
+    },
+    "6214": {
+      "name": "精誠",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "6215": {
+      "name": "和椿",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "6216": {
+      "name": "居易",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "6217": {
+      "name": "中探針",
+      "market": "OTC",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "6218": {
+      "name": "豪勉",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6219": {
+      "name": "富旺",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "6220": {
+      "name": "岳豐",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6221": {
+      "name": "晉泰",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6222": {
+      "name": "上揚",
+      "market": "OTC",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "6223": {
+      "name": "旺矽",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6224": {
+      "name": "聚鼎",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "6225": {
+      "name": "天瀚",
+      "market": "TSE",
+      "industry": "M23UZ 消費性電子"
+    },
+    "6226": {
+      "name": "光鼎",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "6227": {
+      "name": "茂綸",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "6228": {
+      "name": "全譜",
+      "market": "OTC",
+      "industry": "M23C2 影像掃描"
+    },
+    "6229": {
+      "name": "研通",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6230": {
+      "name": "尼得科超眾",
+      "market": "TSE",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "6231": {
+      "name": "系微",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "6233": {
+      "name": "旺玖",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6234": {
+      "name": "高僑",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6235": {
+      "name": "華孚",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "6236": {
+      "name": "康呈",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "6237": {
+      "name": "驊訊",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6239": {
+      "name": "力成",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "6240": {
+      "name": "松崗",
+      "market": "OTC",
+      "industry": "M99F 平媒電子報"
+    },
+    "6241": {
+      "name": "易通展",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "6242": {
+      "name": "立康",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "6243": {
+      "name": "迅杰",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6244": {
+      "name": "茂迪",
+      "market": "OTC",
+      "industry": "M23C7C 太陽能電池"
+    },
+    "6245": {
+      "name": "立端",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6246": {
+      "name": "臺龍",
+      "market": "OTC",
+      "industry": "M23C8B 背光模組"
+    },
+    "6247": {
+      "name": "淇譽電",
+      "market": "OTC",
+      "industry": "M23U2 聲學產品"
+    },
+    "6248": {
+      "name": "沛波",
+      "market": "OTC",
+      "industry": "M20A2 鋼筋"
+    },
+    "6251": {
+      "name": "定穎",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6257": {
+      "name": "矽格",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "6259": {
+      "name": "百徽",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "6261": {
+      "name": "久元",
+      "market": "OTC",
+      "industry": "M23G2 IC封測"
+    },
+    "6263": {
+      "name": "普萊德",
+      "market": "OTC",
+      "industry": "M23E2 網路卡"
+    },
+    "6264": {
+      "name": "富裔",
+      "market": "OTC",
+      "industry": "M25A 建設"
+    },
+    "6265": {
+      "name": "方土昶",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "6266": {
+      "name": "泰詠",
+      "market": "OTC",
+      "industry": "M23B2B PCB 組裝"
+    },
+    "6269": {
+      "name": "台郡",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "6270": {
+      "name": "倍微",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "6271": {
+      "name": "同欣電",
+      "market": "TSE",
+      "industry": "M23D1 分離式元件"
+    },
+    "6274": {
+      "name": "台燿",
+      "market": "OTC",
+      "industry": "M23B3A 銅箔基板"
+    },
+    "6275": {
+      "name": "元山",
+      "market": "OTC",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "6276": {
+      "name": "安鈦克",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "6277": {
+      "name": "宏正",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "6278": {
+      "name": "台表科",
+      "market": "TSE",
+      "industry": "M23B2B PCB 組裝"
+    },
+    "6279": {
+      "name": "胡連",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "6281": {
+      "name": "全國電",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "6282": {
+      "name": "康舒",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "6283": {
+      "name": "淳安",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "6284": {
+      "name": "佳邦",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6285": {
+      "name": "啟碁",
+      "market": "TSE",
+      "industry": "M23K2 衛星微波"
+    },
+    "6287": {
+      "name": "元隆",
+      "market": "OTC",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "6288": {
+      "name": "聯嘉",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "6289": {
+      "name": "華上",
+      "market": "TSE",
+      "industry": "M23C6B 磊晶及晶粒"
+    },
+    "6290": {
+      "name": "良維",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6291": {
+      "name": "沛亨",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6292": {
+      "name": "迅德",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "6294": {
+      "name": "智基",
+      "market": "OTC",
+      "industry": "M99ZX 其他服務業"
+    },
+    "6404": {
+      "name": "通訊-KY",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "6405": {
+      "name": "悅城",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "6409": {
+      "name": "旭隼",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "6411": {
+      "name": "晶焱",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6412": {
+      "name": "群電",
+      "market": "TSE",
+      "industry": "M23D3 電源供應器"
+    },
+    "6414": {
+      "name": "樺漢",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6415": {
+      "name": "矽力-KY",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6416": {
+      "name": "瑞祺電通",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "6417": {
+      "name": "韋僑",
+      "market": "OTC",
+      "industry": "M23K2 衛星微波"
+    },
+    "6418": {
+      "name": "詠昇",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "6419": {
+      "name": "京晨科",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "6425": {
+      "name": "易發",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6426": {
+      "name": "統新",
+      "market": "TSE",
+      "industry": "M23K6 光元件模組"
+    },
+    "6431": {
+      "name": "光麗-KY",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "6432": {
+      "name": "今展科",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6435": {
+      "name": "大中",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6438": {
+      "name": "迅得",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "6441": {
+      "name": "廣錠",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "6442": {
+      "name": "光聖",
+      "market": "TSE",
+      "industry": "M23K6 光元件模組"
+    },
+    "6443": {
+      "name": "元晶",
+      "market": "TSE",
+      "industry": "M23C7C 太陽能電池"
+    },
+    "6446": {
+      "name": "藥華藥",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6449": {
+      "name": "鈺邦",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "6451": {
+      "name": "訊芯-KY",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "6456": {
+      "name": "GIS-KY",
+      "market": "TSE",
+      "industry": "M23C8E 觸控面板"
+    },
+    "6457": {
+      "name": "紘康",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6461": {
+      "name": "益得",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6462": {
+      "name": "神盾",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6464": {
+      "name": "台數科",
+      "market": "TSE",
+      "industry": "M99G 有線電視"
+    },
+    "6465": {
+      "name": "威潤",
+      "market": "OTC",
+      "industry": "M23K5 導航定位"
+    },
+    "6469": {
+      "name": "大樹",
+      "market": "OTC",
+      "industry": "M17X 醫藥通路"
+    },
+    "6470": {
+      "name": "宇智",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "6472": {
+      "name": "保瑞",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6477": {
+      "name": "安集",
+      "market": "TSE",
+      "industry": "M23C7D 太陽能模組"
+    },
+    "6482": {
+      "name": "弘煜科",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "6485": {
+      "name": "點序",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6486": {
+      "name": "互動",
+      "market": "OTC",
+      "industry": "M23K1 網通工程"
+    },
+    "6488": {
+      "name": "環球晶",
+      "market": "OTC",
+      "industry": "M23G3C 晶圓材料"
+    },
+    "6491": {
+      "name": "晶碩",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "6492": {
+      "name": "生華科",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6494": {
+      "name": "九齊",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6496": {
+      "name": "科懋",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6499": {
+      "name": "益安",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6504": {
+      "name": "南六",
+      "market": "TSE",
+      "industry": "M14F 不織布"
+    },
+    "6505": {
+      "name": "台塑化",
+      "market": "TSE",
+      "industry": "M13C 輕油製解"
+    },
+    "6506": {
+      "name": "雙邦",
+      "market": "OTC",
+      "industry": "M17F 樹脂"
+    },
+    "6508": {
+      "name": "惠光",
+      "market": "OTC",
+      "industry": "M17C3 農藥肥料"
+    },
+    "6509": {
+      "name": "聚和",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "6510": {
+      "name": "精測",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "6512": {
+      "name": "啟發電",
+      "market": "OTC",
+      "industry": "M23D9D 其他零組件"
+    },
+    "6514": {
+      "name": "芮特-KY",
+      "market": "OTC",
+      "industry": "M23K2 衛星微波"
+    },
+    "6515": {
+      "name": "穎崴",
+      "market": "TSE",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "6516": {
+      "name": "勤崴國際",
+      "market": "OTC",
+      "industry": "M23K5 導航定位"
+    },
+    "6523": {
+      "name": "達爾膚",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "6525": {
+      "name": "捷敏-KY",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "6527": {
+      "name": "明達醫",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6530": {
+      "name": "創威",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "6531": {
+      "name": "愛普*",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6532": {
+      "name": "瑞耘",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6533": {
+      "name": "晶心科",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6535": {
+      "name": "順藥",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6538": {
+      "name": "倉和",
+      "market": "OTC",
+      "industry": "M23C7F 其他太陽能"
+    },
+    "6541": {
+      "name": "泰福-KY",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "6542": {
+      "name": "隆中",
+      "market": "OTC",
+      "industry": "M23X2 遊戲軟體"
+    },
+    "6546": {
+      "name": "正基",
+      "market": "OTC",
+      "industry": "M23K2 衛星微波"
+    },
+    "6547": {
+      "name": "高端疫苗",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6548": {
+      "name": "長科*",
+      "market": "OTC",
+      "industry": "M23G4 IC導線架"
+    },
+    "6550": {
+      "name": "北極星藥業-KY",
+      "market": "TSE",
+      "industry": "M17C1 製藥"
+    },
+    "6552": {
+      "name": "易華電",
+      "market": "TSE",
+      "industry": "M23B2C 軟板"
+    },
+    "6556": {
+      "name": "勝品",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "6558": {
+      "name": "興能高",
+      "market": "TSE",
+      "industry": "M23D7 二次電池"
+    },
+    "6560": {
+      "name": "欣普羅",
+      "market": "OTC",
+      "industry": "M23C9 安全監控"
+    },
+    "6561": {
+      "name": "是方",
+      "market": "OTC",
+      "industry": "M23K3 電信及IDC"
+    },
+    "6568": {
+      "name": "宏觀",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6569": {
+      "name": "醫揚",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6570": {
+      "name": "維田",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6573": {
+      "name": "虹揚-KY",
+      "market": "TSE",
+      "industry": "M23D1 分離式元件"
+    },
+    "6574": {
+      "name": "霈方",
+      "market": "OTC",
+      "industry": "M17Z 其他化學"
+    },
+    "6576": {
+      "name": "逸達",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "6577": {
+      "name": "勁豐",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6578": {
+      "name": "達邦蛋白",
+      "market": "OTC",
+      "industry": "M12B 油脂飼料"
+    },
+    "6579": {
+      "name": "研揚",
+      "market": "TSE",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6581": {
+      "name": "鋼聯",
+      "market": "TSE",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "6582": {
+      "name": "申豐",
+      "market": "TSE",
+      "industry": "M21C 橡膠原料"
+    },
+    "6585": {
+      "name": "鼎基",
+      "market": "TSE",
+      "industry": "M17F 樹脂"
+    },
+    "6588": {
+      "name": "東典光電",
+      "market": "OTC",
+      "industry": "M23K6 光元件模組"
+    },
+    "6589": {
+      "name": "台康生技",
+      "market": "OTC",
+      "industry": "M17H 生物科技"
+    },
+    "6590": {
+      "name": "普鴻",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6591": {
+      "name": "動力-KY",
+      "market": "TSE",
+      "industry": "M23D9B 散熱零組件"
+    },
+    "6592": {
+      "name": "和潤企業",
+      "market": "TSE",
+      "industry": "M28K 租賃業"
+    },
+    "6593": {
+      "name": "台灣銘板",
+      "market": "OTC",
+      "industry": "M23Z 其他電子"
+    },
+    "6594": {
+      "name": "展匯科",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6596": {
+      "name": "寬宏藝術",
+      "market": "OTC",
+      "industry": "M99E 廣告業"
+    },
+    "6598": {
+      "name": "ABC-KY",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "6603": {
+      "name": "富強鑫",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "6605": {
+      "name": "帝寶",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "6609": {
+      "name": "瀧澤科",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "6612": {
+      "name": "奈米醫材",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6613": {
+      "name": "朋億",
+      "market": "OTC",
+      "industry": "M23H1 廠辦機電"
+    },
+    "6615": {
+      "name": "慧智",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6616": {
+      "name": "特昇-KY",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "6624": {
+      "name": "萬年清",
+      "market": "OTC",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "6625": {
+      "name": "必應",
+      "market": "TSE",
+      "industry": "M99H 電視廣播"
+    },
+    "6629": {
+      "name": "泰金-KY",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "6640": {
+      "name": "均華",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6641": {
+      "name": "基士德-KY",
+      "market": "TSE",
+      "industry": "M15Z 其他電製品"
+    },
+    "6642": {
+      "name": "富致",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "6643": {
+      "name": "M31",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6649": {
+      "name": "台生材",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6651": {
+      "name": "全宇昕",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6654": {
+      "name": "天正國際",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6655": {
+      "name": "科定",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "6661": {
+      "name": "威健生技",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6662": {
+      "name": "樂斯科",
+      "market": "OTC",
+      "industry": "M17H 生物科技"
+    },
+    "6664": {
+      "name": "群翊",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6666": {
+      "name": "羅麗芬-KY",
+      "market": "TSE",
+      "industry": "M17Z 其他化學"
+    },
+    "6667": {
+      "name": "信紘科",
+      "market": "OTC",
+      "industry": "M23H1 廠辦機電"
+    },
+    "6668": {
+      "name": "中揚光",
+      "market": "TSE",
+      "industry": "M23U1 光學鏡頭"
+    },
+    "6669": {
+      "name": "緯穎",
+      "market": "TSE",
+      "industry": "M23A2 泛用電腦"
+    },
+    "6670": {
+      "name": "復盛應用",
+      "market": "TSE",
+      "industry": "M99Z2 高爾夫用品"
+    },
+    "6671": {
+      "name": "三能-KY",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "6672": {
+      "name": "騰輝電子-KY",
+      "market": "TSE",
+      "industry": "M23B3A 銅箔基板"
+    },
+    "6674": {
+      "name": "鋐寶科技",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "6679": {
+      "name": "鈺太",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6680": {
+      "name": "鑫創電子",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "6683": {
+      "name": "雍智科技",
+      "market": "OTC",
+      "industry": "M23B2A IC載板"
+    },
+    "6684": {
+      "name": "安格",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6690": {
+      "name": "安碁資訊",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6691": {
+      "name": "洋基工程",
+      "market": "TSE",
+      "industry": "M25C 工程承攬"
+    },
+    "6693": {
+      "name": "廣閎科",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6697": {
+      "name": "東捷資訊",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6698": {
+      "name": "旭暉應材",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "6703": {
+      "name": "軒郁",
+      "market": "OTC",
+      "industry": "M17H 生物科技"
+    },
+    "6706": {
+      "name": "惠特",
+      "market": "TSE",
+      "industry": "M23H2 電機設備"
+    },
+    "6712": {
+      "name": "長聖",
+      "market": "OTC",
+      "industry": "M17H 生物科技"
+    },
+    "6715": {
+      "name": "嘉基",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "6716": {
+      "name": "應廣",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6719": {
+      "name": "力智",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6721": {
+      "name": "信實",
+      "market": "OTC",
+      "industry": "M99ZX 其他服務業"
+    },
+    "6727": {
+      "name": "亞泰金屬",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6728": {
+      "name": "上洋",
+      "market": "OTC",
+      "industry": "M15C1 家電"
+    },
+    "6732": {
+      "name": "昇佳電子",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "6733": {
+      "name": "博晟生醫",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6735": {
+      "name": "美達科技",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6741": {
+      "name": "91APP*-KY",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "6743": {
+      "name": "安普新",
+      "market": "TSE",
+      "industry": "M23U2 聲學產品"
+    },
+    "6747": {
+      "name": "亨泰光",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6751": {
+      "name": "智聯服務",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "6752": {
+      "name": "叡揚",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "6754": {
+      "name": "匯僑設計",
+      "market": "TSE",
+      "industry": "M25C 工程承攬"
+    },
+    "6756": {
+      "name": "威鋒電子",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6761": {
+      "name": "穩得",
+      "market": "OTC",
+      "industry": "M23TZ 其他3C代理"
+    },
+    "6762": {
+      "name": "達亞",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6763": {
+      "name": "綠界科技",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "6767": {
+      "name": "台微醫",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "6768": {
+      "name": "志強-KY",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "6770": {
+      "name": "力積電",
+      "market": "TSE",
+      "industry": "M23G1A 晶圓代工"
+    },
+    "6776": {
+      "name": "展碁國際",
+      "market": "TSE",
+      "industry": "M23T1 3C通路"
+    },
+    "6781": {
+      "name": "AES-KY",
+      "market": "TSE",
+      "industry": "M23D7 二次電池"
+    },
+    "6788": {
+      "name": "華景電",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "6790": {
+      "name": "永豐實",
+      "market": "TSE",
+      "industry": "M19A 造紙"
+    },
+    "6792": {
+      "name": "詠業",
+      "market": "TSE",
+      "industry": "M23D5 被動元件"
+    },
+    "6796": {
+      "name": "晉弘",
+      "market": "TSE",
+      "industry": "M17G 醫療耗材"
+    },
+    "6799": {
+      "name": "來頡",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "6803": {
+      "name": "崑鼎",
+      "market": "OTC",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "6804": {
+      "name": "明係",
+      "market": "OTC",
+      "industry": "M99Z1 自行健行車"
+    },
+    "6806": {
+      "name": "森崴能源",
+      "market": "TSE",
+      "industry": "M25C 工程承攬"
+    },
+    "6807": {
+      "name": "峰源-KY",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "6829": {
+      "name": "千附精密",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "7402": {
+      "name": "邑錡",
+      "market": "OTC",
+      "industry": "M23UZ 消費性電子"
+    },
+    "7556": {
+      "name": "意德士",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "8011": {
+      "name": "台通",
+      "market": "TSE",
+      "industry": "M23K6 光元件模組"
+    },
+    "8016": {
+      "name": "矽創",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "8021": {
+      "name": "尖點",
+      "market": "TSE",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "8024": {
+      "name": "佑華",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "8027": {
+      "name": "鈦昇",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "8028": {
+      "name": "昇陽半導體",
+      "market": "TSE",
+      "industry": "M23G3C 晶圓材料"
+    },
+    "8032": {
+      "name": "光菱",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "8033": {
+      "name": "雷虎",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "8034": {
+      "name": "榮群",
+      "market": "OTC",
+      "industry": "M23K1 網通工程"
+    },
+    "8038": {
+      "name": "長園科",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "8039": {
+      "name": "台虹",
+      "market": "TSE",
+      "industry": "M23B3C FCCL"
+    },
+    "8040": {
+      "name": "九暘",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "8042": {
+      "name": "金山電",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "8043": {
+      "name": "蜜望實",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "8044": {
+      "name": "網家",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "8046": {
+      "name": "南電",
+      "market": "TSE",
+      "industry": "M23B2A IC載板"
+    },
+    "8047": {
+      "name": "星雲",
+      "market": "OTC",
+      "industry": "M23C3 PC週邊"
+    },
+    "8048": {
+      "name": "德勝",
+      "market": "OTC",
+      "industry": "M23E2 網路卡"
+    },
+    "8049": {
+      "name": "晶采",
+      "market": "OTC",
+      "industry": "M23C8D LCD-其他"
+    },
+    "8050": {
+      "name": "廣積",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "8054": {
+      "name": "安國",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "8059": {
+      "name": "凱碩",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "8064": {
+      "name": "東捷",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "8066": {
+      "name": "來思達",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "8067": {
+      "name": "志旭",
+      "market": "OTC",
+      "industry": "M23T1 3C通路"
+    },
+    "8068": {
+      "name": "全達",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "8069": {
+      "name": "元太",
+      "market": "OTC",
+      "industry": "M23C8A LCD 面板"
+    },
+    "8070": {
+      "name": "長華*",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "8071": {
+      "name": "能率網通",
+      "market": "OTC",
+      "industry": "M23D9A 沖壓零組件"
+    },
+    "8072": {
+      "name": "陞泰",
+      "market": "TSE",
+      "industry": "M23C9 安全監控"
+    },
+    "8074": {
+      "name": "鉅橡",
+      "market": "OTC",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "8076": {
+      "name": "伍豐",
+      "market": "OTC",
+      "industry": "M23B5A POS"
+    },
+    "8077": {
+      "name": "洛碁",
+      "market": "OTC",
+      "industry": "M27A1 飯店業"
+    },
+    "8080": {
+      "name": "永利聯合",
+      "market": "OTC",
+      "industry": "M25C 工程承攬"
+    },
+    "8081": {
+      "name": "致新",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "8083": {
+      "name": "瑞穎",
+      "market": "OTC",
+      "industry": "M15A2 模具零件"
+    },
+    "8084": {
+      "name": "巨虹",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "8085": {
+      "name": "福華",
+      "market": "OTC",
+      "industry": "M23C8B 背光模組"
+    },
+    "8086": {
+      "name": "宏捷科",
+      "market": "OTC",
+      "industry": "M23G3A 化合物SEMI"
+    },
+    "8087": {
+      "name": "華鎂鑫",
+      "market": "OTC",
+      "industry": "M23C4A 光碟"
+    },
+    "8088": {
+      "name": "品安",
+      "market": "OTC",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "8089": {
+      "name": "康全電訊",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "8091": {
+      "name": "翔名",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "8092": {
+      "name": "建暐",
+      "market": "OTC",
+      "industry": "M23H2 電機設備"
+    },
+    "8093": {
+      "name": "保銳",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "8096": {
+      "name": "擎亞",
+      "market": "OTC",
+      "industry": "M23T2 零組件代理"
+    },
+    "8097": {
+      "name": "常珵",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "8099": {
+      "name": "大世科",
+      "market": "OTC",
+      "industry": "M23X1 系統整合"
+    },
+    "8101": {
+      "name": "華冠",
+      "market": "TSE",
+      "industry": "M23KX 其他網通"
+    },
+    "8103": {
+      "name": "瀚荃",
+      "market": "TSE",
+      "industry": "M23D2 連接器"
+    },
+    "8104": {
+      "name": "錸寶",
+      "market": "TSE",
+      "industry": "M23C8A LCD 面板"
+    },
+    "8105": {
+      "name": "凌巨",
+      "market": "TSE",
+      "industry": "M23C8D LCD-其他"
+    },
+    "8107": {
+      "name": "大億金茂",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "8109": {
+      "name": "博大",
+      "market": "OTC",
+      "industry": "M23D3 電源供應器"
+    },
+    "8110": {
+      "name": "華東",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "8111": {
+      "name": "立碁",
+      "market": "OTC",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "8112": {
+      "name": "至上",
+      "market": "TSE",
+      "industry": "M23T2 零組件代理"
+    },
+    "8114": {
+      "name": "振樺電",
+      "market": "TSE",
+      "industry": "M23B5A POS"
+    },
+    "8121": {
+      "name": "越峰",
+      "market": "OTC",
+      "industry": "M23D5 被動元件"
+    },
+    "8131": {
+      "name": "福懋科",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "8147": {
+      "name": "正淩",
+      "market": "OTC",
+      "industry": "M23D2 連接器"
+    },
+    "8150": {
+      "name": "南茂",
+      "market": "TSE",
+      "industry": "M23G2 IC封測"
+    },
+    "8155": {
+      "name": "博智",
+      "market": "OTC",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "8163": {
+      "name": "達方",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "8171": {
+      "name": "天宇",
+      "market": "OTC",
+      "industry": "M23D7 二次電池"
+    },
+    "8176": {
+      "name": "智捷",
+      "market": "OTC",
+      "industry": "M23E1 數據機"
+    },
+    "8182": {
+      "name": "加高",
+      "market": "OTC",
+      "industry": "M23D6 石英元件"
+    },
+    "8183": {
+      "name": "精星",
+      "market": "OTC",
+      "industry": "M23B2B PCB 組裝"
+    },
+    "8201": {
+      "name": "無敵",
+      "market": "TSE",
+      "industry": "M23Z 其他電子"
+    },
+    "8210": {
+      "name": "勤誠",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "8213": {
+      "name": "志超",
+      "market": "TSE",
+      "industry": "M23B2D 硬板及其他"
+    },
+    "8215": {
+      "name": "明基材",
+      "market": "TSE",
+      "industry": "M23C8C LCD 原料"
+    },
+    "8222": {
+      "name": "寶一",
+      "market": "TSE",
+      "industry": "M22B3 航空器製造"
+    },
+    "8234": {
+      "name": "新漢",
+      "market": "OTC",
+      "industry": "M23B5B 工業電腦"
+    },
+    "8240": {
+      "name": "華宏",
+      "market": "OTC",
+      "industry": "M23C8C LCD 原料"
+    },
+    "8249": {
+      "name": "菱光",
+      "market": "TSE",
+      "industry": "M23C2 影像掃描"
+    },
+    "8255": {
+      "name": "朋程",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "8261": {
+      "name": "富鼎",
+      "market": "TSE",
+      "industry": "M23G5 IC設計"
+    },
+    "8271": {
+      "name": "宇瞻",
+      "market": "TSE",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "8277": {
+      "name": "商丞",
+      "market": "OTC",
+      "industry": "M23G3B 記憶體模組"
+    },
+    "8279": {
+      "name": "生展",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "8284": {
+      "name": "三竹",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "8289": {
+      "name": "泰藝",
+      "market": "OTC",
+      "industry": "M23D6 石英元件"
+    },
+    "8291": {
+      "name": "尚茂",
+      "market": "OTC",
+      "industry": "M23B3A 銅箔基板"
+    },
+    "8299": {
+      "name": "群聯",
+      "market": "OTC",
+      "industry": "M23G5 IC設計"
+    },
+    "8341": {
+      "name": "日友",
+      "market": "TSE",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8342": {
+      "name": "益張",
+      "market": "OTC",
+      "industry": "M20A9 金屬加工"
+    },
+    "8349": {
+      "name": "恒耀",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "8354": {
+      "name": "冠好",
+      "market": "OTC",
+      "industry": "M13A9 膠帶"
+    },
+    "8358": {
+      "name": "金居",
+      "market": "OTC",
+      "industry": "M23B3X PCB材-其他"
+    },
+    "8367": {
+      "name": "建新國際",
+      "market": "TSE",
+      "industry": "M26C 貨運倉儲業"
+    },
+    "8374": {
+      "name": "羅昇",
+      "market": "TSE",
+      "industry": "M15A2 模具零件"
+    },
+    "8383": {
+      "name": "千附",
+      "market": "OTC",
+      "industry": "M23H1 廠辦機電"
+    },
+    "8390": {
+      "name": "金益鼎",
+      "market": "OTC",
+      "industry": "M99L1 貴金屬回收"
+    },
+    "8401": {
+      "name": "白紗科",
+      "market": "OTC",
+      "industry": "M99C 印刷"
+    },
+    "8403": {
+      "name": "盛弘",
+      "market": "OTC",
+      "industry": "M17X 醫藥通路"
+    },
+    "8404": {
+      "name": "百和興業-KY",
+      "market": "TSE",
+      "industry": "M14Z 其他紡織"
+    },
+    "8409": {
+      "name": "商之器",
+      "market": "OTC",
+      "industry": "M17G 醫療耗材"
+    },
+    "8410": {
+      "name": "森田",
+      "market": "OTC",
+      "industry": "M23D4 機殼"
+    },
+    "8411": {
+      "name": "福貞-KY",
+      "market": "TSE",
+      "industry": "M20B 金屬製品"
+    },
+    "8415": {
+      "name": "大國鋼",
+      "market": "OTC",
+      "industry": "M20A1 線材"
+    },
+    "8416": {
+      "name": "實威",
+      "market": "OTC",
+      "industry": "M23X9 應用軟體"
+    },
+    "8418": {
+      "name": "捷必勝-KY",
+      "market": "OTC",
+      "industry": "M15B1 電機"
+    },
+    "8420": {
+      "name": "明揚",
+      "market": "OTC",
+      "industry": "M99Z2 高爾夫用品"
+    },
+    "8421": {
+      "name": "旭源",
+      "market": "OTC",
+      "industry": "M13B 塑膠製品"
+    },
+    "8422": {
+      "name": "可寧衛",
+      "market": "TSE",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8423": {
+      "name": "保綠-KY",
+      "market": "OTC",
+      "industry": "M21C 橡膠原料"
+    },
+    "8424": {
+      "name": "惠普",
+      "market": "OTC",
+      "industry": "M11C 其他水泥"
+    },
+    "8426": {
+      "name": "紅木-KY",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "8429": {
+      "name": "金麗-KY",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "8431": {
+      "name": "匯鑽科",
+      "market": "OTC",
+      "industry": "M23C4B 硬碟磁碟"
+    },
+    "8432": {
+      "name": "東生華",
+      "market": "OTC",
+      "industry": "M17C1 製藥"
+    },
+    "8433": {
+      "name": "弘帆",
+      "market": "OTC",
+      "industry": "M29B 貿易業"
+    },
+    "8435": {
+      "name": "鉅邁",
+      "market": "OTC",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8436": {
+      "name": "大江",
+      "market": "OTC",
+      "industry": "M17C2 機能性食品"
+    },
+    "8437": {
+      "name": "大地-KY",
+      "market": "OTC",
+      "industry": "M99ZX 其他服務業"
+    },
+    "8438": {
+      "name": "昶昕",
+      "market": "TSE",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8440": {
+      "name": "綠電",
+      "market": "OTC",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8442": {
+      "name": "威宏-KY",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "8443": {
+      "name": "阿瘦",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "8444": {
+      "name": "綠河-KY",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "8446": {
+      "name": "華研",
+      "market": "OTC",
+      "industry": "M99ZX 其他服務業"
+    },
+    "8450": {
+      "name": "霹靂",
+      "market": "OTC",
+      "industry": "M99H 電視廣播"
+    },
+    "8454": {
+      "name": "富邦媒",
+      "market": "TSE",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "8455": {
+      "name": "大拓-KY",
+      "market": "OTC",
+      "industry": "M15A1 工具機"
+    },
+    "8462": {
+      "name": "柏文",
+      "market": "TSE",
+      "industry": "M99ZX 其他服務業"
+    },
+    "8463": {
+      "name": "潤泰材",
+      "market": "TSE",
+      "industry": "M11A 水泥製造"
+    },
+    "8464": {
+      "name": "億豐",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "8466": {
+      "name": "美吉吉-KY",
+      "market": "TSE",
+      "industry": "M13B 塑膠製品"
+    },
+    "8467": {
+      "name": "波力-KY",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "8472": {
+      "name": "夠麻吉",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "8473": {
+      "name": "山林水",
+      "market": "TSE",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8476": {
+      "name": "台境",
+      "market": "OTC",
+      "industry": "M99L2 廢棄物處理"
+    },
+    "8477": {
+      "name": "創業家",
+      "market": "OTC",
+      "industry": "M23K4 電商及XaaS"
+    },
+    "8478": {
+      "name": "東哥遊艇",
+      "market": "TSE",
+      "industry": "M22B1 船舶製造"
+    },
+    "8480": {
+      "name": "泰昇-KY",
+      "market": "TSE",
+      "industry": "M14F 不織布"
+    },
+    "8481": {
+      "name": "政伸",
+      "market": "TSE",
+      "industry": "M99C 印刷"
+    },
+    "8482": {
+      "name": "商億-KY",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "8488": {
+      "name": "吉源-KY",
+      "market": "TSE",
+      "industry": "M20B 金屬製品"
+    },
+    "8489": {
+      "name": "三貝德",
+      "market": "OTC",
+      "industry": "M99ZX 其他服務業"
+    },
+    "8499": {
+      "name": "鼎炫-KY",
+      "market": "TSE",
+      "industry": "M23Z 其他電子"
+    },
+    "8905": {
+      "name": "裕國",
+      "market": "OTC",
+      "industry": "M12A 罐頭加工"
+    },
+    "8906": {
+      "name": "花王",
+      "market": "OTC",
+      "industry": "M99C 印刷"
+    },
+    "8908": {
+      "name": "欣雄",
+      "market": "OTC",
+      "industry": "M99D2 天然氣"
+    },
+    "8916": {
+      "name": "光隆",
+      "market": "OTC",
+      "industry": "M14C1 成衣製造"
+    },
+    "8917": {
+      "name": "欣泰",
+      "market": "OTC",
+      "industry": "M99D2 天然氣"
+    },
+    "8921": {
+      "name": "沈氏",
+      "market": "OTC",
+      "industry": "M99C 印刷"
+    },
+    "8923": {
+      "name": "時報",
+      "market": "OTC",
+      "industry": "M99F 平媒電子報"
+    },
+    "8924": {
+      "name": "大田",
+      "market": "OTC",
+      "industry": "M99Z2 高爾夫用品"
+    },
+    "8926": {
+      "name": "台汽電",
+      "market": "TSE",
+      "industry": "M99D3 汽電共生"
+    },
+    "8927": {
+      "name": "北基",
+      "market": "OTC",
+      "industry": "M99D1 加油站"
+    },
+    "8928": {
+      "name": "鉅明",
+      "market": "OTC",
+      "industry": "M99Z2 高爾夫用品"
+    },
+    "8929": {
+      "name": "富堡",
+      "market": "OTC",
+      "industry": "M14F 不織布"
+    },
+    "8930": {
+      "name": "青鋼",
+      "market": "OTC",
+      "industry": "M20B 金屬製品"
+    },
+    "8931": {
+      "name": "大汽電",
+      "market": "OTC",
+      "industry": "M99D3 汽電共生"
+    },
+    "8932": {
+      "name": "宏大",
+      "market": "OTC",
+      "industry": "M14Z 其他紡織"
+    },
+    "8933": {
+      "name": "愛地雅",
+      "market": "OTC",
+      "industry": "M99Z1 自行健行車"
+    },
+    "8935": {
+      "name": "邦泰",
+      "market": "OTC",
+      "industry": "M13B 塑膠製品"
+    },
+    "8936": {
+      "name": "國統",
+      "market": "OTC",
+      "industry": "M20B 金屬製品"
+    },
+    "8937": {
+      "name": "合騏",
+      "market": "OTC",
+      "industry": "M22A 汽車製造"
+    },
+    "8938": {
+      "name": "明安",
+      "market": "OTC",
+      "industry": "M99Z2 高爾夫用品"
+    },
+    "8940": {
+      "name": "新天地",
+      "market": "TSE",
+      "industry": "M27A2 餐飲業"
+    },
+    "8941": {
+      "name": "關中",
+      "market": "OTC",
+      "industry": "M99B 五金及家具"
+    },
+    "8942": {
+      "name": "森鉅",
+      "market": "OTC",
+      "industry": "M13A8 塑膠加工"
+    },
+    "8996": {
+      "name": "高力",
+      "market": "TSE",
+      "industry": "M20A9 金屬加工"
+    },
+    "9103": {
+      "name": "2 康師傅-DR",
+      "market": "TSE",
+      "industry": "M12Z 其他食品"
+    },
+    "9105": {
+      "name": "泰金寶-DR",
+      "market": "TSE",
+      "industry": "M23C3 PC週邊"
+    },
+    "9108": {
+      "name": "1 神州-DR",
+      "market": "TSE",
+      "industry": "M23X1 系統整合"
+    },
+    "9110": {
+      "name": "越南控-DR",
+      "market": "TSE",
+      "industry": "M22B2 機車製造"
+    },
+    "9116": {
+      "name": "2 泰聚亨-DR",
+      "market": "TSE",
+      "industry": "M20A1 線材"
+    },
+    "9118": {
+      "name": "8 同方友友-DR",
+      "market": "TSE",
+      "industry": "M23C6C 封裝及應用"
+    },
+    "9120": {
+      "name": "0 晨訊科-DR",
+      "market": "TSE",
+      "industry": "M23E1 數據機"
+    },
+    "9136": {
+      "name": "巨騰-DR",
+      "market": "TSE",
+      "industry": "M23D4 機殼"
+    },
+    "9802": {
+      "name": "鈺齊-KY",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "9902": {
+      "name": "台火",
+      "market": "TSE",
+      "industry": "M99ZC 其他製造業"
+    },
+    "9904": {
+      "name": "寶成",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "9905": {
+      "name": "大華",
+      "market": "TSE",
+      "industry": "M20B 金屬製品"
+    },
+    "9906": {
+      "name": "欣巴巴",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "9907": {
+      "name": "統一實",
+      "market": "TSE",
+      "industry": "M20B 金屬製品"
+    },
+    "9908": {
+      "name": "大台北",
+      "market": "TSE",
+      "industry": "M99D2 天然氣"
+    },
+    "9910": {
+      "name": "豐泰",
+      "market": "TSE",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "9911": {
+      "name": "櫻花",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "9912": {
+      "name": "偉聯",
+      "market": "TSE",
+      "industry": "M23C1 顯示器"
+    },
+    "9914": {
+      "name": "美利達",
+      "market": "TSE",
+      "industry": "M99Z1 自行健行車"
+    },
+    "9917": {
+      "name": "中保科",
+      "market": "TSE",
+      "industry": "M99I 保全業"
+    },
+    "9918": {
+      "name": "欣天然",
+      "market": "TSE",
+      "industry": "M99D2 天然氣"
+    },
+    "9919": {
+      "name": "康那香",
+      "market": "TSE",
+      "industry": "M14F 不織布"
+    },
+    "9921": {
+      "name": "巨大",
+      "market": "TSE",
+      "industry": "M99Z1 自行健行車"
+    },
+    "9924": {
+      "name": "福興",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "9925": {
+      "name": "新保",
+      "market": "TSE",
+      "industry": "M99I 保全業"
+    },
+    "9926": {
+      "name": "新海",
+      "market": "TSE",
+      "industry": "M99D2 天然氣"
+    },
+    "9927": {
+      "name": "泰銘",
+      "market": "TSE",
+      "industry": "M20A5 鋁鋅"
+    },
+    "9928": {
+      "name": "中視",
+      "market": "TSE",
+      "industry": "M99H 電視廣播"
+    },
+    "9929": {
+      "name": "秋雨",
+      "market": "TSE",
+      "industry": "M99C 印刷"
+    },
+    "9930": {
+      "name": "中聯資源",
+      "market": "TSE",
+      "industry": "M11C 其他水泥"
+    },
+    "9931": {
+      "name": "欣高",
+      "market": "TSE",
+      "industry": "M99D2 天然氣"
+    },
+    "9933": {
+      "name": "中鼎",
+      "market": "TSE",
+      "industry": "M25C 工程承攬"
+    },
+    "9934": {
+      "name": "成霖",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "9935": {
+      "name": "慶豐富",
+      "market": "TSE",
+      "industry": "M99B 五金及家具"
+    },
+    "9937": {
+      "name": "全國",
+      "market": "TSE",
+      "industry": "M99D1 加油站"
+    },
+    "9938": {
+      "name": "百和",
+      "market": "TSE",
+      "industry": "M14Z 其他紡織"
+    },
+    "9939": {
+      "name": "宏全",
+      "market": "TSE",
+      "industry": "M13B 塑膠製品"
+    },
+    "9940": {
+      "name": "信義",
+      "market": "TSE",
+      "industry": "M25D 仲介建經"
+    },
+    "9941": {
+      "name": "裕融",
+      "market": "TSE",
+      "industry": "M28K 租賃業"
+    },
+    "9942": {
+      "name": "茂順",
+      "market": "TSE",
+      "industry": "M15D 汽車組件"
+    },
+    "9943": {
+      "name": "好樂迪",
+      "market": "TSE",
+      "industry": "M27B 觀光遊樂區"
+    },
+    "9944": {
+      "name": "新麗",
+      "market": "TSE",
+      "industry": "M14F 不織布"
+    },
+    "9945": {
+      "name": "潤泰新",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "9946": {
+      "name": "三發地產",
+      "market": "TSE",
+      "industry": "M25A 建設"
+    },
+    "9949": {
+      "name": "琉園",
+      "market": "OTC",
+      "industry": "M18 玻璃陶瓷"
+    },
+    "9950": {
+      "name": "萬國通",
+      "market": "OTC",
+      "industry": "M99K 鞋及旅行箱"
+    },
+    "9951": {
+      "name": "皇田",
+      "market": "OTC",
+      "industry": "M15D 汽車組件"
+    },
+    "9955": {
+      "name": "佳龍",
+      "market": "TSE",
+      "industry": "M99L1 貴金屬回收"
+    },
+    "9958": {
+      "name": "世紀鋼",
+      "market": "TSE",
+      "industry": "M20A2 鋼筋"
+    },
+    "9960": {
+      "name": "邁達康",
+      "market": "OTC",
+      "industry": "M29A9 其他零售"
+    },
+    "9962": {
+      "name": "有益",
+      "market": "OTC",
+      "industry": "M20A6 不鏽鋼"
+    }
+  }

@@ -42,11 +42,6 @@
 			<embed class="box tv-chart" id="tv-chart4">
 			</embed> -->
       </div>
-      <!-- buttons
-      <a id="btn">&#128077; Like</a>
-      <a id="btn">&#128078; Dislike</a>
-      <a id="btn">&#129529; Exclude</a>
-    -->
     </div>
     <div>
       <button id="btnPrev2" accesskey="2">Prev</button>
@@ -83,7 +78,10 @@
     //create box
     for (let idx = 0; idx < col * row; idx++) {
       $(".grid").append(
-        `<embed class="box tv-chart" id="tv-chart${idx}"></embed>`
+        `<article class="box tv-chart" id="tv-chart${idx}"></article>
+          <a id="btn">&#128077; Like</a>
+          <a id="btn">&#128078; Dislike</a>
+          <a id="btn">&#129529; Exclude</a>`
       );
     }
     $("#btnNext").click(function (e) {
@@ -159,7 +157,7 @@
         enableAutoplay(12000, false);
       } else disableAutoplay();
     });
-    const loadChart = (symbol, container_id) => {
+    const loadChart = (symbol, containerId) => {
       new TradingView.widget({
         autosize: true,
         symbol: symbol,
@@ -177,7 +175,7 @@
         show_popup_button: false, //not allow change symobl
         popup_width: "1000",
         popup_height: "650",
-        container_id: container_id,
+        container_id: containerId,
         studies: [
           { id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
           { id: "MASimple@tv-basicstudies", inputs: { length: 21 } },

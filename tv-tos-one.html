@@ -20,7 +20,7 @@
     <style type="text/css">
       .btn-bar{
         float: left;
-        margin-top: -2em;
+        margin-bottom: 0em;
       }
     </style>
   </head>
@@ -77,11 +77,11 @@
     //create box
     for (let idx = 0; idx < col * row; idx++) {
       $(".grid").append(
-        `<article class="box tv-chart" id="tv-chart${idx}"></article>
-          <div class="btn-bar">
+        `<div class="btn-bar">
           <a class="btn">&#128077; Like</a>
           <a class="btn">&#128078; Dislike</a>
-          <a class="btn">&#129529; Exclude</a> </div>`
+          <a class="btn">&#129529; Exclude</a> </div>
+        <article class="box tv-chart" id="tv-chart${idx}"></article>`
       );
     }
     $("#btnNext").click(function (e) {
@@ -94,7 +94,7 @@
         if (idxName < names.length) {
           setTimeout(() => {
             //delay seconds to reduce cpu load
-            //loadChart(names[idxName++], $(this)[0].id);
+            //loadChart(names[idxName++], $(this)[0].id); //to be enabled
             $("#spnCnt").text(idxName + " / " + names.length);
           }, 1000 * i);
         } //end of list

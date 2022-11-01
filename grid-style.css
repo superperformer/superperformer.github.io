@@ -74,13 +74,16 @@ a:hover {
 .grid.grid-5-4 .box { width: 19.8%; height: 24.8vh; }
 .grid.grid-5-5 .box { width: 19.8%; height: 19.8vh; }
 
+.footer{
+  clear: both;
+}
 /* TODO: 透明最上層按鈕*/
 .btn{
 	display: inline-block;
 	border: 2px white solid;
 	border-radius: 10px;
 	margin: 0 3px 0 3px;
-	padding: 20px;
+	padding: 5px;
 	font-family: "Microsoft JhengHei",serif;  /* 微軟正黑體 */
 	text-align: center;
 	cursor: pointer;

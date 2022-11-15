@@ -93,16 +93,16 @@
         </div>
     </nav>
     <script>
-      (function() {
+      (async function() {
         const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
         var idxName = 0;
         var names = {};
-        let twIndustry;
-        fetch('./tw-industry.json')
-        .then((response) => response.json())
-        .then((json) => {//console.log(json)
-          twIndustry = json;
-        });
+        let twIndustry = await loadIndustry();
+        // fetch('./tw-industry.json')
+        // .then((response) => response.json())
+        // .then((json) => {//console.log(json)
+        //   twIndustry = json;
+        // });
         //load from query string if any
         const qprm = new Proxy(new URLSearchParams(window.location.search), {
                         get: (searchParams, prop) => searchParams.get(prop),
@@ -217,6 +217,13 @@
                     hideAfter: 6000
                 });
         };
+        async function loadIndustry(){
+          fetch('./tw-industry.json')
+            .then((response) => response.json())
+            .then((json) => {//console.log(json)
+              return json;
+            });
+        }
         //AUTO LOAD
         $('#btnNext').click();
       })();

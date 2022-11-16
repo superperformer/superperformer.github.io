@@ -149,6 +149,7 @@
               }
               else//end of list
               {
+                $(this).prev().text(''); //clear title
                 $(this).attr("src", ""); //clear src
                 showMsg('info','End of list');
               }

@@ -141,7 +141,7 @@
             $('iframe').each(function (i, obj) {
               if (idxNameKeep < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load
-                  $(this).prev().text(names[idxName] + ' ' +twIndustry[names[idxName]].industry);
+                  $(this).prev().text(names[idxName] + ' ' + twIndustry[names[idxName]]?twIndustry[names[idxName]].industry: '');
                   $(this).attr("src", chartUri + names[idxName++]);
                   $("#spnCnt").text(idxName + " / " + names.length);
                 }, 1000 * i);

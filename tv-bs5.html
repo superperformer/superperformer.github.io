@@ -235,7 +235,9 @@
             });
         }
         //AUTO LOAD
-        $('#btnNext').click();
+        setTimeout(() => { //delay seconds to wait for industry loading
+          $('#btnNext').click();
+        }, 3000 );
       })();
     </script>
 </body>

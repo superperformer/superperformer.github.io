@@ -136,6 +136,10 @@
             console.log(names);
           }
           if (names && names.length > 0) {
+            if (idxName > names.length-1){
+              showMsg('info','End of list');
+              return; //no more process
+            }
             //keep idxName for max limit
             let idxNameKeep = idxName;
             $('iframe').each(function (i, obj) {

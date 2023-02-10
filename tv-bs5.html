@@ -168,15 +168,18 @@
         $('#btnPrev').click(function(e){
           if (idxName > $("iframe").length - 1)
           {
+            //substract idxName
             idxName = idxName - $("iframe").length;
-            $('iframe').each(function(i, obj) {
-              if (idxName < names.length){
-                setTimeout(() => { //delay seconds to reduce cpu load
-                  $(this).attr("src", chartUri + names[idxName++]);
-                  $("#spnCnt").text(idxName + " / " + names.length);
-                }, 1000 * i);
-              }
-            });
+            //load by auto click
+            $('#btnNext').click();
+            // $('iframe').each(function(i, obj) {
+            //   if (idxName < names.length){
+            //     setTimeout(() => { //delay seconds to reduce cpu load
+            //       $(this).attr("src", chartUri + names[idxName++]);
+            //       $("#spnCnt").text(idxName + " / " + names.length);
+            //     }, 1000 * i);
+            //   }
+            // });
           }
           else {
             showMsg('info','No previous one');

@@ -166,9 +166,9 @@
           }
         });
         $('#btnPrev').click(function(e){
-          if (idxName >= $("iframe").length * 2)
+          if (idxName > $("iframe").length - 1)
           {
-            idxName = idxName - $("iframe").length * 2;
+            idxName = idxName - $("iframe").length;
             $('iframe').each(function(i, obj) {
               if (idxName < names.length){
                 setTimeout(() => { //delay seconds to reduce cpu load

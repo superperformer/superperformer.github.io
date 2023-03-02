@@ -16,6 +16,13 @@
         $("#txtNames").val(storedNames);
       }
     }
+    //set row number from prm
+    if (qprm.row) {
+      if (qprm.row == 1)
+        $(".container>.grid").removeClass("grid-1-2").addClass("grid-1-1");
+      else if (qprm.row == 3)
+        $(".container>.grid").removeClass("grid-1-2").addClass("grid-1-3");
+    }
     $("#btnNext").click(function (e) {
       //get symbols
       if ($.isEmptyObject(names)) {
@@ -64,7 +71,15 @@
         localStorage.setItem("watchlistTOS", $("#txtNames").val());
       }
     });
-    const loadChart = (symbol, container_id) => {
+    $("#btnNext2").click(function (e) {
+      $("#btnNext").click();
+      $("html, body").scrollTop(0);
+    });
+    $("#btnPrev2").click(function (e) {
+      $("#btnPrev").click();
+      $("html, body").scrollTop(0);
+    });
+    const loadChart = (symbol, containerId) => {
       new TradingView.widget({
         autosize: true,
         symbol: symbol,
@@ -82,7 +97,7 @@
         show_popup_button: false, //not allow change symobl
         popup_width: "1000",
         popup_height: "650",
-        container_id: container_id,
+        container_id: containerId,
         studies: [
           { id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
           { id: "MASimple@tv-basicstudies", inputs: { length: 21 } },

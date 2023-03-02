@@ -83,6 +83,28 @@
       $("#btnPrev").click();
       $("html, body").scrollTop(0);
     });
+    //autoplay: setinterval/clearinterval
+    let isAutoPlay;
+    const enableAutoplay = (delay, isCycle) => {
+      if (!isAutoPlay)
+        isAutoPlay = setInterval(function () {
+          if (idxName < names.length) $("#btnNext").click();
+          else if (isCycle) {
+            //cycle mode
+            //reset idxname
+            idxName = 0;
+            $("#btnNext").click();
+          }
+        }, delay);
+    };
+    const disableAutoplay = () => {
+      if (isAutoPlay) clearInterval(isAutoPlay);
+    };
+    $("#cbxAutoplay").change(function () {
+      if (this.checked) {
+        enableAutoplay(12000, false);
+      } else disableAutoplay();
+    });
     const loadChart = (symbol, containerId) => {
       new TradingView.widget({
         autosize: true,

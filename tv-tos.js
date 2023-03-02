@@ -28,6 +28,10 @@
       if ($.isEmptyObject(names)) {
         names = $("#txtNames").val().split(",");
       }
+      if (idxName > names.length - 1) {
+        console.log("end of list");
+        return; //no more process
+      }
       //keep idxName for max limit
       let idxNameKeep = idxName;
       //load first

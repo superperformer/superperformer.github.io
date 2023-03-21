@@ -1,0 +1,126 @@
+<html lang="en">
+  <head>
+    <title>TV Grid</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="grid-style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div>
+        <button id="btnPrev" accesskey="2" @click="prevChart">Prev</button>
+        <input type="text" v-model="symbols" id="txtNames" />
+        <button id="btnNext" accesskey="1" @click="nextChart">
+          &nbsp;&nbsp;&nbsp; Next &nbsp;&nbsp;&nbsp;
+        </button>
+        <span id="spnCnt">{{currentChart}} / {{totalCharts}}</span>
+      </div>
+      <div class="container">
+        <div class="grid" :class="`grid-1-${currentRow}`">
+          <article
+            class="box tv-chart"
+            :id="`tv-chart${i + 1}`"
+            v-for="(item, i) in chartIds"
+            :key="i"
+          ></article>
+        </div>
+      </div>
+      <div>
+        <button id="btnPrev2" accesskey="2" @click="prevChart">Prev</button>
+        <button id="btnNext2" @click="nextChart">
+          &nbsp;&nbsp;&nbsp; Next &nbsp;&nbsp;&nbsp;
+        </button>
+        <span id="spnCnt">{{currentChart}} / {{totalCharts}}</span>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+  <script>
+    const app = new Vue({
+      el: "#app",
+      data: {
+        symbols: "",
+        chartIds: ["tv-chart1", "tv-chart2", "tv-chart3", "tv-chart4"],
+        currentRow: 2,
+        currentChart: 0,
+        totalCharts: 0,
+        interval: null,
+      },
+      mounted() {
+        //this.loadFromStorage();
+        //this.loadFromQueryParams();
+      },
+      methods: {
+        nextChart() {
+          const symbols = this.symbols.split(",");
+          if (!symbols.length) {
+            console.log("No symbols found");
+            return;
+          }
+
+          const charts = document.querySelectorAll(".tv-chart");
+          const delay = 1500;
+          let idxNameKeep = this.currentChart;
+
+          charts.forEach((chart, i) => {
+            if (idxNameKeep < symbols.length) {
+              setTimeout(() => {
+                this.loadChart(symbols[idxNameKeep], chart.id);
+                idxNameKeep++;
+                this.currentChart++;
+                this.updateCount();
+              }, delay * i);
+            } else {
+              chart.innerHTML = ""; //clear
+              console.log("End of the list");
+            }
+          });
+
+          if (this.interval) clearInterval(this.interval);
+        },
+        prevChart() {
+          const symbols = this.symbols.split(",");
+          if (!symbols.length) {
+            console.log("No symbols found");
+            return;
+          }
+
+          if (this.currentChart >= this.chartIds.length * 2) {
+            this.currentChart -= this.chartIds.length * 2;
+
+            const charts = document.querySelectorAll(".tv-chart");
+            const delay = 1000;
+            let idxNameKeep = this.currentChart;
+
+            charts.forEach((chart, i) => {
+              if (idxNameKeep < symbols.length) {
+                setTimeout(() => {
+                  this.loadChart(symbols[idxNameKeep], chart.id);
+                  idxNameKeep++;
+                  this.currentChart++;
+                  this.updateCount();
+                }, delay * i);
+              }
+            });
+          } else {
+            console.log("No previous ones");
+          }
+          if (this.interval) clearInterval(this.interval);
+        },
+        updateCount() {
+          this.totalCharts = this.symbols.split(",").length;
+        },
+        loadChart(symbol, containerId) {
+          const container = document.getElementById(containerId);
+          if (!container) return;
+          container.innerHTML = "Loading...";
+          // Simulate chart load delay
+          setTimeout(() => {
+            container.innerHTML = `<p>${symbol}</p>`;
+          }, 1500);
+        },
+      }, //end of methods
+    });
+  </script>
+</html>

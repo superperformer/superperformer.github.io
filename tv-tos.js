@@ -123,6 +123,9 @@
         show_popup_button: false, //not allow change symobl
         popup_width: "1000",
         popup_height: "650",
+        calendar: true, //TEST PRM
+        details: true,
+        hotlist: true,
         container_id: containerId,
         studies: [
           { id: "MASimple@tv-basicstudies", inputs: { length: 200 } },

@@ -1,3 +1,10 @@
+//======
+//GET cnyes mbly
+https://ws.api.cnyes.com/ws/api/v1/charting/history?resolution=D&symbol=USS:MBLY:STOCK&from=1682084435&to=1642772375
+上市
+https://ws.api.cnyes.com/ws/api/v1/charting/history?resolution=D&symbol=TWS:2330:STOCK&from=1682084730&to=1642772670
+上櫃
+https://ws.api.cnyes.com/ws/api/v1/charting/history?resolution=D&symbol=TWS:4503:STOCK&from=1682084858&to=1642772798
 //MSN MONEY
 //GET STOCKID
 https://services.bingapis.com/contentservices-finance.csautosuggest/api/v1/Query?query=TSLA&market=en-us&count=3
@@ -7,6 +14,13 @@ https://assets.msn.com/service/Finance/Charts?apikey=0QfOX3Vn51YCzitbLaRkTTBadtW
 
 //get one year DIS
 https://assets.msn.com/service/Finance/Charts?apikey=0QfOX3Vn51YCzitbLaRkTTBadtWpgTN8NZLW0C1SEM&activityId=54BB8428-2000-417C-B97F-2326AB9C2922&ocid=finance-utils-peregrine&cm=en-us&it=web&ids=a1r2z2&type=1Y&wrapodata=false
-//======
-//GET cnyes mbly
-https://ws.api.cnyes.com/ws/api/v1/charting/history?resolution=D&symbol=USS:MBLY:STOCK&from=1682084435&to=1642772375
+
+//tradingview light weight chart
+//https://github.com/tradingview/lightweight-charts
+//https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js
+
+//ref https://hackmd.io/@aaronlife/python-ex-stock-by-api?utm_source=preview-mode&utm_medium=rec
+https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=otc_5439.tw&json=1&delay=0&_=1684494462534
+z:收盤價
+n:short  name
+{"msgArray":[{"tv":"146","ps":"114","pz":"75.1000","bp":"0","fv":"5","oa":"74.9000","ob":"74.7000","a":"75.1000_75.3000_75.4000_75.5000_75.6000_","b":"75.0000_74.9000_74.8000_74.7000_74.6000_","c":"5439","d":"20230519","ch":"5439.tw","ot":"14:30:00","tlong":"1684477800000","f":"3_13_54_5_7_","ip":"0","g":"41_16_27_46_49_","mt":"000000","ov":"179","h":"76.5000","i":"28","it":"12","oz":"74.9000","l":"74.5000","n":"高技","o":"75.1000","p":"0","ex":"otc","s":"146","t":"13:30:00","u":"83.3000","v":"4917","w":"68.3000","nf":"高技企業股份有限公司","y":"75.8000","z":"75.1000","ts":"0"}],"referer":"","userDelay":5000,"rtcode":"0000","queryTime":{"sysDate":"20230519","stockInfoItem":2240,"stockInfo":261287,"sessionStr":"UserSession","sysTime":"19:08:08","showChart":false,"sessionFromTime":-1,"sessionLatestTime":-1},"rtmessage":"OK","exKey":"if_otc_5439.tw_zh-tw.null","cachedAlive":5004}

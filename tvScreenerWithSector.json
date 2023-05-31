@@ -1,0 +1,74 @@
+{
+  "filter": [
+    { "left": "type", "operation": "equal", "right": "stock" },
+    {
+      "left": "subtype",
+      "operation": "in_range",
+      "right": ["common", "foreign-issuer"]
+    },
+    {
+      "left": "sector",
+      "operation": "in_range",
+      "right": [
+        "Commercial Services",
+        "Communications",
+        "Consumer Durables",
+        "Consumer Non-Durables",
+        "Consumer Services",
+        "Distribution Services",
+        "Electronic Technology",
+        "Energy Minerals",
+        "Health Services",
+        "Health Technology",
+        "Industrial Services",
+        "Miscellaneous",
+        "Non-Energy Minerals",
+        "Process Industries",
+        "Producer Manufacturing",
+        "Retail Trade",
+        "Technology Services",
+        "Transportation",
+        "Utilities"
+      ]
+    },
+    {
+      "left": "market_cap_basic",
+      "operation": "in_range",
+      "right": [300000000, 200000000000]
+    },
+    {
+      "left": "average_volume_60d_calc",
+      "operation": "egreater",
+      "right": 600000
+    },
+    { "left": "close", "operation": "greater", "right": "SMA50" },
+    { "left": "low", "operation": "greater", "right": 10 },
+    { "left": "EMA20", "operation": "less", "right": "close" },
+    { "left": "SMA50", "operation": "greater", "right": "SMA200" }
+  ],
+  "options": { "lang": "zh_TW" },
+  "markets": ["america"],
+  "symbols": { "query": { "types": [] }, "tickers": [] },
+  "columns": [
+    "logoid",
+    "name",
+    "close",
+    "change",
+    "industry",
+    "sector",
+    "float_shares_outstanding",
+    "Perf.W",
+    "description",
+    "type",
+    "subtype",
+    "update_mode",
+    "pricescale",
+    "minmov",
+    "fractional",
+    "minmove2",
+    "currency",
+    "fundamental_currency_code"
+  ],
+  "sort": { "sortBy": "average_volume_60d_calc", "sortOrder": "asc" },
+  "range": [0, 150]
+}

@@ -128,6 +128,7 @@
           { id: "MASimple@tv-basicstudies", inputs: { length: 200 } },
           { id: "MASimple@tv-basicstudies", inputs: { length: 21 } },
           { id: "MASimple@tv-basicstudies", inputs: { length: 50 } },
+          { id: "MASimple@tv-basicstudies", inputs: { length: 10 } },
           //{ id: "MAExp@tv-basicstudies", inputs: { length: 21 } },
         ],
       });

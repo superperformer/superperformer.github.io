@@ -47,7 +47,7 @@
         else {
           $(this).empty(); //clear
           console.log("end of list");
-          return; //no more process
+          return false; //no more process
         }
       });
       //$('html, body').scrollTop(0);

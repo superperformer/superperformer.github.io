@@ -133,8 +133,10 @@
           //get symbols
           if ($.isEmptyObject(names)) {
             names = $("#txtNames").val().toUpperCase().replace(/(TWSE:|TPEX:|TPE:|\s)/g,'').split(",");
-            console.log(names);
+            //console.log(names);
           }
+          //scroll to top
+          $('html, body').scrollTop(0);
           if (names && names.length > 0) {
             if (idxName > names.length-1){
               showMsg('info','End of list');
@@ -160,9 +162,9 @@
                 $(this).prev().text(''); //clear title
                 $(this).attr("src", ""); //clear src
                 showMsg('info','End of list');
+                return; //no more process
               }
             });
-            $('html, body').scrollTop(0);
           }
         });
         $('#btnPrev').click(function(e){

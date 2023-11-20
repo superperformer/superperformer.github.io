@@ -97,12 +97,15 @@
         const chartUri = "https://histock.tw/stock/chart/teach.aspx?no=";
         var idxName = 0;
         var names = {};
-        let twIndustry;// = await loadIndustry();
-        fetch('./tw-industry.json')
-          .then((response) => response.json())
-          .then((json) => {//console.log(json)
-            twIndustry = json;
-          });
+        let twIndustry;
+        (async ()=>{
+          twIndustry = await loadIndustry();
+        })();
+        // fetch('./tw-industry.json')
+        //   .then((response) => response.json())
+        //   .then((json) => {//console.log(json)
+        //     twIndustry = json;
+        //   });
         //load from query string if any
         const qprm = new Proxy(new URLSearchParams(window.location.search), {
                         get: (searchParams, prop) => searchParams.get(prop),

@@ -167,8 +167,8 @@
             if (idxNameKeep < names.length) {
               setTimeout(() => { //delay seconds to reduce cpu load
                 let indu = '';
-                //4-digit name && check industry before use
-                if (names[idxName].match(/^\d{4}$/g && twIndustry[names[idxName]] && twIndustry[names[idxName]].industry)
+                //4-digit symbol && check industry before use
+                if (names[idxName].match(/^\d{4}$/g) && twIndustry[names[idxName]] && twIndustry[names[idxName]].industry)
                   indu = `${twIndustry[names[idxName]].name}  ${twIndustry[names[idxName]].industry}`;
                 $(this).prev().text(names[idxName] + ' ' + indu);
                 $(this).attr("src", chartUri + names[idxName++]);

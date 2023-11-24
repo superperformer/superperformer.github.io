@@ -181,9 +181,9 @@
         }
       });
       $('#btnPrev').click(function (e) {
-        if (idxName > $("iframe").length - 1) {
+        if (idxName > $("iframe").length * 2 - 1) {
           //substract idxName
-          idxName = idxName - $("iframe").length;
+          idxName = idxName - $("iframe").length * 2;
           //load by auto click
           $('#btnNext').click();
           // $('iframe').each(function(i, obj) {

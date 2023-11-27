@@ -122,8 +122,6 @@
       const qprm = new Proxy(new URLSearchParams(window.location.search), {
         get: (searchParams, prop) => searchParams.get(prop),
       });
-      // Get the value of "some_key" in eg "https://example.com/?sym=1111,2222"
-      let value = qprm.sym; // "some_value"
       if (qprm.sym && qprm.sym.length > 0) {
         $("#txtNames").val(qprm.sym);
         console.log(`Loaded from querystring ${qprm.sym}`);

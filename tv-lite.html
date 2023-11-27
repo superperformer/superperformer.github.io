@@ -44,37 +44,37 @@
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <iframe src=""></iframe>
+          <div class=".lite-container"></div>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <iframe src=""></iframe>
+          <div class=".lite-container"></div>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <iframe src=""></iframe>
+          <div class=".lite-container"></div>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <iframe src=""></iframe>
+          <div class=".lite-container"></div>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <iframe src=""></iframe>
+          <div class=".lite-container"></div>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <iframe src=""></iframe>
+          <div class=".lite-container"></div>
         </div>
       </div>
     </div>
@@ -111,6 +111,8 @@
       </div>
   </nav>
   <script>
+    let lstChart = []; //chart obj
+    let lstSeries = []; //arry of series
     (function () {
       const chartUri = "https://node-exp.vercel.app/lwchart?sym=";
       let idxName = 0;
@@ -141,7 +143,9 @@
         }
       }
       //initChart
-      $('iframe').each(function (idx, el) {
+      $('.lite-container').each(function (idx, el) {
+        lstChart.push(initChart(el));
+        lstSeries.push([]); //push same numbers of empty array
       });
 
       $('#btnNext').click(function (e) {
@@ -159,7 +163,7 @@
           }
           //keep idxName for max limit
           let idxNameKeep = idxName;
-          $('iframe').each(function (i, obj) {
+          $('.lite-container').each(function (i, obj) {
             if (idxNameKeep < names.length) {
               setTimeout(() => { //delay seconds to reduce cpu load
                 let indu = '';
@@ -168,7 +172,7 @@
                   indu = `${twIndustry[names[idxName]].name}  ${twIndustry[names[idxName]].industry}`;
                 $(this).prev().text(names[idxName] + ' ' + indu);
                 //load Chart
-                // loadChart(symbol, chart, arrSeries);
+                loadChart(names[idxName], lstChart[i], lstSeries[i]);
                 //old: $(this).attr("src", chartUri + names[idxName++]);
                 $("#spnCnt").text(idxName + " / " + names.length);
               }, 1500 * i);
@@ -185,9 +189,9 @@
         }
       });
       $('#btnPrev').click(function (e) {
-        if (idxName > $("iframe").length * 2 - 1) {
+        if (idxName > $(".lite-container").length * 2 - 1) {
           //substract idxName
-          idxName = idxName - $("iframe").length * 2;
+          idxName = idxName - $(".lite-container").length * 2;
           //load by auto click
           $('#btnNext').click();
         }
@@ -251,15 +255,9 @@
         $('#btnNext').click();
       }, 2500);
     })();
-    const wrappers = []; 
-    const wrapper = {
-        chart: {},  //chart obj
-        series: [], //arry of series 
-      };
-    wrappers.push(wrapper);
     //*** input containerId, output chart reference
-    const initChart = (containerId) =>{
-      const container = document.getElementById(containerId);
+    const initChart = (container) =>{
+      //const container = document.getElementById(containerId);
       // Create the Lightweight Chart within the container element
       const chart = LightweightCharts.createChart(
         container,

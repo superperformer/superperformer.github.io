@@ -258,7 +258,7 @@
       }, 2500);
     })();
     //*** input containerId, output chart reference
-    const initChart = (container) =>{
+    function initChart(container){
       //const container = document.getElementById(containerId);
       // Create the Lightweight Chart within the container element
       const chart = LightweightCharts.createChart(
@@ -321,7 +321,7 @@
       return chart;
     };
     //load symbol data into the chart
-    const loadChart = (symbol, chart, arrSeries) =>{
+    function loadChart(symbol, chart, arrSeries){
       //use async to await fetching
       (async () => {
         // Generate sample data to use within a candlestick series

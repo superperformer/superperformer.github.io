@@ -17,8 +17,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css"
     integrity="sha512-wJgJNTBBkLit7ymC6vvzM1EcSWeM9mmOu+1USHaRBbHkm6W9EgM0HY27+UtUaprntaYQJF75rc8gjxllKs5OIQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script type="text/javascript"
-    src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
   <title>TV Lite</title>
   <style>
     body {
@@ -46,37 +44,37 @@
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <div class="lite-container"></div>
+          <iframe src=""></iframe>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <div class="lite-container"></div>
+          <iframe src=""></iframe>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <div class="lite-container"></div>
+          <iframe src=""></iframe>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <div class="lite-container"></div>
+          <iframe src=""></iframe>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <div class="lite-container"></div>
+          <iframe src=""></iframe>
         </div>
       </div>
       <div class="col-lg-12 col-xl-6 col-xxl-4">
         <div class="ratio ratio-4x3">
           <h5 class="frame-title"></h5>
-          <div class="lite-container"></div>
+          <iframe src=""></iframe>
         </div>
       </div>
     </div>
@@ -113,12 +111,10 @@
       </div>
   </nav>
   <script>
-    let lstChart = []; //chart obj
-    let lstSeries = []; //arry of series
     (function () {
-      //const chartUri = "https://node-exp.vercel.app/lwchart?sym=";
-      let idxName = 0;
-      let names = {};
+      const chartUri = "https://node-exp.vercel.app/lwchart?sym=";
+      var idxName = 0;
+      var names = {};
       let twIndustry;
       // (async () => {
       //   twIndustry = await loadIndustry();
@@ -132,6 +128,8 @@
       const qprm = new Proxy(new URLSearchParams(window.location.search), {
         get: (searchParams, prop) => searchParams.get(prop),
       });
+      // Get the value of "some_key" in eg "https://example.com/?sym=1111,2222"
+      let value = qprm.sym; // "some_value"
       if (qprm.sym && qprm.sym.length > 0) {
         $("#txtNames").val(qprm.sym);
         console.log(`Loaded from querystring ${qprm.sym}`);
@@ -144,12 +142,12 @@
           $("#txtNames").val(storedNames);
         }
       }
-      //initChart
-      $('.lite-container').each(function (idx, el) {
-        lstChart.push(initChart(el));
-        lstSeries.push([]); //push same numbers of empty array
-      });
-
+      // $('#btnTest').click(function(e){
+      //   if ($.isEmptyObject(names)) {
+      //     names = $("#txtNames").val().replaceAll("TWSE:",'').replaceAll("TPEX:",'').split(",");
+      //     console.log(names);
+      //   }
+      // });
       $('#btnNext').click(function (e) {
         //get symbols
         if ($.isEmptyObject(names)) {
@@ -165,7 +163,7 @@
           }
           //keep idxName for max limit
           let idxNameKeep = idxName;
-          $('.lite-container').each(function (i, obj) {
+          $('iframe').each(function (i, obj) {
             if (idxNameKeep < names.length) {
               setTimeout(() => { //delay seconds to reduce cpu load
                 let indu = '';
@@ -173,9 +171,7 @@
                 if (names[idxName].match(/^\d{4}$/g) && twIndustry[names[idxName]] && twIndustry[names[idxName]].industry)
                   indu = `${twIndustry[names[idxName]].name}  ${twIndustry[names[idxName]].industry}`;
                 $(this).prev().text(names[idxName] + ' ' + indu);
-                //load Chart
-                loadChart(names[idxName++], lstChart[i], lstSeries[i]);
-                //old: $(this).attr("src", chartUri + names[idxName++]);
+                $(this).attr("src", chartUri + names[idxName++]);
                 $("#spnCnt").text(idxName + " / " + names.length);
               }, 1500 * i);
               idxNameKeep++;
@@ -191,11 +187,19 @@
         }
       });
       $('#btnPrev').click(function (e) {
-        if (idxName > $(".lite-container").length * 2 - 1) {
+        if (idxName > $("iframe").length * 2 - 1) {
           //substract idxName
-          idxName = idxName - $(".lite-container").length * 2;
+          idxName = idxName - $("iframe").length * 2;
           //load by auto click
           $('#btnNext').click();
+          // $('iframe').each(function(i, obj) {
+          //   if (idxName < names.length){
+          //     setTimeout(() => { //delay seconds to reduce cpu load
+          //       $(this).attr("src", chartUri + names[idxName++]);
+          //       $("#spnCnt").text(idxName + " / " + names.length);
+          //     }, 1000 * i);
+          //   }
+          // });
         }
         else {
           showMsg('info', 'No previous one');
@@ -257,201 +261,6 @@
         $('#btnNext').click();
       }, 2500);
     })();
-    //*** input containerId, output chart reference
-    function initChart(container){
-      //const container = document.getElementById(containerId);
-      // Create the Lightweight Chart within the container element
-      const chart = LightweightCharts.createChart(
-        container,
-        {
-          layout: {
-            background: { color: "#000000" },
-            textColor: "#C3BCDB",
-          },
-          grid: {
-            vertLines: { color: "#1a1a1a" },
-            horzLines: { color: "#1a1a1a" },
-          },
-        }
-      );
-
-      // Setting the border color for the vertical axis
-      chart.priceScale().applyOptions({
-        borderColor: "#71649C",
-      });
-
-      // Setting the border color for the horizontal axis
-      chart.timeScale().applyOptions({
-        borderColor: "#71649C",
-      });
-
-      // Adjust the starting bar width (essentially the horizontal zoom)
-      chart.timeScale().applyOptions({
-        barSpacing: 10,
-        rightOffset: 7, //margin space in bars from the right side of the chart
-      });
-      // Customizing the Crosshair
-      chart.applyOptions({
-        crosshair: {
-          // Change mode from default 'magnet' to 'normal'.
-          // Allows the crosshair to move freely without snapping to datapoints
-          mode: LightweightCharts.CrosshairMode.Normal,
-          // // Vertical crosshair line (showing Date in Label)
-          // vertLine: {
-          //   width: 8,
-          //   color: '#C3BCDB44',
-          //   style: LightweightCharts.LineStyle.Solid,
-          //   labelBackgroundColor: '#9B7DFF',
-          // },
-
-          // // Horizontal crosshair line (showing Price in Label)
-          // horzLine: {
-          //   color: '#9B7DFF',
-          //   labelBackgroundColor: '#9B7DFF',
-          // },
-        },
-      });
-      // Adding a window resize event handler to resize the chart when
-      // the window size changes.
-      // Note: for more advanced examples (when the chart doesn't fill the entire window)
-      // you may need to use ResizeObserver -> https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver
-      window.addEventListener("resize", () => {
-        chart.resize(container.innerWidth, container.innerHeight);
-      });
-      return chart;
-    };
-    //load symbol data into the chart
-    function loadChart(symbol, chart, arrSeries){
-      //use async to await fetching
-      (async () => {
-        // Generate sample data to use within a candlestick series
-        const quote = await fetchQuote(symbol);
-        //console.log(`name: ${quote.name} industry ${quote.industry}`);
-        const candleStickData = quote.priceSeries;
-        const volumeHistData = quote.volumeSeries;
-        //remove old Series if any
-        if (arrSeries !== undefined){
-          arrSeries.forEach((el) => {
-              chart.removeSeries(el);
-          });
-          //reset
-          arrSeries = [];
-        }
-        const volumeSeries = chart.addHistogramSeries({
-          color: "#26a69a",
-          priceFormat: {
-            type: "volume",
-          },
-          priceScaleId: "", // set as an overlay by setting a blank priceScaleId
-          // set the positioning of the volume series
-          scaleMargins: {
-            top: 0.7, // highest point of the series will be 70% away from the top
-            bottom: 0,
-          },
-          priceLineVisible: false, //hide last volume horizonal line
-        });
-        volumeSeries.priceScale().applyOptions({
-          scaleMargins: {
-            top: 0.7, // highest point of the series will be 70% away from the top
-            bottom: 0,
-          },
-        });
-        arrSeries.push(volumeSeries); //save series pointer
-        // Create the Main Series (Candlesticks)
-        const mainSeries = chart.addCandlestickSeries();
-        arrSeries.push(mainSeries); //save series pointer
-        // Set the data for the Main Series
-        mainSeries.setData(candleStickData);
-        volumeSeries.setData(volumeHistData);
-        //create ma series
-        const lineSeriesMa50 = chart.addLineSeries({
-          color: "orange",
-          priceLineVisible: false,
-          lineWidth: 2,
-          crosshairMarkerVisible: false,
-          lastValueVisible: false,
-          // title: 'ma50',
-        });
-        lineSeriesMa50.setData(calculateSMA(candleStickData, 50));
-        const lineSeriesMa21 = chart.addLineSeries({
-          color: "gold",
-          priceLineVisible: false,
-          lineWidth: 1,
-          crosshairMarkerVisible: false,
-          lastValueVisible: false,
-        });
-        lineSeriesMa21.setData(calculateSMA(candleStickData, 21));
-        const lineSeriesMa10 = chart.addLineSeries({
-          color: "gray",
-          priceLineVisible: false,
-          lineWidth: 1,
-          crosshairMarkerVisible: false,
-          lastValueVisible: false,
-        });
-        lineSeriesMa10.setData(calculateSMA(candleStickData, 10));
-        const lineSeriesMa5 = chart.addLineSeries({
-          color: "darkgray",
-          priceLineVisible: false,
-          lineWidth: 1,
-          crosshairMarkerVisible: false,
-          lastValueVisible: false,
-        });
-        lineSeriesMa5.setData(calculateSMA(candleStickData, 5));
-        arrSeries.push(lineSeriesMa50); //save series pointer
-        arrSeries.push(lineSeriesMa21);
-        arrSeries.push(lineSeriesMa10);
-        arrSeries.push(lineSeriesMa5);
-        chart.applyOptions({
-        watermark: {
-          visible: true,
-          fontSize: 24,
-          horzAlign: "left", //"left" | "center" | "right"
-          vertAlign: "top", //"top" | "center" | "bottom"
-          color: "rgba(171, 71, 188, 0.5)",
-          text: `${symbol}`, // | ${quote.name} | ${quote.industry}`
-        },
-      });
-      })();//end of async
-    }
-    async function fetchQuote(symbol) {
-      return await fetch(`https://node-exp.vercel.app/about/${symbol}`, {
-        // method: 'POST',
-        // body: JSON.stringify({id: "200"})
-      })
-        .then(
-          (response) => {
-            if (!response.ok) {
-              throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-          },
-          (networkError) => {
-            console.log("network error");
-          }
-        )
-        .catch((err) => {
-          console.log(err);
-        })
-        .then((json) => {
-          return json;
-        });
-      //const response = await fetch("https://node-exp.vercel.app/about/2330");
-    }
-    function calculateSMA(priceSeries, period) {
-      const avg = (priceSeries) => {
-        let sum = 0;
-        for (let i = 0; i < priceSeries.length; i++) {
-          sum += priceSeries[i].close;
-        }
-        return sum / priceSeries.length;
-      };
-      const maSeries = [];
-      for (let i = period - 1, len = priceSeries.length; i < len; i++) {
-        const val = avg(priceSeries.slice(i - period + 1, i));
-        maSeries.push({ time: priceSeries[i].time, value: val });
-      }
-      return maSeries;
-    }
   </script>
 </body>
 

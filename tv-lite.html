@@ -174,7 +174,7 @@
                   indu = `${twIndustry[names[idxName]].name}  ${twIndustry[names[idxName]].industry}`;
                 $(this).prev().text(names[idxName] + ' ' + indu);
                 //load Chart
-                loadChart(names[idxName], lstChart[i], lstSeries[i]);
+                loadChart(names[idxName++], lstChart[i], lstSeries[i]);
                 //old: $(this).attr("src", chartUri + names[idxName++]);
                 $("#spnCnt").text(idxName + " / " + names.length);
               }, 1500 * i);

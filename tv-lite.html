@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css"
     integrity="sha512-wJgJNTBBkLit7ymC6vvzM1EcSWeM9mmOu+1USHaRBbHkm6W9EgM0HY27+UtUaprntaYQJF75rc8gjxllKs5OIQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript"
+    src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
   <title>TV Lite</title>
   <style>
     body {
@@ -410,6 +412,45 @@
         },
       });
       })();//end of async
+    }
+    async function fetchQuote(symbol) {
+      return await fetch(`https://node-exp.vercel.app/about/${symbol}`, {
+        // method: 'POST',
+        // body: JSON.stringify({id: "200"})
+      })
+        .then(
+          (response) => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+          },
+          (networkError) => {
+            console.log("network error");
+          }
+        )
+        .catch((err) => {
+          console.log(err);
+        })
+        .then((json) => {
+          return json;
+        });
+      //const response = await fetch("https://node-exp.vercel.app/about/2330");
+    }
+    function calculateSMA(priceSeries, period) {
+      const avg = (priceSeries) => {
+        let sum = 0;
+        for (let i = 0; i < priceSeries.length; i++) {
+          sum += priceSeries[i].close;
+        }
+        return sum / priceSeries.length;
+      };
+      const maSeries = [];
+      for (let i = period - 1, len = priceSeries.length; i < len; i++) {
+        const val = avg(priceSeries.slice(i - period + 1, i));
+        maSeries.push({ time: priceSeries[i].time, value: val });
+      }
+      return maSeries;
     }
   </script>
 </body>

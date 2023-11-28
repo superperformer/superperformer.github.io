@@ -1,0 +1,60 @@
+# Plot the Enhanced Volume in ThinkorSwim
+# Written by: @Diamond_Stocks @RayTL_ - TLScripts 
+# Site:     https://www.traderlion.com/ https://www.traderlion.com/tl-scripts/
+# V1
+
+declare on_volume;
+declare zerobase;
+
+#Turn on or off Alerts when cycling charts
+input Alerts_On = yes; #Hint Alerts_On: Set to "Yes" to receive sound alerts when HRV/LRV Conditions are met.
+
+input ShowTodayVolume =  yes;  #Hint ShowTodayVolume: Show Today's Volume as a Label
+
+#Logic for High Relative Volume
+def Length = 10;
+#Define Down Days
+def Down = ((close[1] > close) and ((high + low) / 2 > close));
+#Define Up Days
+def Up = ((close - close[1] >= 0) and (close >= (high + low) / 2));
+#Define Down Volume
+def downvolume = (volume * Down);
+#Define Up Volume
+def upvolume = (volume * Up);
+#Highest Up/Down Volume in Past 10 Days
+def HighestDown = Highest(downvolume, Length);
+def HighestUp = Highest(upvolume, Length);
+
+#Lowest Volume in 10 Days
+def LowestVolume = Lowest(volume, Length);
+
+plot HRV = if (upvolume > HighestDown) then 1 else 0;
+plot LRV = if (volume <= LowestVolume) then 1 else 0;
+
+plot Vol = volume;
+plot avgVol = average(volume, 30);
+
+Vol.SetPaintingStrategy(PaintingStrategy.HISTOGRAM);
+Vol.SetLineWeight(4);
+Vol.DefineColor("HRV", CreateColor(0, 230, 118));
+Vol.DefineColor("LRV", CreateColor(255, 165, 0));
+Vol.DefineColor("Up", CreateColor(33, 150, 243));
+Vol.DefineColor("Down", CreateColor(224, 64, 251));
+#Vol.AssignValueColor(if HRV == 1 then Vol.Color("HRV") else if LRV == 1 then Vol.Color("LRV") else if ((close - close[1] >= 0) and (close >= (high + low) / 2)) then Vol.Color("Up") else  Vol.Color("Down"));
+#use simple up/down color
+Vol.AssignValueColor(if HRV == 1 then Vol.Color("HRV") else if LRV == 1 then Vol.Color("LRV") else if ((close - close[1] >= 0) and (close >= (high * 1/3 + low * 2/3))) then Vol.Color("Up") else  Vol.Color("Down"));
+
+#get highest volume on current chart timeframe
+def highestAllTime = if volume == highestAll(volume) then yes else double.nan;
+
+#Add chart bubble above highest bar
+AddChartBubble(highestAllTime, highestAll(volume), highestAll(volume),  Color.WHITE, yes);
+
+
+
+#Add Label to Show Current Day Volume 
+AddLabel(ShowTodayVolume, "Volume Today: " + volume, if ((close - close[1] >= 0) and (close >= (high + low) / 2)) then Vol.Color("Up") else if close <= open then Vol.Color("Down") else Color.GRAY);
+
+#Alert Capability
+Alert( if Alerts_On and HRV then yes else no, "High Relative Volume", Alert.BAR, Sound.Ding);
+Alert(if Alerts_On and LRV then yes else no, "Low Relative Volume", Alert.BAR, Sound.Chimes);

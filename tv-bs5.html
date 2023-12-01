@@ -217,6 +217,18 @@
       $('#btnPaste').click(function (e) {
         pasteFromClip($("#txtNames"));
       });
+      //keyboard to click prev or next
+      document.addEventListener('keydown', function (event) {
+        //e.shiftKey as boolean
+        //34 pagedown, 'space' turn to the next symbol: keycode 32
+        if ((event.keyCode == 32 && !event.shiftKey) || event.keyCode == 34) {
+          $('#btnNext').click();
+        }
+        //33 pageup, shift+space turn to prev symbol
+        if ((event.keyCode == 32 && event.shiftKey) || event.keyCode == 33) {
+          $('#btnPrev').click();
+        }
+      });
       //type: info|warning|success|error
       const showMsg = (type, msg) => {
         let optHeading = 'Information';

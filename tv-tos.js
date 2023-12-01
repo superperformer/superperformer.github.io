@@ -106,6 +106,18 @@
         enableAutoplay(12000, false);
       } else disableAutoplay();
     });
+    //keyboard to click prev or next
+    document.addEventListener('keydown', function (event) {
+      //e.shiftKey as boolean
+      //34 pagedown, 'space' turn to the next symbol: keycode 32
+      if ((event.keyCode == 32 && !event.shiftKey) || event.keyCode == 34) {
+        $('#btnNext').click();
+      }
+      //33 pageup, shift+space turn to prev symbol
+      if ((event.keyCode == 32 && event.shiftKey) || event.keyCode == 33) {
+        $('#btnPrev').click();
+      }
+    });
     const loadChart = (symbol, containerId) => {
       new TradingView.widget({
         autosize: true,

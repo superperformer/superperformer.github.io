@@ -59,7 +59,7 @@
       .then((response) => response.json())
       .then((json) => {//console.log(json)
         twIndustry = json;
-        alert(twIndustry['2330']);
+        alert(JSON.stringify(twIndustry['2330']));
       });
     //======
     let idxName = 0;

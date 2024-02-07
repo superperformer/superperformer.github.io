@@ -24,3 +24,12 @@ https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=otc_5439.tw&json=1&dela
 z:收盤價
 n:short  name
 {"msgArray":[{"tv":"146","ps":"114","pz":"75.1000","bp":"0","fv":"5","oa":"74.9000","ob":"74.7000","a":"75.1000_75.3000_75.4000_75.5000_75.6000_","b":"75.0000_74.9000_74.8000_74.7000_74.6000_","c":"5439","d":"20230519","ch":"5439.tw","ot":"14:30:00","tlong":"1684477800000","f":"3_13_54_5_7_","ip":"0","g":"41_16_27_46_49_","mt":"000000","ov":"179","h":"76.5000","i":"28","it":"12","oz":"74.9000","l":"74.5000","n":"高技","o":"75.1000","p":"0","ex":"otc","s":"146","t":"13:30:00","u":"83.3000","v":"4917","w":"68.3000","nf":"高技企業股份有限公司","y":"75.8000","z":"75.1000","ts":"0"}],"referer":"","userDelay":5000,"rtcode":"0000","queryTime":{"sysDate":"20230519","stockInfoItem":2240,"stockInfo":261287,"sessionStr":"UserSession","sysTime":"19:08:08","showChart":false,"sessionFromTime":-1,"sessionLatestTime":-1},"rtmessage":"OK","exKey":"if_otc_5439.tw_zh-tw.null","cachedAlive":5004}
+
+//yahoo earnings date
+{_ROOT_URL_}/calendar/earnings?symbol={self.ticker}&offset={page_offset}&size={page_size}
+source https://finance.yahoo.com/calendar/earnings?symbol=PANW&offset=0&size=4
+
+url:
+https://query2.finance.yahoo.com/v1/finance/visualization?crumb=6bYNy36jpSA&lang=en-US&region=US&corsDomain=finance.yahoo.com
+payload:
+{"sortType":"DESC","entityIdType":"earnings","sortField":"startdatetime","includeFields":["ticker","companyshortname","eventname","startdatetime","startdatetimetype","epsestimate","epsactual","epssurprisepct","timeZoneShortName","gmtOffsetMilliSeconds"],"query":{"operator":"or","operands":[{"operator":"eq","operands":["ticker","PANW"]}]},"offset":"1","size":6}

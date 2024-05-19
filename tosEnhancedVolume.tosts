@@ -18,7 +18,7 @@ def length2 = 5;
 #Define Down Days
 def isDown = ((close[1] > close) and ((high + low) / 2 > close));
 #down with goodclose
-def isDownGc = ((close[1] > close) and (close >= (high + low) / 2 ));
+def isDownGc = ((close[1] > close) and (close >= (high * 0.48 + low * 0.52) ));#2% tlr
 #upside reversal
 def isUpRev = close > high * 0.75 + low * 0.25 #close at upper 4th
 #open lower than prev lower 3rd but close higher, close inside or above
@@ -68,9 +68,9 @@ Vol.DefineColor("UpRev", CreateColor(0, 255, 255));# cyan
 #use simple up/down color
 Vol.AssignValueColor(if HRV == 1 then Vol.Color("HRV")
     else if HRV2 == 1 then Vol.Color("HRV2")
-    else if LRV == 1 then Vol.Color("LRV")
     else if isHammer == 1 then Vol.Color("Hammer")
     else if isUpRev == 1 then Vol.Color("UpRev")
+    else if LRV == 1 then Vol.Color("LRV")
     else if ((close >= close[1]) and (close >= (high * 1 / 3 + low * 2 / 3))) then Vol.Color("Up")
     else if isDownGc == 1 then Vol.Color("DownGc")
     else  Vol.Color("Down"));

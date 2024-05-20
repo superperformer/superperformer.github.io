@@ -59,8 +59,8 @@ Vol.SetLineWeight(4);
 Vol.DefineColor("HRV", CreateColor(0, 230, 118));#pp
 Vol.DefineColor("HRV2", CreateColor(1, 145, 255));#pp5
 Vol.DefineColor("LRV", CreateColor(255, 165, 0)); #dry
-Vol.DefineColor("Up", CreateColor(13,83,78)); #(33, 150, 243));
-Vol.DefineColor("Down", CreateColor(121, 42, 40)); # (224, 64, 251));
+Vol.DefineColor("Up", CreateColor(13,83,78)); #was (33, 150, 243));
+Vol.DefineColor("Down", CreateColor(121, 42, 40)); #was (224, 64, 251));
 Vol.DefineColor("DownGc", CreateColor(175, 122, 197));
 Vol.DefineColor("Hammer", CreateColor(160, 215, 43)); #dark yellow green
 Vol.DefineColor("UpRev", CreateColor(0, 255, 255));# cyan

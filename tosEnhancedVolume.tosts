@@ -33,15 +33,17 @@ def isHammer = (open > high * 0.7 + low * 0.3 or close > open and open > high * 
   and close >= low[1] and close <= high[1];
 def isDoji = (AbsValue(close - open) / open <= 0.005) && (close > (high * 1 / 3 + low * 2 / 3));
 #Define Up Days
-def Up = ((close - close[1] >= 0) and (close >= (high + low) / 2));
+def isUp = close >= close[1];
+#up with good close
+def isUpGc = isUp and (close >= high * 0.48 + low * 0.52);
 #Define Down Volume
 def downvolume = (volume * isDown);
 #Define Up Volume
-def upvolume = (volume * Up);
+def upvolume = (volume * isUpGc);
 #Highest Up/Down Volume in Past 10 Days
 def HighestDown = Highest(downvolume, Length);
 def HighestDown2 = Highest(downvolume, length2);
-def HighestUp = Highest(upvolume, Length);
+#no use def HighestUp = Highest(upvolume, Length);
 
 #Lowest Volume in 10 Days
 def LowestVolume = Lowest(volume, Length);
@@ -69,12 +71,12 @@ Vol.DefineColor("UpRev", CreateColor(0, 255, 255));# cyan
 #use simple up/down color
 Vol.AssignValueColor(if HRV == 1 then Vol.Color("HRV")
     else if HRV2 == 1 then Vol.Color("HRV2")
-    else if isHammer == 1 then Vol.Color("Hammer")
-    else if isUpRev == 1 then Vol.Color("UpRev")
+    else if isHammer then Vol.Color("Hammer")
+    else if isUpRev then Vol.Color("UpRev")
     else if LRV == 1 then Vol.Color("LRV")
-    else if ((close >= close[1]) and (close >= (high * 1 / 3 + low * 2 / 3))) then Vol.Color("Up")
-    else if isDownGc == 1 then Vol.Color("DownGc")
-    else if isDoji == 1 then Vol.Color("DownGc")
+    else if isUp then Vol.Color("Up") #normal up #and (close >= (high * 1 / 3 + low * 2 / 3))
+    else if isDownGc then Vol.Color("DownGc")
+    else if isDoji then Vol.Color("DownGc")
     else  Vol.Color("Down"));
 
 #get highest volume on current chart timeframe

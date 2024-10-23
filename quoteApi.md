@@ -33,3 +33,8 @@ url:
 https://query2.finance.yahoo.com/v1/finance/visualization?crumb=6bYNy36jpSA&lang=en-US&region=US&corsDomain=finance.yahoo.com
 payload:
 {"sortType":"DESC","entityIdType":"earnings","sortField":"startdatetime","includeFields":["ticker","companyshortname","eventname","startdatetime","startdatetimetype","epsestimate","epsactual","epssurprisepct","timeZoneShortName","gmtOffsetMilliSeconds"],"query":{"operator":"or","operands":[{"operator":"eq","operands":["ticker","PANW"]}]},"offset":"1","size":6}
+
+//tw history
+https://www.nstock.tw/api/v2/weekly-stock-data/data?stock_id=2330
+https://www.nstock.tw/api/v2/daily-stock-data/data?stock_id=2330
+

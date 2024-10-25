@@ -45,3 +45,10 @@ https://webql-redesign.cnbcfm.com/graphql?operationName=getQuoteChartData&variab
 //next earnings:  next_earnings_date
 https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=NVDA&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1
 
+// fast bull
+https://api.fastbull.com/fastbull-quotes-service/api/postCt4Kline
+payload: 
+daily {"beginTimestamp":1729863301375,"marketType":"7200","peiod":2,"periodNum":1,"size":500,"symbol":"TSLA","exType":1,"type":0}
+weekly {"beginTimestamp":1729863643618,"marketType":"7200","peiod":3,"periodNum":1,"size":500,"symbol":"TSLA","exType":1,"type":0}
+hourly=>  peiod:1
+

@@ -39,3 +39,9 @@ payload:
 https://www.nstock.tw/api/v2/weekly-stock-data/data?stock_id=2330
 https://www.nstock.tw/api/v2/daily-stock-data/data?stock_id=2330
 
+//cnbc
+//chart
+https://webql-redesign.cnbcfm.com/graphql?operationName=getQuoteChartData&variables=%7B%22symbol%22%3A%22${NVDA}%22%2C%22timeRange%22%3A%221Y%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2261b6376df0a948ce77f977c69531a4a8ed6788c5ebcdd5edd29dd878ce879c8d%22%7D%7D
+//next earnings:  next_earnings_date
+https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=NVDA&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1
+

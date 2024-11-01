@@ -52,8 +52,11 @@ daily {"beginTimestamp":1729863301375,"marketType":"7200","peiod":2,"periodNum":
 weekly {"beginTimestamp":1729863643618,"marketType":"7200","peiod":3,"periodNum":1,"size":500,"symbol":"TSLA","exType":1,"type":0}
 hourly=>  peiod:1
 
-# barchart.com to get above ma%
+# barchart.com to get above ma%，需要有token
 https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx?symbol=%24NCFD&data=daily&maxrecords=640&volume=contract&order=asc&dividends=false&backadjust=false&daystoexpiration=1&contractroll=combined
 # get nvda not work
 https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx?symbol=NVDA&data=daily&maxrecords=640&volume=contract&order=asc&dividends=false&backadjust=false&daystoexpiration=1&contractroll=combined
+
+x-xsrf-token:
+eyJpdiI6ImdkMkIxTTNqc1V1V0VMc09pdXZkZFE9PSIsInZhbHVlIjoic2tIUDAwN08ycUVvd1ZvYXJNZjFEUGsvaWlFSkdveTlrQUQ2eWp0alM5WkNzVjZsSG0yS3BCTFNxSDFZT0ZaWHY4YjNwRXpGSWo4M1dJUXNwaERwTkV1YUZELzl6K2dWT2VwZW0rR0N5MUd4NGgvOEY0UlpkTVhISkxENFR1M3giLCJtYWMiOiI1OGIyNjRmYTQyMzU0MTg3YzhlMmFhMmI2OGI1NDRkYTA4ZDMwNzk2NDJmZTZiNjM0NGZkODIzNDJiOTJlODMyIiwidGFnIjoiIn0=
 
